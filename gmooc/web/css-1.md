@@ -41,8 +41,8 @@
 
 ### 참고 자료
 > pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.
-- 제목: url
-- 제목: url
+- CSS Introduction: https://www.w3schools.com/css/css_intro.asp
+- Introduction to CSS: https://www.csstutorial.net/css-intro/introductioncss-part1.php
 
 ### 퀴즈
 - 000은 000 이라 하는가?

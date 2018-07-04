@@ -20,19 +20,17 @@
 
 
 ### 동영상 강좌
-
 - XML 이론 및 실습 - CSS 이해하기-1
     > http://commons.bu.ac.kr/em/54ae42a29ab48 (12:00~22:45)
 
 - [Do it! HTML5+CSS3 웹 표준의 정석 - 개정판] 10 - CSS에서 캐스캐이딩 이해하기
-    > https://www.youtube.com/watch?v=MUJFHYkouog&index=10&list=PLG7te9eYUi7uvROuVChYgAL5pMK7gnWSp
+    > https://youtu.be/MUJFHYkouog
 
--
 
 ### 참고 자료
-> pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.
-- 제목: url
-- 제목: url
+- CSS Syntax and Selectors: https://www.w3schools.com/css/css_syntax.asp
+- CSS 입문: https://ofcourse.kr/css-course/CSS-%EC%9E%85%EB%AC%B8
+
 
 ### 퀴즈
 - 000은 000 이라 하는가?
@@ -46,7 +44,6 @@
 
 
 ### 동영상 강좌
-
 - CSS 수업 - HTML과 CSS가 만나는 법
     > https://www.youtube.com/watch?v=YtGAuoFir8w
 
@@ -66,9 +63,9 @@
   
 
 ### 참고 자료
-> pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.
-- 제목: url
-- 제목: url
+- CSS How To: https://www.w3schools.com/css/css_howto.asp
+- Introduction to CSS-part2: https://www.csstutorial.net/css-intro/introductioncss-part2.php
+
 
 ### 퀴즈
 - 000은 000 이라 하는가?
