@@ -18,4 +18,4 @@
 ### 기타 
 - w3schools.com : https://www.w3schools.com
 - ofcourse : https://ofcourse.kr/
-- CSS .NET : https://www.csstutorial.net/
+- CSS tutorial.NET : https://www.csstutorial.net/
