@@ -39,16 +39,16 @@
 
 ### 동영상 강좌
 - 프로그래밍이란 무엇인가?
-    >  https://youtu.be/tp_S_MaM8FM
-    >  https://youtu.be/HgshquDfpwA?t=9s (09초~)
-    >  https://youtu.be/c2SaqgdfW1g?t=59s (59초~ 2분30초)
+    >  https://youtu.be/tp_S_MaM8FM<br>
+    >  https://youtu.be/HgshquDfpwA?t=9s (09초~)<br>
+    >  https://youtu.be/c2SaqgdfW1g?t=59s (59초~ 2분30초)<br>
     >  https://youtu.be/3tWMQ3ZMjbg
 
 ## 3. 인터넷이란
 
 ### 동영상 강좌
 - 인터넷이란?
-    >  https://youtu.be/7XU12fe_C_o
+    >  https://youtu.be/7XU12fe_C_o<br>
     >  https://youtu.be/rgp5jfZAUtE
 
 [din-badge]:https://img.shields.io/badge/dinfree-edu-orange.svg
