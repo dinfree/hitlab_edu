@@ -23,7 +23,6 @@
 
 
 ### 동영상 강좌
-
 - [Do it! HTML5+CSS3 웹 표준의 정석 - 개정판] 11 - 텍스트 스타일(1)
     > https://youtu.be/hXpQ3Ft1QrU?t=6m
   
@@ -33,10 +32,10 @@
 - CSS Tutorial for Beginners - 15 - More on Font sizes
     > https://youtu.be/GbqmpIfPL6c
 
+
 ### 참고 자료
-> pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.
-- 제목: url
-- 제목: url
+- CSS Units: https://www.w3schools.com/css/css_units.asp
+
 
 ### 퀴즈
 - 000은 000 이라 하는가?
@@ -50,7 +49,6 @@
 
 
 ### 동영상 강좌
-
 - CSS 수업 - box model
     > https://www.youtube.com/watch?v=_3xFkIfc-5U
 
@@ -77,9 +75,8 @@
 
 
 ### 참고 자료
-> pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.
-- 제목: url
-- 제목: url
+- CSS Box Model: https://www.w3schools.com/css/css_boxmodel.asp
+- The CSS Box Model: http://www.uobabylon.edu.iq/eprints/paper_12_9225_26.pdf
 
 ### 퀴즈
 - 000은 000 이라 하는가?
@@ -92,7 +89,6 @@
 
 
 ### 동영상 강좌
-
 - [Do it! HTML5+CSS3 웹 표준의 정석 - 개정판] 17 - 테두리와 여백
     > https://youtu.be/vNrV0lfMgU0
 
@@ -107,9 +103,9 @@
   
 
 ### 참고 자료
-> pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.
-- 제목: url
-- 제목: url
+- CSS Borders: https://www.w3schools.com/css/css_border.asp
+- CSS Border Images: https://www.w3schools.com/css/css3_border_images.asp
+- border 속성: https://ofcourse.kr/css-course/border-%EC%86%8D%EC%84%B1
 
 ### 퀴즈
 - 000은 000 이라 하는가?
@@ -123,7 +119,6 @@
 
 
 ### 동영상 강좌
-
 - [Do it! HTML5+CSS3 웹 표준의 정석 - 개정판] 17 - 테두리와 여백
     > https://youtu.be/vNrV0lfMgU0?t=14m29s (14:29~)
 
@@ -132,9 +127,9 @@
   
 
 ### 참고 자료
-> pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.
-- 제목: url
-- 제목: url
+- CSS Margins: https://www.w3schools.com/css/css_margin.asp
+- CSS Padding: https://www.w3schools.com/css/css_padding.asp
+- margin,padding 속성: https://ofcourse.kr/css-course/margin-padding-%EC%86%8D%EC%84%B1
 
 ### 퀴즈
 - 000은 000 이라 하는가?
@@ -153,9 +148,8 @@
   
 
 ### 참고 자료
-> pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.
-- 제목: url
-- 제목: url
+- CSS Height and Width: https://www.w3schools.com/css/css_dimension.asp
+- width,height 속성: https://ofcourse.kr/css-course/width-height-%EC%86%8D%EC%84%B1
 
 ### 퀴즈
 - 000은 000 이라 하는가?

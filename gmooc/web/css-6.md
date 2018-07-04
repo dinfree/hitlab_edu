@@ -20,7 +20,6 @@
 
 
 ### 동영상 강좌
-
 - 가상클래스선택자
     > https://www.youtube.com/watch?v=UK9GF5Kg__A
 
@@ -32,9 +31,9 @@
   
 
 ### 참고 자료
-> pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.
-- 제목: url
-- 제목: url
+- CSS Pseudo-classes: https://www.w3schools.com/css/css_pseudo_classes.asp
+- CSS Pseudo-elements: https://www.w3schools.com/css/css_pseudo_elements.asp
+- 가상 클래스 선택자: https://ofcourse.kr/css-course/%EA%B0%80%EC%9E%A5-%ED%81%B4%EB%9E%98%EC%8A%A4-%EC%84%A0%ED%83%9D%EC%9E%90
 
 ### 퀴즈
 - 000은 000 이라 하는가?
@@ -48,7 +47,6 @@
 
 
 ### 동영상 강좌
-
 - CSS 수업 - 부모 자식 선택자
     > https://www.youtube.com/watch?v=jdc-7VMNf9g
 
@@ -76,9 +74,8 @@
 
 
 ### 참고 자료
-> pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.
-- 제목: url
-- 제목: url
+- 부모 자식 선택자: https://ofcourse.kr/css-course/%EB%B6%80%EB%AA%A8-%EC%9E%90%EC%8B%9D-%EC%84%A0%ED%83%9D%EC%9E%90
+
 
 ### 퀴즈
 - 000은 000 이라 하는가?

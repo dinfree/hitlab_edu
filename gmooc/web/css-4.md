@@ -20,7 +20,6 @@
 
 
 ### 동영상 강좌
-
 - CSS 수업 - 타이포그래피 : color
   > https://www.youtube.com/watch?v=UZjEiu4smE4
   
@@ -32,9 +31,10 @@
 
 
 ### 참고 자료
-> pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.
-- 제목: url
-- 제목: url
+- CSS Colors: https://www.w3schools.com/css/css_colors.asp
+- CSS Colors: https://www.w3schools.com/css/css3_colors.asp
+- color 속성: https://ofcourse.kr/css-course/color-%EC%86%8D%EC%84%B1
+
 
 ### 퀴즈
 - 000은 000 이라 하는가?
@@ -48,7 +48,6 @@
 
 
 ### 동영상 강좌
-
 - CSC 수업 - 배경
   > https://www.youtube.com/watch?time_continue=1&v=cJdsYVECxZY
 
@@ -58,10 +57,12 @@
 - CSS Tutorial for Beginners - 21 - Background image property
   > https://youtu.be/9vo8nTQ7s5A
 
+
 ### 참고 자료
-> pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.
-- 제목: url
-- 제목: url
+- CSS Backgrounds: https://www.w3schools.com/css/css_background.asp
+- CSS Multiple Backgrounds: https://www.w3schools.com/css/css3_backgrounds.asp
+- background 속성: https://ofcourse.kr/css-course/background-%EC%86%8D%EC%84%B1
+
 
 ### 퀴즈
 - 000은 000 이라 하는가?

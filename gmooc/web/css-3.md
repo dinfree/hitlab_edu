@@ -21,7 +21,6 @@
 
 
 ### 동영상 강좌
-
 - CSS 수업 - 선택자와 선언
   > https://www.youtube.com/watch?time_continue=1&v=Me7qCXl94nQ
 
@@ -37,9 +36,7 @@
   
 
 ### 참고 자료
-> pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.
-- 제목: url
-- 제목: url
+- 태그 선택자: https://ofcourse.kr/css-course/%ED%83%9C%EA%B7%B8-%EC%84%A0%ED%83%9D%EC%9E%90 
 
 ### 퀴즈
 - 000은 000 이라 하는가?
@@ -52,7 +49,6 @@
 
 
 ### 동영상 강좌
-
 - CSS 수업 - 선택자의종류 1 : 아이디선택자
   > https://www.youtube.com/watch?v=wNpplOPbMSc
 
@@ -70,9 +66,7 @@
   
 
 ### 참고 자료
-> pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.
-- 제목: url
-- 제목: url
+- id,class 선택자: https://ofcourse.kr/css-course/id-class-%EC%84%A0%ED%83%9D%EC%9E%90
 
 ### 퀴즈
 - 000은 000 이라 하는가?
@@ -85,7 +79,6 @@
 
 
 ### 동영상 강좌
-
 - CSS 수업 - 선택자의종류 2 : 클래스선택자
   > https://www.youtube.com/watch?v=N2WAj79Cna4
 
@@ -104,10 +97,11 @@
 - CSS Tutorial for Beginners - 07 - More on Classes in CSS
   > https://youtu.be/KULYFC545qY
 
+
+
 ### 참고 자료
-> pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.
-- 제목: url
-- 제목: url
+- 
+
 
 ### 퀴즈
 - 000은 000 이라 하는가?
