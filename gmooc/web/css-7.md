@@ -15,7 +15,7 @@
 2. [css align](#css2)
 3. [css inline-block](#css3)
 4. [css float](#css4)
-5. [css clear](#css5)
+
 
 ---
 <a id="css1"></a> 
@@ -23,15 +23,14 @@
 
 
 ### 동영상 강좌
-
 - WEB2 CSS - 10. 그리드 소개
     > https://www.youtube.com/watch?v=M1eQFIBY2vI
 
 - [Do it! HTML5+CSS3 웹 표준의 정석 - 개정판] 18 - CSS 포지셔닝
-    > https://www.youtube.com/watch?v=INYi4tSGf_o&index=18&list=PLG7te9eYUi7uvROuVChYgAL5pMK7gnWSp
+    > https://youtu.be/INYi4tSGf_o
 
 - [Do it! HTML5+CSS3 웹 표준의 정석 - 개정판] 29 - 플렉서블 박스 레이아웃
-    > https://www.youtube.com/watch?v=vX5wnbttixM&index=29&list=PLG7te9eYUi7uvROuVChYgAL5pMK7gnWSp
+    > https://youtu.be/vX5wnbttixM
 
 - CSS Tutorial for Beginners - 34 - Absolute position for an element
     > https://youtu.be/s_GBRa9wva4
@@ -50,9 +49,13 @@
 
 
 ### 참고 자료
-> pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.
-- 제목: url
-- 제목: url
+- CSS Layout - The position Property: https://www.w3schools.com/css/css_positioning.asp
+- CSS Layout - Overflow: https://www.w3schools.com/css/css_overflow.asp
+- CSS Grid Layout Module: https://www.w3schools.com/css/css_grid.asp
+- CSS Grid Container: https://www.w3schools.com/css/css_grid_container.asp
+- CSS Grid Item: https://www.w3schools.com/css/css_grid_item.asp
+- position 속성: https://ofcourse.kr/css-course/position-%EC%86%8D%EC%84%B1
+
 
 ### 퀴즈
 - 000은 000 이라 하는가?
@@ -66,7 +69,6 @@
 
 
 ### 동영상 강좌
-
 - CSS 수업 - 타이포그래피 : text-align
     > https://www.youtube.com/watch?v=lAgGHKpGpBg
 
@@ -75,9 +77,9 @@
 
 
 ### 참고 자료
-> pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.
-- 제목: url
-- 제목: url
+- CSS Layout - Horizontal & Vertical Align: https://www.w3schools.com/css/css_align.asp
+- text-align 속성: https://ofcourse.kr/css-course/text-align-%EC%86%8D%EC%84%B1
+
 
 ### 퀴즈
 - 000은 000 이라 하는가?
@@ -91,7 +93,6 @@
 
 
 ### 동영상 강좌
-
 - CSS 수업 - inline block
     > https://www.youtube.com/watch?v=4eCrKfREDi8
 
@@ -115,9 +116,8 @@
 
 
 ### 참고 자료
-> pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.
-- 제목: url
-- 제목: url
+- CSS Layout - display: inline-block: https://www.w3schools.com/css/css_inline-block.asp
+
 
 ### 퀴즈
 - 000은 000 이라 하는가?
@@ -127,11 +127,10 @@
 
 ---
 <a id="css4"></a> 
-## 4. css float
+## 4. css float/clear
 
 
 ### 동영상 강좌
-
 - CSS 수업 - float 1
     > https://www.youtube.com/watch?v=qSGXLWKOXHM
 
@@ -143,30 +142,9 @@
   
 
 ### 참고 자료
-> pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.
-- 제목: url
-- 제목: url
-
-### 퀴즈
-- 000은 000 이라 하는가?
-- XXX는 000에서 BBB 하는데 000은 무어라 하는가?
-- 000은 무엇의 약어 인가?
-
-
----
-<a id="css5"></a> 
-## 5. css clear
-
-
-### 동영상 강좌
-
-- 
-  
-
-### 참고 자료
-> pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.
-- 제목: url
-- 제목: url
+- CSS Layout - float and clear: https://www.w3schools.com/css/css_float.asp
+- float 속성: https://ofcourse.kr/css-course/float-%EC%86%8D%EC%84%B1
+- clear 속성: https://ofcourse.kr/css-course/clear-%EC%86%8D%EC%84%B1
 
 ### 퀴즈
 - 000은 000 이라 하는가?
