@@ -22,7 +22,7 @@
 - 컴퓨터 발전 과정 및 컴퓨터의 종류
     > http://inno.tu.ac.kr/em/56cbb539a5f97 (24분 05초~)
 - 컴퓨터란?
-    >  https://youtu.be/7g6U9BXPZao?t=1m5s  (1분05초~)
+    >  https://youtu.be/7g6U9BXPZao?t=1m5s  (1분05초~)<br>
     >  https://youtu.be/7cXEOWAStq4
     >  https://youtu.be/9lVKcTNVD1Q
 
