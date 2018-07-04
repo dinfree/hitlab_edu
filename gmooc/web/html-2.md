@@ -90,7 +90,7 @@
 
 ### 참고 자료
 > pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.
-- ofcourse 인코딩 : uhttps://ofcourse.kr/html-course/%EC%9D%B8%EC%BD%94%EB%94%A9
+- ofcourse 인코딩 : https://ofcourse.kr/html-course/%EC%9D%B8%EC%BD%94%EB%94%A9
 - ofcourse head 태그 : https://ofcourse.kr/html-course/head-%ED%83%9C%EA%B7%B8
 - ofcourse title 태그 : https://ofcourse.kr/html-course/title-%ED%83%9C%EA%B7%B8
 - ofcourse meta 태그 : https://ofcourse.kr/html-course/meta-%ED%83%9C%EA%B7%B8
