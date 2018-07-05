@@ -24,7 +24,8 @@
 - 컴퓨터란?
     >  https://youtu.be/7g6U9BXPZao?t=1m5s  (1분05초~)<br>
     >  https://youtu.be/7cXEOWAStq4<br>
-    >  https://youtu.be/9lVKcTNVD1Q
+    >  https://youtu.be/9lVKcTNVD1Q<br>
+    >  <iframe width="1519" height="574" src="https://www.youtube.com/embed/9lVKcTNVD1Q&hl=ko&cc_load_policy=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ### 참고 자료
 - 프로그래밍이란
