@@ -12,9 +12,9 @@
 ### 목차
 1. JavaScript 개요
 2. JavaScript 기본문법
-  -변수
-  -반복
-  -조건문
+  -변수<br>
+  -반복<br>
+  -조건문<br>
   -배열
 
 ---
@@ -38,7 +38,7 @@
     >  https://youtu.be/b1ieJtIx1NY
 - What Is JavaScript? What Does It Do?
     >  https://youtu.be/0ciwEXbkqB4
-- What Is JavaScript? What Does It Do?
+- JavaScript for Beginners 02 - What is JavaScript?
     >  https://youtu.be/VB7y0yxZjro
 
 ### 참고 자료
