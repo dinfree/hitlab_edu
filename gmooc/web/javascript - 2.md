@@ -11,7 +11,7 @@
 
 ### 목차
 1. JavaScript 함수
-2. JavaScript 이벤트처리
+2. JavaScript 이벤트처리<br>
   -마우스 이벤트<br>
   -폼 이벤트<br>
   -문서로딩 이벤트
