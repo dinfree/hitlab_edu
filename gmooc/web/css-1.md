@@ -19,7 +19,7 @@
 
 ### 동영상 강좌
 - CSS 수업 - CSS 소개
-    > https://youtu.be/J8hzJxb0rpc
+    > https://www.youtube.com/watch?v=ONcmkf07EuI
 
 - WEB2 CSS - 3. CSS의 등장
     > https://www.youtube.com/watch?v=L41Zjl7XANI
