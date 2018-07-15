@@ -22,7 +22,7 @@
 
 
 - 에디터 사용법 (에디터란, Brackcats)
-    > https://youtu.be/CXd2a4dZEf4
+    > https://youtu.be/CXd2a4dZEf4?t=21s (~2:36)
 - 에디터 소개 (유료+무료)
     > https://youtu.be/PC4wDSyLaJ0
 - 비쥬얼 스튜디오 코드 설치 및 사용법
