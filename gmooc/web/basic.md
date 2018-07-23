@@ -29,7 +29,20 @@
 - 제목: url
 
 ### 퀴즈
-- 000은 000이 아니고 XXX 입니까?
+#### 1) 000은 000이 아니고 XXX 입니까?
+<details>
+<summary>해답보기</summary>
+<p></p>
+<div markdown="1">
+
+```java
+Hello Java
+```
+</div>
+
+</details>
+
+#### 2) 000은 000이 아니고 XXX 입니까?
 <details>
 <summary>해답보기</summary>
 <p></p>
