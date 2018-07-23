@@ -21,7 +21,7 @@
 > 가능한 충분한 영상을 찾아서 링크 걸것. 추후 각각의 영상이 확정되면 영상내용 설명등이 추가 되어야 함.
 
 - h태그
-    > https://youtu.be/5Xhta_M5nxE
+    > https://youtu.be/5Xhta_M5nxE?t=3m35s
 - h태그 크기
     > https://youtu.be/jzFgg_txWFY
 - header, title 
