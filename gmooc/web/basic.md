@@ -29,8 +29,8 @@
 - 제목: url
 
 ### 퀴즈
+- 000은 000이 아니고 XXX 입니까?
 <details>
-  <p>000은 000 이아니고 무엇입니까?</p>
 <summary>해답보기</summary>
 <p></p>
 <div markdown="1">
