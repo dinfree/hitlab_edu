@@ -1,5 +1,3 @@
-
-
 # [STS-10] 웹프로그래밍 :: 짧고 굵게 배우기
 
 [![Dinfree][din-badge]][din-url]
@@ -7,72 +5,227 @@
 
 [STS-10]은 웹프로그래밍의 핵심 개념에서 부터 주요 기술인 html, css, javascript를 비롯해 필수 응용 라이브러리인 bootstrap, jquery까지를 다루는 과정 입니다.
 
-## CSS
-
+## CSS - 선택자와 색상
+이부분은 해당 챕터에 대한 설명과 안내가 나와야 하는데 우선 이부분은 비워 두도록 한다. 이부분은 해당 챕터에 대한 설명과 안내가 나와야 하는데 우선 이부분은 비워 두도록 한다.이부분은 해당 챕터에 대한 설명과 안내가 나와야 하는데 우선 이부분은 비워 두도록 한다.이부분은 해당 챕터에 대한 설명과 안내가 나와야 하는데 우선 이부분은 비워 두도록 한다.이부분은 해당 챕터에 대한 설명과 안내가 나와야 하는데 우선 이부분은 비워 두도록 한다.
 
 ### 목차
-1. [CSS 기본 문법](#css1)
-2. [CSS 포함 방법](#css2)
+1. 선택자 개요
+2. 기본 선택자 - 태그, 아이디, 클래스
+3. 색상 - 폰트, 배경
 
 ---
-<a id="css1"></a> 
-## 1. CSS 기본 문법
+## 1. 선택자 개요
 
+CSS는 어떤 태그들에게 스타일 효과를 주는 언어입니다. 그렇다면 어떤 태그에 적용하는지를 정의하는 문법이 필요하게 되는데, 이때의 문법을 '선택자' 라고 합니다.
+
+<img alt="css_2-1" src="img/css_2-1.png" width="80%" >
+<p></p>
+
+- 선택자는 어떤 요소들에 <strong>`스타일 효과`</strong>를 주는 언어입니다.
+- 그 요소들의 종류에 따라 태그, 아이디, 클래스 선택자로 나뉩니다.
 
 ### 동영상 강좌
-- XML 이론 및 실습 - CSS 이해하기-1
-    > http://commons.bu.ac.kr/em/54ae42a29ab48 (12:00~22:45)
+- 선택자와 선언
+  > https://bit.ly/2uQRb0Y <!-- 7:39 -->
+- 선택자의 개요
+  > https://bit.ly/2uOH9NQ (00:00 ~ 13:12) <!-- 13:12 --> 
 
-- [Do it! HTML5+CSS3 웹 표준의 정석 - 개정판] 10 - CSS에서 캐스캐이딩 이해하기
-    > https://youtu.be/MUJFHYkouog
-
+ <!-- 20:51 -->
 
 ### 참고 자료
-- CSS Syntax and Selectors: https://www.w3schools.com/css/css_syntax.asp
-- CSS 입문: https://ofcourse.kr/css-course/CSS-%EC%9E%85%EB%AC%B8
+- ofcourse - 선택자 개요, 종류
+  > https://bit.ly/2mz8boz
+- w3school - Selector Reference
+  > https://bit.ly/2mMWokL 
+- MDN web docs - 선택자 소개
+  > https://mzl.la/2xr20dc
 
 
 ### 퀴즈
-- 000은 000 이라 하는가?
-- XXX는 000에서 BBB 하는데 000은 무어라 하는가?
-- 000은 무엇의 약어 인가?
+#### 1) h1 { color: red; } 코드에서 선택자는 무엇입니까?
+<details>
+<summary>해답보기</summary>
+<p></p>
+<div markdown="1">
 
+- h1
+
+</div>
+</details>
+
+#### 2) 선택자의 종류 3가지를 쓰시오.
+<details>
+<summary>해답보기</summary>
+<p></p>
+<div markdown="1">
+
+- 태그
+- 아이디
+- 클래스
+
+</div>
+</details>
+
+<br />
 
 ---
-<a id="css2"></a>
-## 2. CSS 포함 방법
+## 2. 기본 선택자 - 태그, 아이디, 클래스
 
+기본 선택자에는 <strong>`태그, 아이디, 클래스`</strong> 3가지가 있습니다.
+
+<img alt="css_2-2" src="img/css_2-2.png" width="80%" >
+<p></p>
+
+##### 1) 태그 선택자
+```css
+h1 { color: blue; }
+```
+
+##### 2) 아이디 선택자
+```css
+#id_name { color: blue; }
+```
+
+##### 3) 클래스 선택자
+```css
+.class_name { color: blue; }
+```
 
 ### 동영상 강좌
-- CSS 수업 - HTML과 CSS가 만나는 법
-    > https://www.youtube.com/watch?v=YtGAuoFir8w
+- 태그선택자와 전체선택자
+  > https://bit.ly/2OArR8q (13:13 ~ 30:14) <!-- 17:01 -->
+- id선택자와 class선택자 그리고 선택자 응용
+  > https://bit.ly/2v1UP8v (00:00 ~ 27:24) <!-- 27:24 -->
+- 아이디 선택자
+  > https://bit.ly/2LsH4da <!-- 06:30 -->
+- 클래스 선택자
+  > https://bit.ly/2uEXFka <!-- 06:44 -->
+- 주요선택자(전체,태그,클래스,아이디)
+  > https://bit.ly/2OFFbIB (09:44 ~ 14:39) <!-- 4:55 -->
+- 코딩을 통한 아이디 선택자
+  > https://bit.ly/2LYIw75 <!-- 04:39 -->
+- 코딩을 통한 클래스 선택자
+  > https://bit.ly/2LLTNZb <!-- 04:09 -->
+- 다중 클래스 선택자
+  > https://bit.ly/2ABbTYH <!-- 03:28 -->
+- 실시간 코딩을 통한 아이디 선택자
+  > https://bit.ly/2l1hLhX <!-- 04:24 -->
+- 실시간 코딩을 통한 클래스 선택자
+  > https://bit.ly/2kSraHu <!-- 03:59 -->
 
-- XML 이론 및 실습 - CSS 이해하기-1
-    > http://commons.bu.ac.kr/em/54ae42a29ab48 (22:45~24:15)
-
-- [Do it! HTML5+CSS3 웹 표준의 정석 - 개정판] 09 - CSS 기초 및 주요 선택자
-    > https://youtu.be/zG27EhVetD8?t=5m15s (05:15~07:15)
-
-- CSS Tutorial for Beginners - 10 - Using an external style sheet
-    > https://youtu.be/QT_lIti-8Zk
-
-- CSS Tutorial for Beginners - 28 - Add content page and reuse some of our CSS classes
-    > https://youtu.be/5enJfW3weCQ
-
-
-  
+ <!-- 1:23:13 -->
 
 ### 참고 자료
-- CSS How To: https://www.w3schools.com/css/css_howto.asp
-- Introduction to CSS-part2: https://www.csstutorial.net/css-intro/introductioncss-part2.php
+- ofcourse - 태그, id, class 선택자
+  > https://bit.ly/2ADgvh4
+- MDN web docs - 기본 선택자
+  > https://mzl.la/2n6zHdr
+- Tech Altum Tutorial - 선택자
+  > https://bit.ly/2LRHaMw
 
 
 ### 퀴즈
-- 000은 000 이라 하는가?
-- XXX는 000에서 BBB 하는데 000은 무어라 하는가?
-- 000은 무엇의 약어 인가?
+#### 1) 선택자 종류 3가지를 쓰고, 각각의 표현을 쓰시오.
+<details>
+<summary>해답보기</summary>
+<p></p>
+<div markdown="1">
+
+```css
+1. 태그 
+h1 { color: red; }
+
+2. 아이디
+#id { color: red; }
+
+3. 클래스
+.class { color: red; }
+```
+</div>
+
+</details>
+
+#### 2) `<h1 class="box">Hello world</h1>` "Hello world"의 폰트 색상을 빨강색으로 설정하는 2가지 방법을 모두 쓰시오.
+<details>
+<summary>해답보기</summary>
+<p></p>
+<div markdown="1">
+
+```css
+.box { color: red; }
+h1 { color: red; }
+```
+</div>
+
+</details>
+
+<br />
+
+---
+## 3. 색상 - 폰트, 배경
+
+CSS는 140개 이상의 색상이름, 16진수(HEX) 값, RGB 값 , RGBA 값, 불투명도를 지원합니다. CSS 배경 속성은 요소의 배경 효과를 정의하는 데 사용됩니다.
+
+<img alt="css_2-3" src="img/css_2-3.png" width="80%" >
+<p></p>
+
+- CSS에서 Color 속성은 색상이름, HEX(#)코드, RGB코드로 나타낼 수 있습니다.
+- RGBA는 색상에 투명도를 적용시킬 때 사용합니다.
+- CSS 배경속성에는 배경색, 이미지, 배경반복 등이 있습니다.
+
+### 동영상 강좌
+- Color 속성
+  > https://bit.ly/2O6RYUo <!-- 09:18 -->
+- Web Colors
+  > https://bit.ly/2LPHI5p <!-- 05:14 -->
+- Background 속성
+  > https://bit.ly/2uEQHvH <!-- 13:48 -->
+- 배경 이미지
+  > https://bit.ly/2n7rCFz <!-- 02:01 -->
+- 색상표현방법과 배경설정
+  > https://bit.ly/2LKZ2sd <!-- 17:16 -->
+
+ <!-- 47:37 -->
+
+### 참고 자료
+- ofcourse - 색상, 배경
+  > https://bit.ly/2uX48pU   
+  > https://bit.ly/2n9y7Ym
+- w3school - 색상, 배경
+  > https://bit.ly/2JIvu8P
+- Tech Altum Tutorial - 색상, 배경
+  > https://bit.ly/2Mf1LGo   
+  > https://bit.ly/2OHaz9Y
 
 
+### 퀴즈
+#### 1) CSS color 표현방법 3가지를 쓰시오.
+<details>
+<summary>해답보기</summary>
+<p></p>
+<div markdown="1">
+
+- color name
+- HEX code
+- RGB code
+</div>
+
+</details>
+
+#### 2) background에 image 설정하는 코드를 작성하시오. (image01.png)
+<details>
+<summary>해답보기</summary>
+<p></p>
+<div markdown="1">
+
+```css
+{ background-image: url("image01.png"); }
+```
+</div>
+
+</details>
+
+<!-- 2:31:41 -->
 
 [din-badge]:https://img.shields.io/badge/dinfree-edu-orange.svg
 [din-url]:https://github.com/dinfree
