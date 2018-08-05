@@ -1,5 +1,3 @@
-
-
 # [STS-10] 웹프로그래밍 :: 짧고 굵게 배우기
 
 [![Dinfree][din-badge]][din-url]
@@ -7,107 +5,141 @@
 
 [STS-10]은 웹프로그래밍의 핵심 개념에서 부터 주요 기술인 html, css, javascript를 비롯해 필수 응용 라이브러리인 bootstrap, jquery까지를 다루는 과정 입니다.
 
-## CSS
-
+## CSS - 박스 모델
+이부분은 해당 챕터에 대한 설명과 안내가 나와야 하는데 우선 이부분은 비워 두도록 한다. 이부분은 해당 챕터에 대한 설명과 안내가 나와야 하는데 우선 이부분은 비워 두도록 한다.이부분은 해당 챕터에 대한 설명과 안내가 나와야 하는데 우선 이부분은 비워 두도록 한다.이부분은 해당 챕터에 대한 설명과 안내가 나와야 하는데 우선 이부분은 비워 두도록 한다.이부분은 해당 챕터에 대한 설명과 안내가 나와야 하는데 우선 이부분은 비워 두도록 한다.
 
 ### 목차
-1. [Selector-tag](#css1)
-2. [Selector-id](#css2)
-3. [Selector-class](#css3)
+1. CSS 단위
+2. 박스 모델
 
 ---
-<a id="css1"></a> 
-## 1. CSS 기본 Selector-tag
+## 1. CSS 단위
 
+CSS에는 길이 표현을 위한 여러 단위가 있습니다. 많은 CSS 속성은 width, margin, padding과 같은 길이 값을 사용합니다. 길이는 10px, 2em과 같은 길이 단위가 뒤에 오는 숫자입니다. 길이 단위에는 절대 단위와 상대 단위의 두 가지 유형이 있습니다.
 
-### 동영상 강좌
-- CSS 수업 - 선택자와 선언
-  > https://www.youtube.com/watch?time_continue=1&v=Me7qCXl94nQ
+<img alt="css_3-1" src="img/css_3-1.png" width="70%" >
+<p></p>
 
-- 실전 HTML5 & CSS3 동영상 강좌 제 6강 CSS 기본-I
-  > https://www.youtube.com/watch?v=ZBUmTZsKXDY
-
-- CSS Tutorial for Beginners - 03 - Multiple selectors and writing rule for more than one element
-  > https://youtu.be/JT0gyzbpD2U
-
-- [Do it! HTML5+CSS3 웹 표준의 정석 - 개정판] 09 - CSS 기초 및 주요 선택자
-  > https://youtu.be/zG27EhVetD8?t=3m (03:00~05:15)
-  > https://youtu.be/zG27EhVetD8?t=10m44s (10:44~11:15)
-  
-
-### 참고 자료
-- 태그 선택자: https://ofcourse.kr/css-course/%ED%83%9C%EA%B7%B8-%EC%84%A0%ED%83%9D%EC%9E%90 
-
-### 퀴즈
-- 000은 000 이라 하는가?
-- XXX는 000에서 BBB 하는데 000은 무어라 하는가?
-- 000은 무엇의 약어 인가?
-
----
-<a id="css2"></a> 
-## 2. CSS 기본 Selector-id
-
+- 절대 단위는 고정되어 있으며, 임의의 길이로 표현된 길이는 정확히 같은 크기로 표시됩니다.
+- 상대 단위는 부모요소를 기준으로 크기가 정해집니다.
 
 ### 동영상 강좌
-- CSS 수업 - 선택자의종류 1 : 아이디선택자
-  > https://www.youtube.com/watch?v=wNpplOPbMSc
+- 폰트 사이즈
+  > https://bit.ly/2M4CuSN (05:51 ~ 09:16) <!-- 03:25 -->
+- CSS 길이와 단위
+  > https://bit.ly/2my1JhH (19:05 ~ 22:55) <!-- 03:50 -->
+- 다양한 폰트 사이즈
+  > https://bit.ly/2Kp4HP1 <!-- 05:26 -->
+- 실시간 코딩을 통한 폰트사이즈 특성
+  > https://bit.ly/2ACJcdZ <!-- 02:59 -->
 
-- 실전 HTML5 & CSS3 동영상 강좌 제 7강 CSS 기본-II
-  > https://www.youtube.com/watch?v=m9WpyIYt9X4
-
-- [Do it! HTML5+CSS3 웹 표준의 정석 - 개정판] 09 - CSS 기초 및 주요 선택자
-  > https://youtu.be/zG27EhVetD8?t=13m17s (13:17~13:40)
-
-- XML 이론 및 실습 - CSS 이해하기-2
-  > http://commons.bu.ac.kr/em/54ae2c1cf2b33 (11:51~15:28)
-
-- CSS Tutorial for Beginners - 22 - The ID Attribute
-  > https://youtu.be/ZuuEdXXzG7I
-  
+ <!-- 15:40 -->
 
 ### 참고 자료
-- id,class 선택자: https://ofcourse.kr/css-course/id-class-%EC%84%A0%ED%83%9D%EC%9E%90
-
-### 퀴즈
-- 000은 000 이라 하는가?
-- XXX는 000에서 BBB 하는데 000은 무어라 하는가?
-- 000은 무엇의 약어 인가?
-
----
-<a id="css3"></a> 
-## 3. CSS 기본 Selector-class
-
-
-### 동영상 강좌
-- CSS 수업 - 선택자의종류 2 : 클래스선택자
-  > https://www.youtube.com/watch?v=N2WAj79Cna4
-
-- 실전 HTML5 & CSS3 동영상 강좌 제 7강 CSS 기본-II
-  > https://www.youtube.com/watch?v=m9WpyIYt9X4 
-
-- [Do it! HTML5+CSS3 웹 표준의 정석 - 개정판] 09 - CSS 기초 및 주요 선택자
-  > https://youtu.be/zG27EhVetD8?t=11m16s (11:16~13:16)
-
-- XML 이론 및 실습 - CSS 이해하기-2
-  > http://commons.bu.ac.kr/em/54ae2c1cf2b33 (09:02~11:50)
-
-- CSS Tutorial for Beginners - 06 - Using Classes in CSS
-  > https://youtu.be/u4dLB9NP3IA
-
-- CSS Tutorial for Beginners - 07 - More on Classes in CSS
-  > https://youtu.be/KULYFC545qY
-
-
-
-### 참고 자료
-- 
+- w3school - CSS 단위
+  > https://bit.ly/2LEEc9R
+- WebNots - CSS Units Tutorial
+  > https://bit.ly/2Km5Jvn  
 
 
 ### 퀴즈
-- 000은 000 이라 하는가?
-- XXX는 000에서 BBB 하는데 000은 무어라 하는가?
-- 000은 무엇의 약어 인가?
+#### 1) 절대크기와 상대크기 단위 각각 2가지씩 쓰시오.
+<details>
+<summary>해답보기</summary>
+<p></p>
+<div markdown="1">
 
+- 절대크기: cm, mm, in, px, pt
+- 상대크기: em, ex, ch, rem, %
+</div>
+
+</details>
+
+---
+#### 2) 절대단위와 상대단위의 차이점이 무엇입니까?
+<details>
+<summary>해답보기</summary>
+<p></p>
+<div markdown="1">
+
+```
+절대 단위는 크기가 고정되어 있으나, 상대단위는 부모요소에 따라 크기가 변경된다.
+```
+</div>
+
+</details>
+
+<br />
+
+---
+## 2. 박스 모델
+
+CSS에서는 디자인과 레이아웃에 대해 '박스 모델' 이라는 용어를 사용합니다. CSS '박스 모델'은 본질적으로 모든 HTML 요소를 감싸는 상자입니다.
+
+<img alt="css_3-2" src="img/css_3-2.png" width="90%" >
+<p></p>
+
+- 박스 모델에는 Margin, Border, Padding, Height/Width 가 있습니다.
+- <strong>Content Box</strong> - 이 박스의 길이와 너비가 Height/Width가 되며, 이 안에 Text와 Image가 들어갑니다.
+- <strong>Padding Box</strong> - Content Box를 둘러싼 눈에 보이지 않는 영역입니다.
+- <strong>Border Box</strong> - Content와 Padding Box를 둘러싼 경계선입니다.
+- <strong>Margin Box</strong> - Border Box 외부를 둘러싼 눈에 보이지 않는 영역입니다.
+
+### 동영상 강좌
+- 박스모델 개념
+  > https://bit.ly/2zWgLaL <!-- 08:57 -->
+- 박스모델을 사용해야 되는 이유와 개념
+  > https://bit.ly/2mze19t <!-- 16:20 -->
+- 박스모델 응용
+  > https://bit.ly/2NuVGpu <!-- 06:24 -->
+- 박스모델 소개
+  > https://bit.ly/2vf3YLM (00:00 ~ 03:50) <!-- 03:50 -->
+- 박스모델의 각각의 속성들
+  > https://bit.ly/2LMjrx0 <!-- 06:18 -->
+- Margin과 Padding 응용
+  > https://bit.ly/2OEZg1K <!-- 05:25 -->
+- 각 속성들의 top, right, bottom, left 속성
+  > https://bit.ly/2MfJ71g <!-- 04:45 -->
+
+ <!-- 51:59 -->
+
+### 참고 자료
+- w3school - Box Model, Border, Margin, Padding, Height/Width
+  > https://bit.ly/2stLx30
+- Tech Altum Tutorial - CSS Box Model
+  > https://bit.ly/2O90am9 
+- W3 - 8. Box Model
+  > https://bit.ly/2BUB0Gf
+
+
+### 퀴즈
+#### 1) Margin과 Padding 의 영역이 어느 곳인지 쓰시오.
+<details>
+<summary>해답보기</summary>
+<p></p>
+<div markdown="1">
+
+```
+Margin은 border 바깥쪽을 둘러싼 영역이고, Padding은 content를 둘러싼 영역입니다.
+```
+</div>
+
+</details>
+
+#### 2) 다음 그림에서 오른쪽과 같이 배치하려면 어떤 속성의 값을 변경해야 합니까?
+<img alt="css_3-2-1" src="img/css_3-2-1.png" width="90%" >
+<p></p>
+<details>
+<summary>해답보기</summary>
+<p></p>
+<div markdown="1">
+
+- Margin
+</div>
+
+</details>
+
+<!-- 1:07:39 -->
 
 [din-badge]:https://img.shields.io/badge/dinfree-edu-orange.svg
 [din-url]:https://github.com/dinfree
