@@ -18,7 +18,7 @@
 ## 1. 월드와이드웹이란?
 웹이라고도 불리며, 다양한 형태의 데이터와 정보에 접근할 수 있도록 해주는 `인터넷 서비스`이다. 팀 버너스-리에 의해 개발되어 보편적인 인터넷 서비스로 확대되었다.
 
-<img alt="샘플이미지" src="img/html1_1.jpg" width="70%">
+<img alt="샘플이미지" src="img/html_1-1.jpg" width="70%">
 
 - 웹은 인터넷 상의 정보를 `하이퍼텍스트` 방식과 멀티미디어 환경에서 검색 할 수 있게 해주는 정보 검색 시스템이다.
 - 웹 서비스는 많은 사람이 정보를 쉽게 공유하고 접근할 수 있도록 하는 것이 목적이다.
@@ -117,7 +117,7 @@ HyperText Markup Language
 ## 3. HTML 기본 작성법
 HTML에서 사용하는 명령어를 `태그(Tag)`라고 하며, `꺽쇠괄호 <>`를 사용하여 나타낸다. 태그는 일반적으로 시작과 끝을 표시하는 `2개의 쌍`으로 이루어져 있으며, 종료태그는 `/`로 시작된다. 태그의 이름은 규칙으로 정해져 있고 태그마다 역할이 다르다.
 
-<img alt="샘플이미지" src="img/html1_3.png" width="70%">
+<img alt="샘플이미지" src="img/html_1-3.png" width="70%">
 <!--이미지 주소 : https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics-->
 
 - `<strong> hello world </strong>`처럼 태그를 사용해 데이터를 표현한다.
@@ -181,7 +181,7 @@ HTML에서 사용하는 명령어를 `태그(Tag)`라고 하며, `꺽쇠괄호 <
 ## 4. HTML 기본 구조
 HTML 문서는 `<!DOCTYPE html>`, `<html>`, `<head>`, `<title>`, `<body>`의 기본태그로 이루어져 있다. 
 
-<center><img alt="샘플이미지" src="img/html1_4.png" width="50%"></center>
+<center><img alt="샘플이미지" src="img/html_1-4.png" width="50%"></center>
 <!-- 사진 주소 : http://opendelta.tistory.com/5-->
 
 
