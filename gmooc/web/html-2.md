@@ -5,108 +5,256 @@
 
 [STS-10]은 웹프로그래밍의 핵심 개념에서 부터 주요 기술인 html, css, javascript를 비롯해 필수 응용 라이브러리인 bootstrap, jquery까지를 다루는 과정 입니다.
 
-## html
-웹프로그래밍 기술인 html을 학습합니다. html의 개발 환경과 기본 작성법 및 구조를 알아보고, 주요 태그, 하이퍼링크, Form, Table, image 등의 사용법에 대해 알아봅니다. 이해를 돕기 위한 부가적인 자료들 또한 다루게 됩니다.
+## HTML: 주요 태그
+이부분은 해당 챕터에 대한 설명과 안내가 나와야 하는데 우선 이부분은 비워 두도록 한다. 이부분은 해당 챕터에 대한 설명과 안내가 나와야 하는데 우선 이부분은 비워 두도록 한다.이부분은 해당 챕터에 대한 설명과 안내가 나와야 하는데 우선 이부분은 비워 두도록 한다.이부분은 해당 챕터에 대한 설명과 안내가 나와야 하는데 우선 이부분은 비워 두도록 한다.이부분은 해당 챕터에 대한 설명과 안내가 나와야 하는데 우선 이부분은 비워 두도록 한다.
 
 ### 목차
-1. html 개발 환경
-2. html 기본 작성법
-3. html 구조
+1. 제목
+2. 문단
+3. 형식
+4. 목록
+5. 하이퍼링크
 
 ---
-## 1. html 개발 환경
+## 1. 제목
+`<h>` 태그는 제목을 나타낸다. `<h1> ~ <h6>`까지 있는데, 숫자들은 제목의 등급을 나타낸다. `<h1>`이 가장 높은 등급이며 크기도 가장 크고, `<h6>`이 가장 낮은 등급이며 크기도 가장 작다. 
+
+<img alt="샘플이미지" src="img/html_2-1.png" width="40%">
+
+- 원칙적으로 `<h1>` 요소는 한 문서에 한 번만 지정하는 것이 좋다.
+- 계층 구조에 맞게 순서대로 작성되어지는 것이 좋다.
+- 컴퓨터 및 검색엔진이 문서를 파악하기 위해 쓰이므로, 상황에 맞게 `<h>`의 등급을 잘 써주는 것이 중요하다.
 
 
 ### 동영상 강좌
-> 가능한 충분한 영상을 찾아서 링크 걸것. 추후 각각의 영상이 확정되면 영상내용 설명등이 추가 되어야 함.
-
-
-- 에디터 사용법 (에디터란, Brackcats)
-    > https://youtu.be/CXd2a4dZEf4?t=21s (~2:36)
-- 에디터 소개 (유료+무료)
-    > https://youtu.be/PC4wDSyLaJ0
-- 비쥬얼 스튜디오 코드 설치 및 사용법
-    > https://youtu.be/cwW4yyf2G7A
+- h태그
+  > http://bit.ly/2LG0qs9 (3:35~6:10)
+- h1~h6 태그
+  > http://bit.ly/2LH7xQY
+- h태그
+  > http://bit.ly/2LxKIT1 (7:50~10:00)
 
 
 ### 참고 자료
 > pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.
-- 추천 텍스트 에디터(HTML Editor) - 에디트 플러스, 아크로 에디터, 크림슨 에디터 등: http://www.homejjang.com/01/best_editor.php
-- HTML 파일은 무엇을 이용하여 만드나? : http://www.homejjang.com/01/how_make_html.php
-- 텍스트 에디터(Text Editor)의 장점 : http://www.homejjang.com/01/text_editor.php
-
+- h# 태그: http://bit.ly/2uXwxfI
+- h1 ~ h6: http://bit.ly/2Lh14Aa
 
 ### 퀴즈
-- 000은 000 이라 하는가?
-- XXX는 000에서 BBB 하는데 000은 무어라 하는가?
-- 000은 무엇의 약어 인가?
-## 2. html기본 작성법
+#### 1) 크기가 가장 큰 h태그는 무엇인가
+<details>
+<summary>해답보기</summary>
+<p></p>
+<div markdown="1">
+
+```
+<h1>태그
+```
+
+</div>
+
+</details>
+
+
+
+## 2. 문단
+`<p>`요소로 문단을 나타낸다. 본문 내에서 연속된 공백이나 줄 바꿈은 하나의 공백으로 처리하기 때문에, 문단 구분 시 `<p>`태그를, 줄 바꿈을 할 때는 `<br>`태그를 이용한다.
+
+<img alt="샘플이미지" src="img/html_2-2.png" width="70%">
+<img alt="샘플이미지" src="img/html_2-3.png" width="1000%">
+
+- `<br>`태그는 닫는 태그를 필요로 하지 않는다. `</br>`로 사용하기도 한다.
+- 문단 구분을 위해 `<br/>` 태그를 연속으로 사용하는 것 보다는 `<p>`태그를 사용하는 것을 권장한다.
 
 
 ### 동영상 강좌
-> 가능한 충분한 영상을 찾아서 링크 걸것. 추후 각각의 영상이 확정되면 영상내용 설명등이 추가 되어야 함.
+- p태그
+  > http://bit.ly/2O9hng9
+- 문단과 Line Break
+  > http://bit.ly/2Lejp0F
 
-- html 기본 문법 (태그)
-    > https://youtu.be/Ocnxejo5pUM
-- html 태그의 속성&div태그
-    > https://youtu.be/vBvWMoDSkAA
-- 닫는 태그의 사용 규칙
-    > https://youtu.be/6-yPHhxvuFU 
-- 주석 
-    > https://youtu.be/WzsxfdnQQds
 
 
 ### 참고 자료
 > pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.
-- ofcourse html 입문 : https://ofcourse.kr/html-course/HTML-%EC%9E%85%EB%AC%B8
-- ofcourse  태그 : https://ofcourse.kr/html-course/%ED%83%9C%EA%B7%B8
-- ofcourse 태그의 속성 : https://ofcourse.kr/html-course/%ED%83%9C%EA%B7%B8%EC%9D%98-%EC%86%8D%EC%84%B1
-- 주석(Comment) : http://www.homejjang.com/03/comments.php
-- HTML의 구성요소 태그(Tag), 요소(Element), 속성(Attribute), 변수(Arguments) : http://www.homejjang.com/03/Tag_element_attribute.php
+- p 태그, br 태그: http://bit.ly/2O7hIzM
+- 문단을 정의하는 태그, BR 강제 줄바꿈: http://bit.ly/2A32lWc 
+- br, p 태그: http://bit.ly/2LEnwz7  
 
 ### 퀴즈
-- 000은 000 이라 하는가?
-- XXX는 000에서 BBB 하는데 000은 무어라 하는가?
-- 000은 무엇의 약어 인가?
+#### 1) p태그는 무엇을 나타내는 태그인가
+<details>
+<summary>해답보기</summary>
+<p></p>
+<div markdown="1">
 
-## 2. html 구조
+```
+문단을 나타내는 태그
+```
+
+</div>
+
+</details>
+
+#### 2) 개행을 원할 때 사용하는 태그는 무엇인가
+<details>
+<summary>해답보기</summary>
+<p></p>
+<div markdown="1">
+
+```
+<br> 또는 </br>
+```
+
+</div>
+
+</details>
+
+
+## 3. 형식
+텍스트에 특별한 의미를 부여하는 특별한 요소들이 있다. 텍스트를 굵게 하는 `<b>`와 `<strong>`, 텍스트를 기울이는 `<i>`와 `<em>`, 하이라이트인 `<mark>`, 가운데를 선으로 표시하는 `<del>` 등이 있다. 
+
+<img alt="샘플이미지" src="img/html_2-4.png" width="60%">
+<!--이미지 주소 : http://96.0.245.61/mca_course/kurukshetra_university/semester4/webengineering/text_level_elements.php-->
+
+- `<b>`는 텍스트가 중요하지 않지만 단순 진하게 표시할 때, `<strong>`은 중요한 텍스트를 표시할 때 사용한다.
+- `<i>`는 이탤릭체로 표시할 때, `<em>`은 특정 텍스트를 이탤릭체로 강조하고자 할 때 사용한다.
+
 
 ### 동영상 강좌
-> 가능한 충분한 영상을 찾아서 링크 걸것. 추후 각각의 영상이 확정되면 영상내용 설명등이 추가 되어야 함.
+- 텍스트 태그들
+  > http://bit.ly/2A2pA2v
+- b태그, hr태그, i태그
+  > http://bit.ly/2LuoOjz (29:46~33:10)
+- Formatting Tags
+  > http://bit.ly/2Lwb2wD
 
-- html기본 구조
-    > https://youtu.be/uD5lY9QSP5c
-- html head
-    > https://youtu.be/vQeA4xpwVdE
-- title 태그 
-    > https://youtu.be/ytvYiVu8z30
-- meta태그
-    > https://youtu.be/zO5zHxX2lNI
-- 시맨틱 태그
-    > https://youtu.be/n7tpIcUk4ms
-- 시맨틱 태그 예시
-    > https://youtu.be/MFDC9cI9JME
 
 
 ### 참고 자료
 > pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.
-- ofcourse 인코딩 : https://ofcourse.kr/html-course/%EC%9D%B8%EC%BD%94%EB%94%A9
-- ofcourse head 태그 : https://ofcourse.kr/html-course/head-%ED%83%9C%EA%B7%B8
-- ofcourse title 태그 : https://ofcourse.kr/html-course/title-%ED%83%9C%EA%B7%B8
-- ofcourse meta 태그 : https://ofcourse.kr/html-course/meta-%ED%83%9C%EA%B7%B8
-- HTML의 기본구성 : http://www.homejjang.com/03/html_structure.php
-- body : https://opentutorials.org/course/1058/4800
-- footer : https://opentutorials.org/course/1058/4823
-- header : https://opentutorials.org/course/1058/4829
-- head : https://opentutorials.org/course/1058/4828
-- html : https://opentutorials.org/course/1058/4832
-- meta : https://opentutorials.org/course/1058/4847
-- title : https://opentutorials.org/course/1058/4885
+- b 요소와 strong 요소의 차이: http://bit.ly/2Lie6xh
+- b 태그, i 태그: http://bit.ly/2JQUo62
+- 텍스트 관련 태그: http://bit.ly/2NFyrtg
+- b, em, i, mark, strong, u 태그: http://bit.ly/2O8YCcF
 
 ### 퀴즈
-- 000은 000 이라 하는가?
-- XXX는 000에서 BBB 하는데 000은 무어라 하는가?
-- 000은 무엇의 약어 인가?
+#### 1) b태그와 strong태그의 차이점을 서술하시오
+<details>
+<summary>해답보기</summary>
+<p></p>
+<div markdown="1">
+
+```
+b태그는 단순히 텍스트를 진하게, strong태그는 텍스트를 강조하는 의미를 담고 있다.
+```
+</div>
+
+</details>
+
+
+## 4. 목록
+목록을 만들기 위해서 `<li>`태그를 사용한다. 이 태그는 단독으로 쓰이지 않으며, `<ul>`혹은 `<ol>`의 내부에 들어간다. 리스트 나열 뿐 아니라 메뉴 등을 만들 때에도 사용한다. 
+
+<img alt="샘플이미지" src="img/html_2-5.jpg" width="60%">
+<!-- 사진 주소 : https://www.slideshare.net/lehrerfreund/html-listen-->
+
+
+- `<ol>` 태그는 번호를 메기는 순서가 있는 목록을 만든다.
+- `<ul>` 태그는 순서없이 모양으로 목록을 만든다.
+
+
+### 동영상 강좌
+- 리스트와 리스트 타입
+  > http://bit.ly/2LG6i4F
+- 하위 항목이 있는 리스트
+  > http://bit.ly/2JQWm6q (11:26~14:08)
+
+
+
+### 참고 자료
+> pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.
+- li 태그: http://bit.ly/2JNFVYu
+- 리스트 태그, 리스트의 type 속성: http://bit.ly/2LhVMV6
+- li, ol, ul 태그: http://bit.ly/2JKSPqs
+
+### 퀴즈
+#### 1) ul태그와 ol태그의 차이점은 무엇인가
+<details>
+<summary>해답보기</summary>
+<p></p>
+<div markdown="1">
+
+```
+<ol>은 순서가 있는 목록, <ul>은 순서가 없는 목록이다.
+```
+
+</div>
+
+</details>
+
+
+
+## 5. 하이퍼링크
+`<a>`태그를 사용해 하이퍼링크를 걸어준다. 기본적으로 `href`속성을 가지며, 이동할 페이지의 주소를 적어준다. `target` 속성은 페이지를 어떻게 열 것인가를 결정한다. a태그를 이용하여 다른 페이지로 이동하거나 혹은 하나의 페이지 내부에서 이동 할 수 있다. 
+
+<img alt="샘플이미지" src="img/html_2-6.gif" width="70%">
+<!-- 사진 주소 : https://www.computerhope.com/jargon/h/html-a-tag.htm-->
+
+
+- URL은 상대경로와 절대경로로 표현 할 수 있다. `절대경로`는 고유한 경로로 `root (/)에서부터 시작되는 위치`이다. 웹브라우저 주소도 이에 속한다. `상대경로`는 `html문서를 기준으로 경로를 인식`하는 방법이다. 
+- `target` 속성 값: `_blank` 새로운 웹 브라우저 창에 연다, `_self` 현재 웹 브라우저 창에 연다 (기본), `_parent` 부모 웹 브라우저 창에 연다, `_top` 웹 브라우저 전체 영역에 연다.
+- a태그를 이용해 같은 문서 내에서 특정 위치로 이동하는 `책갈피` 기능을 사용 할 수 있다. a태그의 `name`속성 혹은 `id` 속성을 이용해, 문서 내 이동할 곳의 위치를 지정하고 `href=#name(id)` 값을 입력해 링크를 걸 수 있다.
+
+
+### 동영상 강좌
+- a 태그와 속성
+  > http://bit.ly/2NF9DBh
+- 링크 태그
+  > http://bit.ly/2LrDNuF
+- a 태그 하나의 페이지 내부에서 이동하기
+  > http://bit.ly/2A35dlW
+- a 태그 동일 사이트의 다른 페이지로 이동하기
+  > http://bit.ly/2uFw56A
+- 상대경로 & 절대경로 개념
+  > http://bit.ly/2LxN5Fp
+
+
+### 참고 자료
+> pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.
+- a 태그: http://bit.ly/2mFb3QN
+- 링크, 내부링크(책갈피 기능): http://bit.ly/2NDpyAb
+- a 태그: http://bit.ly/2NFbB4D
+
+### 퀴즈
+#### 1) 상대경로와 절대경로의 차이점을 서술하시오
+<details>
+<summary>해답보기</summary>
+<p></p>
+<div markdown="1">
+
+```
+절대경로는 고유한 경로로 root (/)에서부터 시작되는 위치이다. 
+상대경로는 html문서를 기준으로 경로를 인식하는 방법이다.
+```
+
+</div>
+
+</details>
+
+#### 1) a태그에 들어가는 속성은 무엇인가
+<details>
+<summary>해답보기</summary>
+<p></p>
+<div markdown="1">
+
+```
+href(이동할 곳의 주소), target(페이지를 어떻게 열 것인가)
+```
+
+</div>
+
+</details>
 
 
 
