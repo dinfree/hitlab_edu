@@ -1,8 +1,5 @@
 # [STS-10] 웹프로그래밍 :: 짧고 굵게 배우기
 
-[![Dinfree][din-badge]][din-url] 
-[![Subject][basic-badge]][din-url] 
-
 [STS-10]은 웹프로그래밍의 핵심 개념에서 부터 주요 기술인 html, css, javascript를 비롯해 필수 응용 라이브러리인 bootstrap, jquery까지를 다루는 과정 입니다.
 
  ## JavaScript
