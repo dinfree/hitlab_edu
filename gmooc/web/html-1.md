@@ -74,7 +74,7 @@
 ## 2. HTML 소개
 웹 문서를 만들기 위해 사용하는 프로그래밍 언어 중 하나이다. 하이퍼텍스트 작성을 위해 개발되었으며, 대부분의 웹 페이지들은 HTML로 작성된다.
 
-<img alt="샘플이미지" src="img/html_1-2-1.png" width="70%">
+<img alt="샘플이미지" src="img/html_1-2-1.png" width="30%">
 <!-- 이미지 주소 : http://www.cena.co.kr/html5-1-%EC%97%AD%EC%82%AC%EC%99%80-%EB%B0%B0%EA%B2%BD/ -->
 
 - HTML은 `HyperText Markup Language`의 약자로, 문서의 글자 크기나 색깔, 모양, 문서 이동 등을 정의하는 명령어이다.
