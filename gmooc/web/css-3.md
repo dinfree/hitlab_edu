@@ -67,9 +67,7 @@ CSS에는 길이 표현을 위한 여러 단위가 있습니다. 많은 CSS 속�
 <p></p>
 <div markdown="1">
 
-```
-절대 단위는 크기가 고정되어 있으나, 상대단위는 부모요소에 따라 크기가 변경된다.
-```
+> 절대 단위는 크기가 고정되어 있으나, 상대단위는 부모요소에 따라 크기가 변경된다.
 </div>
 </details>
 
@@ -122,9 +120,7 @@ CSS에는 길이 표현을 위한 여러 단위가 있습니다. 많은 CSS 속�
 <p></p>
 <div markdown="1">
 
-```
-Margin은 border 바깥쪽을 둘러싼 영역이고, Padding은 content를 둘러싼 영역입니다.
-```
+> Margin은 border 바깥쪽을 둘러싼 영역이고, Padding은 content를 둘러싼 영역입니다.
 </div>
 </details>
 
