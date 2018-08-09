@@ -1,5 +1,5 @@
 
-# [STS-121] 웹 프론트엔드 개발 기초::HTML
+# [STS-121 실습] 웹 프론트엔드 개발 기초::HTML
 
 [![Dinfree][din-badge]][din-url]
 [![Subject][html-badge]][din-url]
