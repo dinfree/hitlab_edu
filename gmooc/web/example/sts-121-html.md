@@ -46,8 +46,30 @@
 
 
 ## 2. HTML 기본 작성법과 구조
+### 예제 2-1) HTML 기본문서 작성과 실행하기
+본 예제에서는 HTML 파일을 생성하고 HTML 문서의 기본 구조를 작성해 봅니다. 앞으로 진행되는 모든 예제는 별도의 폴더를 생성해 관리할 수 있도로 합니다. github repository 에는 `example/sts-121-html`, `example/sts-122-css`, `example/sts-123-js` 로 구분되어 있습니다. Visual Studio Code 에서는 example 폴더를 오픈해서 사용하면 됩니다.
 
+#### step-1> Visual Studio Code 실행
+```
+- HTML 문서 작성을 위해 Visual Studio Code 를 실행 합니다. 만일 설치하지 않았다면 공통기초->[STS-103]개발도구 를 참고하기 바랍니다.
+- Visual Studio Code 는 공통기초->[STS-103]개발도구 에서 설명한것 처럼 영어 언어 설정으로 사용합니다.
+- 미리 생성해둔 예제폴더를 Open Folder 버튼을 이용해 오픈한 다음 New file 버튼을 클릭해 새로운 파일을 생성하고 2-1.html 이라 이름을 입력합니.
+```
 
+#### step-2> html 소스코드 작성
+```html
+<!doctype html>
+<html>
+    <head>
+        <title>2-1.html</title>
+    </head>
+    <body>
+        <H2>2-1.html</H2>
+        <HR>
+        example 2-1.html
+    </body>
+</html>
+```
 
 
 [din-badge]:https://img.shields.io/badge/dinfree-edu-orange.svg
