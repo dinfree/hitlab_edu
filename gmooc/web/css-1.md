@@ -54,9 +54,7 @@ CSS(Cascading Style Sheets)는 HTML과 함께 웹 표준의 기본 개념입니�
 <p></p>
 <div markdown="1">
 
-```
-Cascading Style Sheet
-```
+> Cascading Style Sheet
 </div>
 </details>
 
@@ -104,9 +102,7 @@ Cascading Style Sheet
 <p></p>
 <div markdown="1">
 
-```
-해상도가 다른 화면과 장치들의 웹 페이지에 레이아웃을 구성하고, 스타일을 입히기 위해서 
-```
+> 해상도가 다른 화면과 장치들의 웹 페이지에 레이아웃을 구성하고, 스타일을 입히기 위해서 
 </div>
 </details>
 
@@ -160,7 +156,7 @@ h1 { color: green; }
 </div>
 </details>
 
-#### 2) 위 코드에 폰트가 'Gothic'인 스타일을 추가하시오.
+#### 2) 1번 코드에 폰트가 'Gothic'인 스타일을 추가하시오.
 <details>
 <summary>해답보기</summary>
 <p></p>
@@ -185,7 +181,7 @@ CSS의 포함방법에는 `내부 스타일시트, 외부 스타일시트, 인�
 <img alt="css_1-4" src="img/css_1-4.jpg" width="60%" >
 <p></p>
 
-##### 1) 내부 스타일시트
+#### 1) 내부 스타일시트
 ```html
 <style>
 body {
@@ -198,11 +194,11 @@ h1 {
 } 
 </style>
 ```
-##### 2) 외부 스타일시트
+#### 2) 외부 스타일시트
 ```html
 <link rel="stylesheet" type="text/css" href="mystyle.css">
 ```
-##### 3) 인라인 스타일
+#### 3) 인라인 스타일
 ```html
 <h1 style="color:blue;margin-left:30px;">This is a heading</h1>
 ```
@@ -238,11 +234,10 @@ h1 {
 <p></p>
 <div markdown="1">
 
-```
-1. 내부 스타일시트
-2. 외부 스타일시트
-3. 인라인스타일
-```
+- 내부 스타일시트
+- 외부 스타일시트
+- 인라인스타일
+
 </div>
 
 </details>
@@ -253,9 +248,7 @@ h1 {
 <p></p>
 <div markdown="1">
 
-```
-외부 스타일 시트를 사용하면 하나의 파일만 변경하여 전체 웹 사이트의 모양을 변경할 수 있습니다.
-```
+> 외부 스타일 시트를 사용하면 하나의 파일만 변경하여 전체 웹 사이트의 모양을 변경할 수 있습니다.
 </div>
 </details>
 
