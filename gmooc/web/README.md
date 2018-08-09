@@ -14,7 +14,12 @@
 - udemy : https://www.udemy.com
 - codeacademy : https://www.codecademy.com/
 - ms virtual academy : https://mva.microsoft.com/
+- Khan Academy : https://www.khanacademy.org
 
 ### 기타 
 - w3schools.com : https://www.w3schools.com
 - ofcourse : https://ofcourse.kr/
+- CSS tutorial.NET : https://www.csstutorial.net/
+- 홈짱닷컴 : http://www.homejjang.com/
+- tutorialspark : http://www.tutorialspark.com
+- Tech Altum tutorial : https://tutorial.techaltum.com
