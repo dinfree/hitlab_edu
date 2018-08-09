@@ -14,14 +14,22 @@
 
 ---
 ## 1. CSS 단위
-
 CSS에는 길이 표현을 위한 여러 단위가 있습니다. 많은 CSS 속성은 width, margin, padding과 같은 길이 값을 사용합니다. 길이는 10px, 2em과 같은 길이 단위가 뒤에 오는 숫자입니다. 길이 단위에는 절대 단위와 상대 단위의 두 가지 유형이 있습니다.
 
-<img alt="css_3-1" src="img/css_3-1.png" width="70%" >
-<p></p>
+#### 1) 절대 단위
+<img alt="css_3-1-1" src="img/css_3-1-1.png" width="65%" >
 
-- 절대 단위는 고정되어 있으며, 임의의 길이로 표현된 길이는 정확히 같은 크기로 표시됩니다.
-- 상대 단위는 부모요소를 기준으로 크기가 정해집니다.
+- 브라우저에서 지정한 글자 크기로, 값이 고정되어 있습니다.
+- px : 픽셀. 모니터에 따라 상대적 크기가 됩니다.
+- pt : 포인트. 일반 문서에서 많이 사용하는 단위입니다.
+
+#### 2) 상대 단위
+<img alt="css_3-1-2" src="img/css_3-1-2.png" width="100%" >
+
+- 상대 단위는 부모요소의 글자 크기를 기준으로 크기가 정해집니다.
+- em : 해당 글꼴의 대문자 M의 너비를 기준으로 크기를 조절합니다.
+- ex : 해당 글꼴의 소문자 x의 높이를 기준으로 크기를 조절합니다.
+- rem : rem에서 r은 루트(root)를 뜻하며, 처음부터 기본크기를 지정하기 때문에 중간에 기본값이 바뀌지 않습니다.
 
 ### 동영상 강좌
 - 폰트 사이즈
@@ -41,7 +49,6 @@ CSS에는 길이 표현을 위한 여러 단위가 있습니다. 많은 CSS 속�
 - WebNots - CSS Units Tutorial
   > https://bit.ly/2Km5Jvn  
 
-
 ### 퀴즈
 #### 1) 절대크기와 상대크기 단위 각각 2가지씩 쓰시오.
 <details>
@@ -52,10 +59,8 @@ CSS에는 길이 표현을 위한 여러 단위가 있습니다. 많은 CSS 속�
 - 절대크기: cm, mm, in, px, pt
 - 상대크기: em, ex, ch, rem, %
 </div>
-
 </details>
 
----
 #### 2) 절대단위와 상대단위의 차이점이 무엇입니까?
 <details>
 <summary>해답보기</summary>
@@ -66,7 +71,6 @@ CSS에는 길이 표현을 위한 여러 단위가 있습니다. 많은 CSS 속�
 절대 단위는 크기가 고정되어 있으나, 상대단위는 부모요소에 따라 크기가 변경된다.
 ```
 </div>
-
 </details>
 
 <br />
@@ -74,16 +78,15 @@ CSS에는 길이 표현을 위한 여러 단위가 있습니다. 많은 CSS 속�
 ---
 ## 2. 박스 모델
 
-CSS에서는 디자인과 레이아웃에 대해 '박스 모델' 이라는 용어를 사용합니다. CSS '박스 모델'은 본질적으로 모든 HTML 요소를 감싸는 상자입니다.
+대부분의 HTML 태그는 박스 모델로 표현됩니다. 단락을 생성하는 \<p>, \<div> 태그, 이미지를 삽입하는 \<img>태그 모두 박스 모델의 형태로 문서에 포함됩니다. 이들이 박스 모델인 이유는 문서에 삽입되는 영역이 하나의 박스처럼 보이기 때문입니다. 박스 모델은 테두리(border)와 내용(content) 그리고 안쪽 여백(padding)과 바깥쪽 여백(margin)의 네 가지 요소로 구성됩니다. 각 영역은 상, 하, 좌, 우 네 가지 영역으로 구분됩니다. 
 
-<img alt="css_3-2" src="img/css_3-2.png" width="90%" >
-<p></p>
+<img alt="css_3-2" src="img/css_3-2.png" width="70%" >
 
-- 박스 모델에는 Margin, Border, Padding, Height/Width 가 있습니다.
-- <strong>Content Box</strong> - 이 박스의 길이와 너비가 Height/Width가 되며, 이 안에 Text와 Image가 들어갑니다.
-- <strong>Padding Box</strong> - Content Box를 둘러싼 눈에 보이지 않는 영역입니다.
-- <strong>Border Box</strong> - Content와 Padding Box를 둘러싼 경계선입니다.
-- <strong>Margin Box</strong> - Border Box 외부를 둘러싼 눈에 보이지 않는 영역입니다.
+- Element 박스 - 텍스트 및 이미지가 나타나는 상자 내용.
+- Padding 박스 - Element 박스를 둘러싼 눈에 보이지 않는 영역.
+- Border 박스 - Element와 Padding 박스를 둘러싼 경계선입니다.
+- Margin 박스 - Border 박스 외부를 둘러싼 눈에 보이지 않는 영역입니다.
+
 
 ### 동영상 강좌
 - 박스모델 개념
@@ -123,7 +126,6 @@ CSS에서는 디자인과 레이아웃에 대해 '박스 모델' 이라는 용�
 Margin은 border 바깥쪽을 둘러싼 영역이고, Padding은 content를 둘러싼 영역입니다.
 ```
 </div>
-
 </details>
 
 #### 2) 다음 그림에서 오른쪽과 같이 배치하려면 어떤 속성의 값을 변경해야 합니까?
@@ -136,7 +138,6 @@ Margin은 border 바깥쪽을 둘러싼 영역이고, Padding은 content를 둘�
 
 - Margin
 </div>
-
 </details>
 
 <!-- 1:07:39 -->
