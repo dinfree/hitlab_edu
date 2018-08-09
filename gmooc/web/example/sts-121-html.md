@@ -42,7 +42,7 @@
 - 보이는 텍스트들이 현재 화면을 구성하고 있는 html 소소 입니다.
 ```
 
-<img alt="1-1결과" src="img/1-1.gif" width="30%">
+<img alt="1-1결과" src="img/1-1.gif" width="80%">
 
 
 ## 2. HTML 기본 작성법과 구조
