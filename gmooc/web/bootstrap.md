@@ -14,7 +14,6 @@
 
 ---
 ## 1. 소개
-
 부트스트랩은 빠르고 쉬운 웹 개발을 위한 무료 프론트엔드 프레임워크입니다. 부트스트랩에는 타이포그래피, 폼, 버튼, 테이블, 네비게이션, 이미지 및 JavaScript 플러그인을 위한 HTML 및 CSS 기반 디자인 템플릿이 포함되어 있습니다.
 
 <img alt="bts_1-1" src="img/bts_1-1.jpg" width="80%" >
@@ -52,9 +51,7 @@
 <p></p>
 <div markdown="1">
 
-```
-빠르고 쉬운 웹 개발을 위한 무료 프론트엔드 프레임워크
-```
+> 빠르고 쉬운 웹 개발을 위한 무료 프론트엔드 프레임워크
 </div>
 </details>
 
@@ -64,21 +61,34 @@
 <p></p>
 <div markdown="1">
 
-```
-사용이 용이하며, 반응형웹을 손쉽게 만들 수 있고 브라우저와의 호환성도 좋다.
-```
+> 사용이 용이하며, 반응형웹을 손쉽게 만들 수 있고 브라우저와의 호환성도 좋다.
 </div>
 </details>
 
+<br />
+
 ---
 ## 2. 기본 사용법
-
-소제목에 대한 간단한 설명이 와야 합니다. 최대한 간결하게 해당 소제목의 내용중 핵심을 설명합니다. 설명과 함께 목록등이 올 수 있으며 반드시 하나 이상의 이미지와 설명이 있어야 합니다. 단, 내용이 너무 길어지지 않도록 작성 합니다.
+부트스트랩의 그리드 시스템은 페이지 전체에 `최대 12개의 컬럼`을 허용합니다. 12개의 열을 모두 개별적으로 사용하지 않으려면 열을 `그룹화`하여 더 넓은 열을 만들 수 있습니다. 부트스트랩의 그리드 시스템이 반응하며 `화면 크기에 따라 열이 자동으로 재배열`됩니다.
 
 <img alt="bts_1-2" src="img/bts_1-2.jpg" width="80%" >
 <p></p>
 
-- 
+- 3개의 동일한 열
+```html
+<div class="row">
+  <div class="col-sm-4">4칸</div>
+  <div class="col-sm-4">4칸</div>
+  <div class="col-sm-4">4칸</div>
+</div>
+```
+- 2개의 다른 열
+```html
+<div class="row">
+  <div class="col-sm-4">4칸</div>
+  <div class="col-sm-8">8칸</div>
+</div>
+```
 
 ### 동영상 강좌
 - 부트스트랩 기본 사용법
@@ -92,7 +102,23 @@
 - w3school - Bootstrap Grids
   > https://bit.ly/2DaTJhi
 
+### 퀴즈
+#### 1) 2대 1 비율을 가진 너비를 구성하시오.
+<details>
+<summary>해답보기</summary>
+<p></p>
+<div markdown="1">
+
+```html
+<div class="row">
+  <div class="col-sm-8">8칸</div>
+  <div class="col-sm-4">4칸</div>
+</div>
+```
+</div>
+</details>
+
+
 [din-badge]:https://img.shields.io/badge/dinfree-edu-orange.svg
 [din-url]:https://github.com/dinfree
 [basic-badge]:https://img.shields.io/badge/core-basic-green.svg
-
