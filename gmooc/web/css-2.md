@@ -16,13 +16,15 @@
 ---
 ## 1. 선택자 개요
 
-CSS는 어떤 태그들에게 스타일 효과를 주는 언어입니다. 그렇다면 어떤 태그에 적용하는지를 정의하는 문법이 필요하게 되는데, 이때의 문법을 '선택자' 라고 합니다.
+스타일은 적용 대상이 있어야 하는데 선택자가 바로 그 대상입니다. 선택자는 기존에 HTML 문서에서 사용되는 태그에 대해서 속성과 값을 정의하는 방식으로 별도의 적용 코드 없이 선언과 동시에 해당 태그에 스타일이 적용됩니다. 스타일을 선언할 때 주의사항은 HTML에서 기존에 사용하던 태그만 사용가능하다는 점입니다.
 
-<img alt="css_2-1" src="img/css_2-1.png" width="80%" >
+<img alt="css_2-1" src="img/css_2-1.png" width="100%" >
 <p></p>
 
-- 선택자는 어떤 요소들에 <strong>`스타일 효과`</strong>를 주는 언어입니다.
-- 그 요소들의 종류에 따라 태그, 아이디, 클래스 선택자로 나뉩니다.
+- CSS가 어떤 태그에 스타일을 정의할 때, 어떤 태그에 정의할 지에 대한 문법이 필요하게 되는데 그것을 선택자라고 합니다.
+- 선택자는 HTML 요소를 요소 이름, 아이디, 클래스, 특성 등에 따라 찾을 때 사용됩니다.
+- 선택자는 스타일을 적용할 대상을 선언하는 것입니다.
+- 스타일 선언 구문은 선택자와 속성 선언 구간으로 이루어져 있습니다.
 
 ### 동영상 강좌
 - 선택자와 선언
@@ -42,7 +44,23 @@ CSS는 어떤 태그들에게 스타일 효과를 주는 언어입니다. 그렇
 
 
 ### 퀴즈
-#### 1) h1 { color: red; } 코드에서 선택자는 무엇입니까?
+#### 1) 선택자의 개념을 쓰시오.
+<details>
+<summary>해답보기</summary>
+<p></p>
+<div markdown="1">
+
+```
+ CSS가 어떤 태그에 스타일을 정의할 때, 어떤 태그에 정의할 지에 대한 문법이 필요하게 되는데 그것을 선택자라고 합니다.
+```
+
+</div>
+</details>
+
+#### 2) 다음 코드에서 선택자는 무엇입니까?
+```css
+h1 { color: red; }
+```
 <details>
 <summary>해답보기</summary>
 <p></p>
@@ -53,25 +71,12 @@ CSS는 어떤 태그들에게 스타일 효과를 주는 언어입니다. 그렇
 </div>
 </details>
 
-#### 2) 선택자의 종류 3가지를 쓰시오.
-<details>
-<summary>해답보기</summary>
-<p></p>
-<div markdown="1">
-
-- 태그
-- 아이디
-- 클래스
-
-</div>
-</details>
-
 <br />
 
 ---
 ## 2. 기본 선택자 - 태그, 아이디, 클래스
 
-기본 선택자에는 <strong>`태그, 아이디, 클래스`</strong> 3가지가 있습니다.
+기본 선택자에는 `태그, 아이디, 클래스` 3가지가 있습니다.
 
 <img alt="css_2-2" src="img/css_2-2.png" width="80%" >
 <p></p>
@@ -80,12 +85,10 @@ CSS는 어떤 태그들에게 스타일 효과를 주는 언어입니다. 그렇
 ```css
 h1 { color: blue; }
 ```
-
 ##### 2) 아이디 선택자
 ```css
 #id_name { color: blue; }
 ```
-
 ##### 3) 클래스 선택자
 ```css
 .class_name { color: blue; }
@@ -142,10 +145,12 @@ h1 { color: red; }
 .class { color: red; }
 ```
 </div>
-
 </details>
 
-#### 2) `<h1 class="box">Hello world</h1>` "Hello world"의 폰트 색상을 빨강색으로 설정하는 2가지 방법을 모두 쓰시오.
+#### 2) 다음 코드의 폰트 색상을 빨강색으로 설정하는 2가지 방법을 모두 쓰시오.
+```html
+<h1 class="box">Hello world</h1>
+```
 <details>
 <summary>해답보기</summary>
 <p></p>
@@ -156,22 +161,35 @@ h1 { color: red; }
 h1 { color: red; }
 ```
 </div>
-
 </details>
 
 <br />
 
 ---
 ## 3. 색상 - 폰트, 배경
-
-CSS는 140개 이상의 색상이름, 16진수(HEX) 값, RGB 값 , RGBA 값, 불투명도를 지원합니다. CSS 배경 속성은 요소의 배경 효과를 정의하는 데 사용됩니다.
+컴퓨터에서 사용하는 색상은 빛의 삼원색인 빨강색(Red), 초록색(Green), 파랑색(Blue)입니다. 이를 보통 RGB Color라고 부르는데, 각각의 색상은 0 ~ 255까지의 단계로 표현할 수 있습니다. 0부터 255를 16진수로 표현하면 00 ~ FF로 표현됩니다. CSS는 140개 이상의 색상이름, 16진수(HEX) 값, RGB 값 , RGBA 값, 불투명도를 지원합니다.
 
 <img alt="css_2-3" src="img/css_2-3.png" width="80%" >
 <p></p>
 
 - CSS에서 Color 속성은 색상이름, HEX(#)코드, RGB코드로 나타낼 수 있습니다.
-- RGBA는 색상에 투명도를 적용시킬 때 사용합니다.
+- RGBA는 색상에 투명도를 적용시킬 때 사용하며, 0~1 사이의 숫자로 나타냅니다.
 - CSS 배경속성에는 배경색, 이미지, 배경반복 등이 있습니다.
+
+##### 1) CSS Color
+```css
+#text1 { color: red; }
+#text2 { color: #FF000000; }
+#text3 { color: rgb(255, 0, 0); }
+```
+##### 2) CSS Background-color
+```css
+#box { 
+  background-color: green;
+  background-image: url("/img/img.png"); 
+  background-repeat: repeat-x;
+}
+```
 
 ### 동영상 강좌
 - Color 속성
@@ -205,14 +223,13 @@ CSS는 140개 이상의 색상이름, 16진수(HEX) 값, RGB 값 , RGBA 값, 불
 <p></p>
 <div markdown="1">
 
-- color name
+- 색상 이름
 - HEX code
 - RGB code
 </div>
-
 </details>
 
-#### 2) background에 image 설정하는 코드를 작성하시오. (image01.png)
+#### 2) 배경에 이미지를 설정하는 코드를 작성하시오. (image01.png)
 <details>
 <summary>해답보기</summary>
 <p></p>
@@ -222,7 +239,6 @@ CSS는 140개 이상의 색상이름, 16진수(HEX) 값, RGB 값 , RGBA 값, 불
 { background-image: url("image01.png"); }
 ```
 </div>
-
 </details>
 
 <!-- 2:31:41 -->
