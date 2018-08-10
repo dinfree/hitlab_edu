@@ -77,7 +77,7 @@
 <img alt="샘플이미지" src="img/html_1-2-1.png" width="30%">
 <!-- 이미지 주소 : http://www.cena.co.kr/html5-1-%EC%97%AD%EC%82%AC%EC%99%80-%EB%B0%B0%EA%B2%BD/ -->
 
-- HTML은 `HyperText Markup Language`의 약자로, 문서의 글자 크기나 색깔, 모양, 문서 이동 등을 정의하는 명령어이다.
+- HTML은 `HyperText Markup Language`의 약자로, 문서의 글자 크기나 색깔, 모양, 문서 이동 등에 관여한다.
 - HyperText : 단순 텍스트 이상의, `링크` 등의 개념이 포함 된 텍스트
 - Markup : 꺽쇠(<, >)로 이루어진 `태그`를 사용하는 규격
 - HTML로 작성된 문서를 웹 브라우저가 해석하여 이용자에게 보여주게 된다.
@@ -116,7 +116,7 @@ HyperText Markup Language
 
 
 ## 3. HTML 기본 작성법
-HTML에서 사용하는 명령어를 `태그(Tag)`라고 하며, `꺽쇠괄호 <>`를 사용하여 나타낸다. 태그는 일반적으로 시작과 끝을 표시하는 `2개의 쌍`으로 이루어져 있으며, 종료태그는 `/`로 시작된다. 태그의 이름은 규칙으로 정해져 있고 태그마다 역할이 다르다.
+HTML에서 사용하는 명령어를 `태그(Tag)`라고 하며, `<>`를 사용하여 나타낸다. 태그는 일반적으로 시작과 끝을 표시하는 `2개의 쌍`으로 이루어져 있으며, 종료태그는 `/`로 시작된다. 태그의 이름은 규칙으로 정해져 있고 태그마다 역할이 다르다.
 
 <img alt="샘플이미지" src="img/html_1-3.png" width="70%">
 <!--이미지 주소 : https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics-->
