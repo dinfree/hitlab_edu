@@ -122,7 +122,7 @@ document.getElementById("demo").innerHTML =
 </html>
 
 ```
-결과
+결과<br>
 Hello World!
 
 This example demonstrates the **getElementById** method!
