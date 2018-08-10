@@ -18,8 +18,7 @@
 
 <img alt="샘플이미지" src="img/html_3-1.jpg" width="80%">
 <!--이미지 주소 : https://www.miltonmarketing.com/coding/html/the-image-tag/-->
-<img alt="샘플이미지" src="img/html_3-2.png" width="50%">
-<!--이미지 주소 : http://webberstudy.com/html-css/html-1/basic-knowledge/-->
+
 
 - `img src="이미지 파일이 저장 된 경로">`의 형식으로 사용한다. `src`속성은 필수속성이다.
 - `width`와 `height`는 이미지의 가로, 세로 길이를 픽셀(pixel) 단위로 지정한다. `%`단위 사용하면 브라우저 크기에 따라 이미지 크기가 조절 되도록 지정 할 수 있다.
