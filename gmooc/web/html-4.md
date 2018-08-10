@@ -16,10 +16,37 @@
 ---
 ## 1. 입력 양식이란
 입력 양식은 사용자에게 정보를 입력 받을 때 사용된다. 기본적으로 `<form>`태그가 사용되나, 
-`<form> </form>` 사이에 다양한 form 요소들을 위치시켜줘야 된다. form 태그에서 사용 할 수 있는 속성은 `method`와 `action`이 있다. `method`는 웹 서버와의 동식 방법을 지정한다. `get`과 `post` 두 가지 값이 존재한다. `action`은 입력 받은 값을 저장할 페이지를 지정한다. 
+`<form> </form>` 사이에 다양한 form 요소들을 위치시켜줘야 된다. form 태그에서 사용 할 수 있는 속성은 `method`와 `action`이 있다. `method`는 웹 서버와의 통신 방법을 지정한다. `get`과 `post` 두 가지 값이 존재한다. `action`은 입력 받은 값을 저장할 페이지를 지정한다. 
+<br><br>
 
-<img alt="샘플이미지" src="img/html_4-1.gif" width="60%">
-<!--이미지 주소 : https://www.htmlgoodies.com/tutorials/forms/article.php/3888746/HTML-Forms-From-Basics-to-Style-Layouts.htm-->
+```html
+<form action="#" method="get">
+  <fieldset>
+    <legend>Shipping Address</legend>
+    <p>name: <input type="text" name="Name" /></p>
+    <p>Address: <input type="text" name="Address" /></p>
+    <p>City: <input type="text" name="City" /></p>
+    <p>State: <input type="text" name="State" /></p>
+    <p>zip: <input type="text" name="Zip" /></p>
+  </fieldset>
+</form>
+```
+<details>
+<summary>실행 결과 보기</summary>
+<p></p>
+<div markdown="1">
+<form action="#" method="get">
+  <fieldset>
+    <legend>Shipping Address</legend>
+    <p>name: <input type="text" name="Name" /></p>
+    <p>Address: <input type="text" name="Address" /></p>
+    <p>City: <input type="text" name="City" /></p>
+    <p>State: <input type="text" name="State" /></p>
+    <p>zip: <input type="text" name="Zip" /></p>
+  </fieldset>
+</form>
+</div>
+</details><br><br>
 <img alt="샘플이미지" src="img/html_4-2.png" width="50%">
 <!--이미지 주소 : https://opentechlabs.blogspot.com/2014/10/difference-between-post-get.html -->
 
