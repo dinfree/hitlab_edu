@@ -117,7 +117,7 @@ HyperText Markup Language
 
 
 ## 3. HTML 기본 작성법
-HTML에서 사용하는 명령어를 `태그(Tag)`라고 하며, `<>`를 사용하여 나타낸다. 태그는 일반적으로 시작과 끝을 표시하는 `2개의 쌍`으로 이루어져 있으며, 종료태그는 `/`로 시작된다. 태그의 이름은 규칙으로 정해져 있고 태그마다 역할이 다르다.
+HTML에서는 `태그(Tag)`를 사용하며, `<>`를 사용하여 나타낸다. 태그는 일반적으로 시작과 끝을 표시하는 `2개의 쌍`으로 이루어져 있으며, 종료태그는 `/`로 시작된다. 태그의 이름은 규칙으로 정해져 있고 태그마다 역할이 다르다.
 
 <img alt="샘플이미지" src="img/html_1-3.png" width="70%">
 <!--이미지 주소 : https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics-->
