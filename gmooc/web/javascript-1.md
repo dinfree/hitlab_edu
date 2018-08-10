@@ -11,22 +11,22 @@
 2. JavaScript 기본문법
 ---
 ## 1. JavaScript 소개
-### JavaScript란 & 배우는 이유?
-> JavaScript는 HTML과 웹에서 사용하는 쉽게 배울 수 있는 프로그래밍 언어입니다.
-
-> JavaScript는 웹개발자가 반드시 배워야하는 3가지 언어 중 하나입니다.<br>
-웹페이지에서 JavaScript가 안 쓰인것은 없습니다. 
+### JavaScript란
+- JavaScript는 객체(object) 기반의 스크립트 언어입니다.
+- JavaScript는 웹의 동작을 구현할 수 있습니다.
+- JavaScript는 주로 웹 브라우저에서 사용되나, Node.js와 같은 프레임워크를 사용하면 서버 측 프로그래밍에서도 사용할 수 있습니다.
+- 현재 컴퓨터나 스마트폰 등에 포함된 대부분의 웹 브라우저에는 JavaScript 인터프리터가 내장되어 있습니다.
 
 
 ### JavaScript의 특징
-- 브라우저 해석기에서 실행되므로 별도의 실행 프로그램이 필요 없습니다.<br>
-- 사용자가 배우기 쉽고, 동적인 페이지를 작성할 수 있습니다.<br>
-- 클라이언트와 서버 간에 대화 기능이 없습니다.<br>
-- 빠르고 쉽게 배울 수 있습니다.<br><br><br>
 ![샘플이미지](https://imgur.com/X39ar6b.jpg")
-<br><br>
-- JavaScript는 HTML 내용과 value를 바꿀 수 있습니다.
-- JavaScript는 CSS의 스타일을 바꿀 수 있습니다.
+1. JavaScript는 객체 기반의 스크립트 언어입니다.
+2. JavaScript는 동적이며, 타입을 명시할 필요가 없는 *인터프리터* 언어입니다.
+3. JavaScript는 객체 지향형 프로그래밍과 함수형 프로그래밍을 모두 표현할 수 있습니다.
+4. JacaScript는 HTML의 '내용','속성','스타일'을 변경 할 수 있습니다.
+
+ *인터프리터* 언어란 컴파일 작업을 거치지 않고, 소스 코드를 바로 실행할 수 있는 언어를 의미합니다.
+JavaScript는 웹 브라우저에 포함된 JavaScript 인터프리터가 소스 코드를 직접 해석하여 바로 실행해 줍니다.
 
 ### 동영상 강좌
 - JavaScript 개요(3분 18초)
@@ -49,14 +49,14 @@
     >  https://bit.ly/2uI2GbP 
 
 ### 퀴즈
-#### 1) JavaScript는 클라이언트와 서버간의 대화를 주고받는다 (O/X)
+#### 1) 인터프리터 언어란 무엇인가요?
 <details>
 <summary>해답보기</summary>
 <p></p>
 <div markdown="1">
 
 ```
-정답: X JavaScript는 클라이언트와 서버간의 대화를 주고받지 않습니다.
+정답: 컴파일 작업을 거치지 않고, 소스 코드를 바로 실행할 수 있는 언어입니다 
 ```
 </div>
 </details>
@@ -77,26 +77,31 @@
 
 ## 2. JavaScript 기본 문법
 
-### 어디에다 작성해야하는지..
 - HTML에서는 JavaScript 코드는 반드시 *script* 태그 사이에 작성해야합니다.
-- *script* 태그는 *head* 또는 *body* 태그 둘 다 있을 수 있으며, 외부에서도 참조할 수 있습니다.
+-JavaScript의 실행문은 세미콜론(;)으로 구분됩니다.
 
 ### 변수 선언 
-> 기본적으로 var 이라는 키워드로 변수를 선언할 수 있습니다.<br>
-> 변수이름은 대소문자를 구별합니다.
-> 변수는 한번에 여러개 선언할 수 있습니다.
-> 변수는 지역변수와 전역변수가 있습니다.
+- 기본적으로 **var** 이라는 키워드로 변수를 선언할 수 있습니다.<br>
+- 변수이름은 대소문자를 구별합니다.
+- 변수는 한번에 여러개 선언할 수 있습니다.
+- 변수는 지역변수와 전역변수가 있습니다.
 ```javascript
 var a,A;
 a=10;
 ```
 ### string 변수
-> string 변수는 큰따옴표("") 또는 작은따옴표('')로 표현할 수 있습니다.
+- string 변수는 큰따옴표("") 또는 작은따옴표('')로 표현할 수 있습니다.
 ```javascript
 var a;
 a="Java Script";
 ```
+### 배열 선언
+- 배열(array)은 이름과 인덱스로 참조되는 정렬된 값의 집합으로 정의됩니다.
+- 배열을 구성하는 각각의 값을 배열 요소(element)라고 하며, 배열에서의 위치를 가리키는 숫자를 인덱스(index)라고 합니다.
 
+```javascript
+var korea=['seoul','busan','incheon'];
+```
 ### 출력 방법
 > innerHTML을 사용하여 HTML 요소에 작성하기 .
 ><details>
@@ -163,16 +168,16 @@ b=5;
 c = a * b;
 ```
  사칙연산 외에도 여러 연산자(논리, 비교연산자)가 있습니다.<br><br>
->비교연산자<br>
+비교연산자<br>
 ![샘플이미지](https://imgur.com/uWLTGgu.jpg")<br><br>
 
-> 논리연산자<br>
+논리연산자<br>
 ![샘플이미지](https://imgur.com/uahGXcq.jpg")
 
 
 
 ### 주석달기
-> 주석은 // 와 /* example */ 형식으로 처리할 수 있습니다.
+주석은 // 와 /* example */ 형식으로 처리할 수 있습니다.
 ```javascript
 var a, b, c;    //a,b,c 변수 선언
 a=10;
@@ -181,18 +186,81 @@ c = a * b;
 /* c=50이다 */
 ```
 
+### JavaScript 적용방법
+
+**1. 내부 JavaScript 코드로 적용**<br>
+JavaScript 코드는 *script*태그를 사용하여 HTML 문서 안에 삽입할 수 있습니다.
+```javascript
+<script>
+    document.getElementById("text").innerHTML = "여러분을 환영합니다!";
+</script>
+```
+이렇게 삽입된 JavaScript 코드는 HTML 문서의 *head*태그나 *body*태그, 또는 양쪽 모두에 위치할 수 있습니다.
+```javascript
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>JavaScript Apply</title>
+
+    <script>
+
+        function printDate() {
+
+            document.getElementById("date").innerHTML = Date();
+
+        }
+
+    </script>
+
+</head>
+```
+*head* 태그에 JavaScript 코드 적용
+
+**2. 외부 JavaScript 파일로 적용**
+
+- JavaScript 코드는 HTML 문서의 내부뿐만 아니라 외부 파일로 생성하여 삽입할 수도 있습니다.
+- 외부에 작성된 JavaScript 파일은 .js 확장자를 사용하여 저장합니다.
+- 해당 JavaScript 파일을 적용하고 싶은 모든 웹 페이지에 *script* 태그를 사용해 외부 JavaScript 파일을 포함하면 됩니다.
+
+```javascript
+//example.js 파일
+function printDate() {
+
+    document.getElementById("date").innerHTML = Date();
+
+}
+```
+
+```javascript
+//외부 JavaScript 파일 포함 방법
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>JavaScript Apply</title>
+
+    <script src="/examples/media/example.js"></script>
+
+</head>
+```
+
+- 외부 JavaScript 파일을 사용하면 웹의 내용을 담당하는 HTML 코드로부터 웹의 동작을 구현하는 JavaScript 코드를 분리할 수 있습니다.
+- 이렇게 하면 HTML 코드와 JavaScript 코드를 각각 읽기도 편해지고, 유지 보수도 쉬워집니다.
+- 외부 JavaScript 파일은 웹 브라우저가 미리 읽어 올 수 있어 웹 페이지의 로딩 속도 또한 빨라집니다.
+
 ### 동영상 강좌
 
-- 자바스크립트의 기본적인 문법 
+- JavaScript의 기본적인 문법 
     >https://bit.ly/2JLD2r7 
 17분 24초
-- 자바스크립트의 기본 구문
+- JavaScript의 기본 구문
     >https://bit.ly/2uTsIbt 
 14분 58초
-- 자바스크립트 기초 
+- JavaScript 기초 
     >https://bit.ly/2NETqMr 
 10분 43초
-- 자바스크립트 기초 문법
+- JavaScript 기초 문법
     >https://bit.ly/2A1SHD5 
 34분 13초
 - JavaScript 변수 사용법
@@ -249,7 +317,7 @@ c = a * b;
 <div markdown="1">
 
 ```
-정답: **script**
+정답: script
 ```
 </div>
 </details>
