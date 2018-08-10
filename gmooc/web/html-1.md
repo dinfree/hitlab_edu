@@ -18,7 +18,8 @@
 ## 1. 월드와이드웹이란?
 웹이라고도 불리며, 다양한 형태의 데이터와 정보에 접근할 수 있도록 해주는 `인터넷 서비스`이다. 팀 버너스-리에 의해 개발되어 보편적인 인터넷 서비스로 확대되었다.
 
-<img alt="샘플이미지" src="img/html_1-1.jpg" width="50%">
+<img alt="샘플이미지" src="img/html_1-1.jpg" width="70%">
+<!-- 이미지 주소 : http://techlearninghub.com/difference-bw-internet-web/ -->
 
 - 웹은 인터넷 상의 정보를 `하이퍼텍스트` 방식과 멀티미디어 환경에서 검색 할 수 있게 해주는 정보 검색 시스템이다.
 - 웹 서비스는 많은 사람이 정보를 쉽게 공유하고 접근할 수 있도록 하는 것이 목적이다.
@@ -74,8 +75,8 @@
 ## 2. HTML 소개
 웹 문서를 만들기 위해 사용하는 프로그래밍 언어 중 하나이다. 하이퍼텍스트 작성을 위해 개발되었으며, 대부분의 웹 페이지들은 HTML로 작성된다.
 
-<img alt="샘플이미지" src="img/html_1-2-1.png" width="30%">
-<!-- 이미지 주소 : http://www.cena.co.kr/html5-1-%EC%97%AD%EC%82%AC%EC%99%80-%EB%B0%B0%EA%B2%BD/ -->
+<img alt="샘플이미지" src="img/html_1-2.jpg" width="50%">
+<!-- 이미지 주소 : http://kyd5083.blogspot.com/2013/02/web-html.html -->
 
 - HTML은 `HyperText Markup Language`의 약자로, 문서의 글자 크기나 색깔, 모양, 문서 이동 등에 관여한다.
 - HyperText : 단순 텍스트 이상의, `링크` 등의 개념이 포함 된 텍스트
@@ -182,8 +183,8 @@ HTML에서 사용하는 명령어를 `태그(Tag)`라고 하며, `<>`를 사용�
 ## 4. HTML 기본 구조
 HTML 문서는 `<!DOCTYPE html>`, `<html>`, `<head>`, `<title>`, `<body>`의 기본태그로 이루어져 있다. 
 
-<center><img alt="샘플이미지" src="img/html_1-4.png" width="50%"></center>
-<!-- 사진 주소 : http://opendelta.tistory.com/5-->
+<img alt="샘플이미지" src="img/html_1-4.png" width="80%">
+<!-- 사진 주소 : http://lux.cuenet.kr/93-->
 
 
 - `<!DOCTYPE html>`: HTML5 문서를 선언하는 구문. 웹브라우저에게 문서가 HTML5로 작성됨을 알려준다.
