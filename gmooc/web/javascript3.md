@@ -123,24 +123,11 @@ document.getElementById("demo").innerHTML =
 
 ```
 결과
-<!DOCTYPE html>
-<html>
-<body>
+Hello World!
 
-<p id="intro">Hello World!</p>
+This example demonstrates the **getElementById** method!
 
-<p>This example demonstrates the <b>getElementById</b> method!</p>
-
-<p id="demo"></p>
-
-<script>
-var myElement = document.getElementById("intro");
-document.getElementById("demo").innerHTML = 
-"The text from the intro paragraph is " + myElement.innerHTML;
-</script>
-
-</body>
-</html>
+The text from the intro paragraph is Hello World!
 
 
 ### 동영상 강좌
