@@ -21,7 +21,6 @@
 
 <img alt="샘플이미지" src="img/html_2-1.png" width="40%">
 
-- 원칙적으로 `<h1>` 요소는 한 문서에 한 번만 지정하는 것이 좋다.
 - 계층 구조에 맞게 순서대로 작성되어지는 것이 좋다.
 - 컴퓨터 및 검색엔진이 문서를 파악하기 위해 쓰이므로, 상황에 맞게 `<h>`의 등급을 잘 써주는 것이 중요하다.
 
@@ -58,10 +57,38 @@
 
 
 ## 2. 문단
-`<p>`요소로 문단을 나타낸다. 본문 내에서 연속된 공백이나 줄 바꿈은 하나의 공백으로 처리하기 때문에, 문단 구분 시 `<p>`태그를, 줄 바꿈을 할 때는 `<br>`태그를 이용한다.
+`<p>`태그로 문단을 나타낸다. 본문 내에서 연속된 공백이나 줄 바꿈은 하나의 공백으로 처리하기 때문에, 문단 구분 시 `<p>`태그를, 줄 바꿈을 할 때는 `<br>`태그를 이용한다.
 
-<img alt="샘플이미지" src="img/html_2-2.png" width="70%">
-<img alt="샘플이미지" src="img/html_2-3.png" width="1000%">
+
+```html
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+```
+<details>
+<summary>실행 결과 보기</summary>
+<p></p>
+<div markdown="1">
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+</div>
+
+</details>
+
+
+```html
+<p> To break lines <br> in a text, <br> use the br element.
+```
+<details>
+<summary>실행 결과 보기</summary>
+<p></p>
+<div markdown="1">
+<p> To break lines <br> in a text, <br> use the br element.
+</div>
+
+</details>
+
 
 - `<br>`태그는 닫는 태그를 필요로 하지 않는다. `</br>`로 사용하기도 한다.
 - 문단 구분을 위해 `<br/>` 태그를 연속으로 사용하는 것 보다는 `<p>`태그를 사용하는 것을 권장한다.
@@ -156,24 +183,55 @@ b태그는 단순히 텍스트를 진하게, strong태그는 텍스트를 강조
 ## 4. 목록
 목록을 만들기 위해서 `<li>`태그를 사용한다. 이 태그는 단독으로 쓰이지 않으며, `<ul>`혹은 `<ol>`의 내부에 들어간다. 리스트 나열 뿐 아니라 메뉴 등을 만들 때에도 사용한다. 
 
-<img alt="샘플이미지" src="img/html_2-5.jpg" width="60%">
-<!-- 사진 주소 : https://www.slideshare.net/lehrerfreund/html-listen-->
 
+```html
+<ul>
+  <li>Listenelement 1</li>
+  <li>Listenelement 2</li>
+  <li>Listenelement 3</li>
+</ul>
+```
+<details>
+<summary>실행 결과 보기</summary>
+<p></p>
+<div markdown="1">
+<ul>
+  <li>Listenelement 1</li>
+  <li>Listenelement 2</li>
+  <li>Listenelement 3</li>
+</ul>
+</div>
+
+</details>
+
+```html
+<ol>
+  <li>Listenelement 1</li>
+  <li>Listenelement 2</li>
+  <li>Listenelement 3</li>
+</ol>
+```
+<details>
+<summary>실행 결과 보기</summary>
+<p></p>
+<div markdown="1">
+<ol>
+  <li>Listenelement 1</li>
+  <li>Listenelement 2</li>
+  <li>Listenelement 3</li>
+</ol>
+</div>
+
+</details>
+
+
+
+<br>
 
 - `<ol>` 태그는 번호를 메기는 순서가 있는 목록을 만든다.
 - `<ul>` 태그는 순서없이 모양으로 목록을 만든다.
 
-```html
-<ul>
-  <li>list-1</li>
-  <li>list-2</li>
-</ul>
-```
-**결과**
-<ul>
-  <li>list-1</li>
-  <li>list-2</li>
-</ul>
+
 
 
 ### 동영상 강좌
@@ -210,8 +268,8 @@ b태그는 단순히 텍스트를 진하게, strong태그는 텍스트를 강조
 ## 5. 하이퍼링크
 `<a>`태그를 사용해 하이퍼링크를 걸어준다. 기본적으로 `href`속성을 가지며, 이동할 페이지의 주소를 적어준다. `target` 속성은 페이지를 어떻게 열 것인가를 결정한다. a태그를 이용하여 다른 페이지로 이동하거나 혹은 하나의 페이지 내부에서 이동 할 수 있다. 
 
-<img alt="샘플이미지" src="img/html_2-6.gif" width="70%">
-<!-- 사진 주소 : https://www.computerhope.com/jargon/h/html-a-tag.htm-->
+<img alt="샘플이미지" src="img/html_2-6.gif" >
+<!-- 사진 주소 : http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/text-markup-with-html/-->
 
 
 - URL은 상대경로와 절대경로로 표현 할 수 있다. `절대경로`는 고유한 경로로 `root (/)에서부터 시작되는 위치`이다. 웹브라우저 주소도 이에 속한다. `상대경로`는 `html문서를 기준으로 경로를 인식`하는 방법이다. 
