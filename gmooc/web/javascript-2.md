@@ -1,5 +1,6 @@
 # [STS-10] 웹프로그래밍 :: 짧고 굵게 배우기
 
+
 [STS-10]은 웹프로그래밍의 핵심 개념에서 부터 주요 기술인 html, css, javascript를 비롯해 필수 응용 라이브러리인 bootstrap, jquery까지를 다루는 과정 입니다.
 
  ## JavaScript 함수와 이벤트 처리
@@ -13,6 +14,11 @@
 ---
 ## 1. JavaScript 함수
 
+### 함수란
+- 함수(function)란 하나의 특별한 목적의 작업을 수행하도록 설계된 독립적인 블록을 의미합니다.
+- 이러한 함수는 필요할 때마다 호출하여 해당 작업을 반복해서 수행할 수 있습니다.
+- 함수도 하나의 타입(datatype)입니다. 따라서 함수를 변수에 대입하거나, 함수에 프로퍼티를 지정하는 것도 가능합니다.
+- JavaScript 함수는 다른 함수 내에 중첩되어 정의될 수도 있습니다.
 ### 함수 선언 방법
 
 JavaScript에서 함수는 *function*이라는 키워드를 통해 정의됩니다. 함수명은 변수같이 지어질 수 있으며 파라미터를 가지고 있을수 있습니다.
@@ -30,12 +36,17 @@ function name(x,y){
     return x*y;
 }
 ```
+함수의 리턴값이 없는 경우
+```javascript
+// addNum라는 이름의 함수를 정의함.
 
-### 함수를 쓰는 이유
-![샘플이미지](https://imgur.com/TgWo9lG.jpg")
+function addNum(x, y) {    // x, y는 이 함수의 매개변수임.
 
-코드를 한번 정의하면, 그 코드를 여러번 갖다 쓸 수 있습니다.
+    document.write(x + y);
 
+}
+addNum(2, 3);              // addNum() 함수에 인수로 2와 3을 전달하여 호출함.
+```
 ### 동영상 강좌
 - JavaScript 함수란?
     >https://bit.ly/2zY2xWG 
@@ -90,21 +101,80 @@ var x=add(4,3);
 ---
 
 ## 2. JavaScript 이벤트처리
-
-![샘플이미지](https://imgur.com/YGSKBHH.jpg")
-
-- JavaScript를 이용하면 클릭같은 이벤트가 감지될 때 코드를 실행할 수 있습니다.
+- 이벤트(event)란 웹 브라우저가 알려주는 HTML 요소에 대한 사건의 발생을 의미합니다.
+- 웹 페이지에 사용된 자바스크립트는 이렇게 발생한 이벤트에 반응하여 특정 동작을 수행할 수 있습니다. 따라서 클라이언트 측 JavaScript를 비동기식 이벤트 중심(event-driven)의 프로그래밍 모델이라고 합니다.
 - 사용자의 입력값을 가져올 수 있습니다.
 - HTML 이벤트 속성은 JavaScript 코드를 직접 실행할 수 있고 함수를 호출할 수 있습니다.
 - HTML 요소에 고유한 이벤트 핸들러 함수를 할당할 수 있습니다.
 - 이벤트가 막무가내로 보내지거나 처리되는 것을 막을 수 있습니다.
 
-클릭이벤트 예시(버튼을 누르면 날짜 표시)
+
 ```javascript
-<button onclick="document.getElementById('id').innerHTML = Date()">The time is?</button>
+//ex) 클릭이벤트(버튼을 누르면 날짜 표시)
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to display the date.</p>
+
+<button onclick="displayDate()">The time is?</button>
+
+<script>
+function displayDate() {
+    document.getElementById("demo").innerHTML = Date();
+}
+</script>
+
+<p id="demo"></p>
+
+</body>
+</html> 
 ```
+결과
+![샘플이미지](https://imgur.com/DstJWeR.jpg")
+
 
 ### 캡처링 & 버블링
+
+```html
+<body>
+
+
+<div id="myDiv1">
+  <h2>Bubbling:</h2>
+  <p id="myP1">Click me!</p>
+</div><br>
+
+<div id="myDiv2">
+  <h2>Capturing:</h2>
+  <p id="myP2">Click me!</p>
+</div>
+
+<script>
+document.getElementById("myP1").addEventListener("click", function() {
+    alert("You clicked the white element!");
+}, false);
+
+document.getElementById("myDiv1").addEventListener("click", function() {
+    alert("You clicked the orange element!");
+}, false);
+
+document.getElementById("myP2").addEventListener("click", function() {
+    alert("You clicked the white element!");
+}, true);
+
+document.getElementById("myDiv2").addEventListener("click", function() {
+    alert("You clicked the orange element!");
+}, true);
+</script>
+
+</body>
+</html>
+
+```
+결과
+![샘플이미지](https://imgur.com/Hck6Rda.jpg")<br><br>
+![샘플이미지](https://imgur.com/kCdXQ6m.jpg")<br>
 - 캡처링: 이벤트가 부모로부터 발생하여 자식으로 전파되는 방식.
 - 버블링: 이벤트가 자식으로부터 발생하여 부모로 전파되는 방식.
 ### 동영상 강좌
@@ -145,7 +215,7 @@ var x=add(4,3);
 <p></p>
 <div markdown="1">
 
-```javascript
+```html
 <!DOCTYPE html>
 <html>
 <body>
@@ -160,6 +230,19 @@ var x=add(4,3);
 </html> 
 
 ```
+<!DOCTYPE html>
+<html>
+<body>
+
+<p></p>
+
+<p id="id" style="display:none">Hello World!</p>
+
+<button type="button" onclick="document.getElementById('id').style.display='block'">Click Me!</button>
+
+</body>
+</html> 
+
 </div>
 </details>
 
