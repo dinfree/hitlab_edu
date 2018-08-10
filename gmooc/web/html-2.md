@@ -268,7 +268,7 @@ b태그는 단순히 텍스트를 진하게, strong태그는 텍스트를 강조
 ## 5. 하이퍼링크
 `<a>`태그를 사용해 하이퍼링크를 걸어준다. 기본적으로 `href`속성을 가지며, 이동할 페이지의 주소를 적어준다. `target` 속성은 페이지를 어떻게 열 것인가를 결정한다. a태그를 이용하여 다른 페이지로 이동하거나 혹은 하나의 페이지 내부에서 이동 할 수 있다. 
 
-<img alt="샘플이미지" src="img/html_2-6.gif" >
+<img alt="샘플이미지" src="img/html_2-6.png" >
 <!-- 사진 주소 : http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/text-markup-with-html/-->
 
 
