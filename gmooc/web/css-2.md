@@ -176,7 +176,7 @@ h1 { color: red; }
 #### 1) CSS Color
 ```css
 #text1 { color: red; }
-#text2 { color: #FF000000; }
+#text2 { color: #FF0000; }
 #text3 { color: rgb(255, 0, 0); }
 ```
 #### 2) CSS Background-color
