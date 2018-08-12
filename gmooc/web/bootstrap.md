@@ -20,8 +20,23 @@
 <p></p>
 
 - 부트스트랩은 웹사이트를 쉽게 만들 수 있게 도와주는 HTML, CSS, JavaScript의 프레임워크입니다.
-- 하나의 CSS로 다양한 기기에서 작동합니다.
+- 부트스트랩을 이용하면 반응형 디자인을 쉽게 만들 수 있습니다.
 - 다양한 기능으로 사용자가 쉽게 제작, 유지, 보수 할 수 있도록 도와줍니다.
+- 부트스트랩은 CSS 라이브러리이므로 외부 부트스트랩 라이브러리를 먼저 HTML에 포함시켜야 합니다.
+```
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<scriptsrc="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<scriptsrc="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<scriptsrc="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+```
+
 
 ### 동영상 강좌
 - 부트스트랩 개요
@@ -74,19 +89,26 @@
 <img alt="bts_1-2" src="img/bts_1-2.jpg" width="80%" >
 <p></p>
 
-- 3개의 동일한 열
+#### 그리드시스템 5가지 클래스
+- `.col-` : 초소형 장치 (576px 미만)
+- `.col-sm-` : 소형 장치 (576px 이상)
+- `.col-md-` : 중형 장치 (768px 이상)
+- `.col-lg-` : 대형 장치 (992px 이상)
+- `.col-xl-` : 초대형 장치 (1200px 이상)
+
+##### 예시) 3개의 동일한 열
 ```html
 <div class="row">
-  <div class="col-sm-4">4칸</div>
-  <div class="col-sm-4">4칸</div>
-  <div class="col-sm-4">4칸</div>
+  <div class="col-sm-4">4-Block</div>
+  <div class="col-sm-4">4-Block</div>
+  <div class="col-sm-4">4-Block</div>
 </div>
 ```
-- 2개의 다른 열
+##### 예시) 2개의 다른 열
 ```html
 <div class="row">
-  <div class="col-sm-4">4칸</div>
-  <div class="col-sm-8">8칸</div>
+  <div class="col-sm-4">4-Block</div>
+  <div class="col-sm-8">8-Block</div>
 </div>
 ```
 
@@ -111,8 +133,8 @@
 
 ```html
 <div class="row">
-  <div class="col-sm-8">8칸</div>
-  <div class="col-sm-4">4칸</div>
+  <div class="col-sm-8">8-Block</div>
+  <div class="col-sm-4">4-Block</div>
 </div>
 ```
 </div>
