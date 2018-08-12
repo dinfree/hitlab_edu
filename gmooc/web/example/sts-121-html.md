@@ -301,6 +301,83 @@ New file 버튼을 클릭해 새로운 파일을 생성하고 4-3.html 이라 �
 
 
 
+## 5. 이미지, 테이블
+### 예제 5-1) 이미지 추가
+본 예제에서는 `<img>`태그를 통해 이미지를 삽입합니다. 이미지를 삽입하는 2가지 방식을 알아보고, 이미지의 크기를 조절합니다. 또한 `alt`속성을 적용하여봅니다.
+
+
+#### step-1> 이미지 준비
+웹 사이트에서 원하는 이미지를 찾습니다. 해당 이미지를 예제폴더 안에 저장하고, 이미지를 좌클릭하여 이미지의 주소를 복사합니다.
+
+<img alt="5-1결과" src="img/5-1.gif" width="90%">
+
+
+#### step-2> html 소스코드 작성 (5-1.html)
+New file 버튼을 클릭해 새로운 파일을 생성해 5-1.html 이라 이름을 입력하고 다음과 같이 html 코드를 작성합니다. 첫번째 `img`태그의 `src`속성에는 복사한 이미지의 주소를, 두번째 `img`태그의 `src`속성에는 저장한 이미지의 경로를 입력합니다.
+
+
+```html
+<!doctype html>
+<html> 
+    <head>
+        <title>5-1.html</title>
+    </head>
+    <body>
+        <img src="https://www.google.co.kr/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
+        <img src="sample.png">
+    </body>
+</html>
+```
+#### step-3> 실행 및 결과 확인
+파일을 선택후 오른쪽 마우스를 눌러 open in browser 메뉴를 선택해 브라우저에서 실행결과를 확인 합니다.
+
+<img alt="3-1결과" src="img/5-2.png" width="70%">
+
+#### step-4> 이미지 크기 조절
+위에서 작성한 4-2.html의 코드를 아래처럼 수정합니다.
+
+```html
+<!doctype html>
+<html> 
+    <head>
+        <title>5-1.html</title>
+    </head>
+    <body>
+        <img src="https://www.google.co.kr/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" width="300px" height="100px">
+        <img src="sample.png" width="30px" height="10px">
+    </body>
+</html>
+```
+
+#### step-5> 실행 및 결과 확인
+파일을 선택후 오른쪽 마우스를 눌러 open in browser 메뉴를 선택해 브라우저에서 실행결과를 확인 합니다.
+
+<img alt="3-1결과" src="img/5-3.png" width="70%">
+
+#### step-6> alt 속성 적용
+위에서 작성한 4-2.html의 코드를 아래처럼 수정합니다. `alt`속성의 적용 여부를 확인하기 위해 이미지의 경로 혹은 이미지의 주소를 틀리게 설정합니다.
+
+```html
+<!doctype html>
+<html> 
+    <head>
+        <title>5-1.html</title>
+    </head>
+    <body>
+        <img src="https://www.google.co.kr/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" width="300px" height="100px">
+        <img src="x.png" width="30px" height="10px" alt="google img">
+    </body>
+</html>
+```
+
+#### step-7> 실행 및 결과 확인
+파일을 선택후 오른쪽 마우스를 눌러 open in browser 메뉴를 선택해 브라우저에서 실행결과를 확인 합니다.
+
+<img alt="3-1결과" src="img/5-4.png" width="70%">
+
+
+
+
 [din-badge]:https://img.shields.io/badge/dinfree-edu-orange.svg
 [din-url]:https://github.com/dinfree
 [css-badge]:https://img.shields.io/badge/frontend-css-ff69b4.svg
