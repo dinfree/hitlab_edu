@@ -84,6 +84,14 @@ CSS에는 길이 표현을 위한 여러 단위가 있습니다. 많은 CSS 속�
 - Padding 박스 - Element 박스를 둘러싼 눈에 보이지 않는 영역.
 - Border 박스 - Element와 Padding 박스를 둘러싼 경계선입니다.
 - Margin 박스 - Border 박스 외부를 둘러싼 눈에 보이지 않는 영역입니다.
+```css
+div {
+  width: 320px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+}
+```
 
 
 ### 동영상 강좌
