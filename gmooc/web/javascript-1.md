@@ -158,7 +158,7 @@ c = a * b;
 | Operator | Description |
 |----------|-------------|
 | &&       | logical and |
-| '||'       | logical or  |
+| "||"       | logical or  |
 | !        | logical not |
 
 
