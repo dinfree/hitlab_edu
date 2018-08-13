@@ -158,7 +158,7 @@ c = a * b;
 | **Operator** | Description |
 |----------|-------------|
 | **&&**       | logical and |
-| \parallel       | logical or  |
+| &#124;	&#124;	       | logical or  |
 | **!**        | logical not |
 
 
