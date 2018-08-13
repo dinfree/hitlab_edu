@@ -137,7 +137,9 @@ b=5;
 c = a * b;
 ```
  사칙연산 외에도 여러 연산자(논리, 비교연산자)가 있습니다.<br><br>
-비교연산자<br>
+비교연산자
+
+
 | Operator | Description                       |
 |----------|-----------------------------------|
 | ==       | equal to                          |
@@ -150,7 +152,9 @@ c = a * b;
 | <=       | less than or equal to             |
 | ?        | ternary operator                  |
 
-논리연산자<br>
+논리연산자
+
+
 | Operator | Description |
 |----------|-------------|
 | &&       | logical and |
