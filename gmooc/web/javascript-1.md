@@ -61,7 +61,7 @@ JavaScript는 웹 브라우저에 포함된 JavaScript 인터프리터가 소스
 </div>
 </details>
 
----
+
 #### 2) JavaScript는 HTML으로 작성한 내용을 숨기거나 바꿀 수 있다.(O/X)
 <details>
 <summary>해답보기</summary>
@@ -103,62 +103,31 @@ a="Java Script";
 var korea=['seoul','busan','incheon'];
 ```
 ### 출력 방법
-> innerHTML을 사용하여 HTML 요소에 작성하기 .
-><details>
-><summary>예시 보기</summary>
-><p></p>
-><div markdown="1">
->
->```JavaScript
-><script>
->document.getElementById("id").innerHTML = 5 + 6;
-></script>
->```
-></div>
-></details>
+ innerHTML을 사용하여 HTML 요소에 작성하기 .>
+```JavaScript
+<script>
+document.getElementById("id").innerHTML = 5 + 6;
+</script>
+```
 
-
-> document.write ()를 사용하여 HTML 출력에 쓰기 .
-><details>
-><summary>예시 보기</summary>
-><p></p>
-><div markdown="1">
->
->```JavaScript
-><script>
->document.write(5 + 6);
-></script>
->```
-></div>
-></details>
-
-> window.alert ()를 사용하여 알림창에 쓰기 .
-><details>
-><summary>예시 보기</summary>
-><p></p>
-><div markdown="1">
->
->```JavaScript
-><script>
->window.alert(5 + 6);
-></script>
->```
-></div>
-></details>
-
-> console.log ()를 사용하여 브라우저 콘솔에 기록하기 . 
-><details>
-><summary>예시 보기</summary>
-><p></p>
-><div markdown="1">
->
->```JavaScript
-><script>
->console.log(5 + 6);
-></script>
->```
-></div>
-></details>
+document.write ()를 사용하여 HTML 출력에 쓰기 .
+```JavaScript
+<script>
+document.write(5 + 6);
+</script>
+```
+ window.alert ()를 사용하여 알림창에 쓰기 .
+```JavaScript
+<script>
+window.alert(5 + 6);
+</script>
+```
+console.log ()를 사용하여 브라우저 콘솔에 기록하기 . 
+```JavaScript
+<script>
+console.log(5 + 6);
+</script>
+```
 ### 연산자
 > 변수 값은 사칙연산으로 계산될 수 있습니다.
 ```javascript
@@ -169,11 +138,24 @@ c = a * b;
 ```
  사칙연산 외에도 여러 연산자(논리, 비교연산자)가 있습니다.<br><br>
 비교연산자<br>
-![샘플이미지](https://imgur.com/uWLTGgu.jpg")<br><br>
+| Operator | Description                       |
+|----------|-----------------------------------|
+| ==       | equal to                          |
+| ===      | equal value and equal type        |
+| !=       | not equal                         |
+| !==      | not equal value or not equal type |
+| >        | greater than                      |
+| <        | less than                         |
+| >=       | greater than or equal to          |
+| <=       | less than or equal to             |
+| ?        | ternary operator                  |
 
 논리연산자<br>
-![샘플이미지](https://imgur.com/uahGXcq.jpg")
-
+| Operator | Description |
+|----------|-------------|
+| &&       | logical and |
+| ||       | logical or  |
+| !        | logical not |
 
 
 ### 주석달기
