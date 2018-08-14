@@ -27,15 +27,15 @@
 - 인터넷은 `컴퓨터 네트워크 망`을 의미하고, 웹은 `인터넷 서비스`이다.
 
 ### 동영상 강좌
-- What is the world wide web?
+- What is the world wide web? (3:54)
   > http://bit.ly/2zXoOnv
-- 웹 서비스?
+- 웹 서비스? (2:39)
   > http://bit.ly/2mBncGF
-- 웹의 개요
+- 웹의 개요(4:46)
   > http://bit.ly/2NAmS6t (~4:46)
-- 인터넷과 웹의 역사
+- 인터넷과 웹의 역사 (8:07)
   > http://bit.ly/2Lg2CKH
-- 웹의 의미와 역사
+- 웹의 의미와 역사 (10:37)
   > http://bit.ly/2NCDvP5
 
 ### 참고 자료
@@ -84,13 +84,13 @@
 - HTML로 작성된 문서를 웹 브라우저가 해석하여 이용자에게 보여주게 된다.
 
 ### 동영상 강좌
-- 웹 프로그래밍이란?
+- 웹 프로그래밍이란? (10:34)
   > http://bit.ly/2O5bpwC (5:06~15:40)
 - HTML에서 hyperText Markup 의미
-  > http://bit.ly/2NwOSYy
-- 언어로써의 HTML 의미 알아보기
+  > http://bit.ly/2NwOSYy (7:14)
+- 언어로써의 HTML 의미 알아보기(3:36)
   > http://bit.ly/2JPbFwI (~3:36)
-- HTML의 역사
+- HTML의 역사 (10:09)
   > http://bit.ly/2Nzjzwc
 
 
@@ -128,13 +128,13 @@ HTML에서는 `태그(Tag)`를 사용하며, `<>`를 사용하여 나타낸다. 
 - 주석은 `<!--내용-->`의 형식으로 사용한다.
 
 ### 동영상 강좌
-- HTML 기본 문법
+- HTML 기본 문법 (12:07)
   > http://bit.ly/2uViKGB
-- HTML 태그의 속성과 div태그
+- HTML 태그의 속성과 div태그 (4:53)
   > http://bit.ly/2JLPjvN
-- 닫는 태그의 사용규칙
+- 닫는 태그의 사용규칙 (2:49)
   > http://bit.ly/2O4LHbP
-- HTML 주석 달기
+- HTML 주석 달기 (1:41)
   > http://bit.ly/2Led1GJ
 
 
@@ -193,17 +193,17 @@ HTML 문서는 `<!DOCTYPE html>`, `<html>`, `<head>`, `<title>`, `<body>`의 기
 - `<body> ~ </body>`: 문서의 본문에 해당하는 부분으로, 실제 화면에 나타나는 내용을 작성한다.
 
 ### 동영상 강좌
-- HTML 기본 구조
+- HTML 기본 구조 (13:24)
   > http://bit.ly/2LiK5xp
-- HTML head
+- HTML head (2:21)
   > http://bit.ly/2A2hozw
-- Title 태그
+- Title 태그 (0:53)
   > http://bit.ly/2uWZicu
-- meta 태그
+- meta 태그 (8:45)
   > http://bit.ly/2Lk5V3q
-- 기본구조 및 시맨틱 태그
+- 기본구조 및 시맨틱 태그 (12:51)
   > http://bit.ly/2LGlgYm
-- 시맨틱 태그
+- 시맨틱 태그 (8:53)
   > http://bit.ly/2Ldy8Jj
 
 
