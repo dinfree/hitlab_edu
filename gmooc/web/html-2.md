@@ -141,7 +141,20 @@
 ## 3. 형식
 텍스트에 특별한 의미를 부여하는 특별한 요소들이 있다. 텍스트를 굵게 하는 `<b>`와 `<strong>`, 텍스트를 기울이는 `<i>`와 `<em>`, 하이라이트인 `<mark>`, 가운데를 선으로 표시하는 `<del>` 등이 있다. 
 
-<img alt="샘플이미지" src="img/html_2-4.png" width="60%">
+| element | meaning |
+|:----:|:-----:|
+|`<i>...</i>` | Italics |
+|`<b>...</b>` | Bold |
+|`<tt>...</tt>` | Teletype (monospaced) |
+|`<u>...</u>` | Underline |
+|`<s>...</s>` | Strikethrough |
+|`<strike>...</strike>` | Strikethrough |
+|`<sub>...</sub>` | Subscript |
+|`<sup>...</sup>` | Superscript |
+|`<big>...</big>` | Bigger font (one size bigger) |
+|`<small>...</small>` | Smaller font (one size smaller) |
+
+
 <!--이미지 주소 : http://96.0.245.61/mca_course/kurukshetra_university/semester4/webengineering/text_level_elements.php-->
 
 - `<b>`는 텍스트가 중요하지 않지만 단순 진하게 표시할 때, `<strong>`은 중요한 텍스트를 표시할 때 사용한다.
