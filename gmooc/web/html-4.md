@@ -54,9 +54,9 @@
 - `get`은 URL뒤에 파라미터를 붙여서 데이터를 전달한다. `post`방식은 URL 뒤에 파라미터를 붙여서 전송하지 않고, HTTP Request 헤더에 파라미터를 붙여서 전송한다. get방식에 비해 보안상 우위에 있다. 
 
 ### 동영상 강좌
-- form 기본
+- form 기본 (12:19)
   > http://bit.ly/2uHYadt
-- GET과 POST의차이
+- GET과 POST의차이 (10:03)
   > http://bit.ly/2A9oa6m
 
 
@@ -123,17 +123,17 @@ post 방식은 HTTP Request 헤더에 파라미터를 붙여서 전송하여 보
 
 
 ### 동영상 강좌
-- 폼 관련 태그들
+- 폼 관련 태그들 (12:11)
   > http://bit.ly/2mAvZIN
-- input type
+- input type (10:11)
   > http://bit.ly/2JNfdPJ
-- input 태그 color 속성 
+- input 태그 color 속성 (1:03)
   > http://bit.ly/2uXDg9s
-- input 태그 date, month, week 속성
+- input 태그 date, month, week 속성 (2:24)
   > http://bit.ly/2JNfYs3
-- fildset
+- fildset (6:52)
   > http://bit.ly/2mAVlWU
-- 회원가입 폼 태그 예제
+- 회원가입 폼 태그 예제 (23:00)
   > http://bit.ly/2uWddPS (~23:00)
 
 
