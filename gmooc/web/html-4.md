@@ -99,7 +99,21 @@ post 방식은 HTTP Request 헤더에 파라미터를 붙여서 전송하여 보
 ## 2. 입력 양식 태그
 실제로 사용자가 양식을 입력하기 위한 태그는 `<input>`을 사용한다. `type` 속성을 통해 입력 양식의 종류를 나타내고, `name`을 통해 데이터 이름을, `value`을 통해 기본 값을 지정한다. 
 
-<img alt="샘플이미지" src="img/html_4-3.jpg" width="80%">
+| Tag | Description | 
+|:----:|:-----:| 
+|`<form>` | Defines a form for user input |
+|`<input>` | Defines am input field |
+|`<textarea>` | Defines a text-area (a multi-line text input control) |
+|`<label>` | Defines a label to a control |
+|`<fieldset>` | Defines a fieldset |
+|`<legend>` | Defines a caption for a fieldset |
+|`<select>` | Defines a selectable list (a drop-down box) |
+|`<optgroup>` | Defines an option group |
+|`<option>` | Defines an option in the drop-down box |
+|`<button>` | Defines a push button |
+|`<isindex>` | Deprecated. use `<input>` instead |   
+
+
 <!--이미지 주소 : https://poiemaweb.com/html5-tag-list-table-->
 
 
