@@ -34,7 +34,7 @@
 - http://www.apple.com
 ```
 
-<img alt="1-2결과" src="img/1-2.gif" width="60%">
+<img alt="1-2결과" src="img/1-2.gif" width="80%">
 
 
 #### step-3> 소스 보기
