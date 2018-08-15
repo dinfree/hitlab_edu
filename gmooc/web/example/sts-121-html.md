@@ -81,12 +81,13 @@
 
 ## 3. 제목, 문단, 형식
 ### 예제 3-1) 제목과 문단으로 웹 문서 작성
-본 예제에서는 `<h>`태그들의 차이를 확인하고, HTML에서의 문단을 이해하며 `<p>`태그와 `<br>`태그를 사용해 웹 문서를 작성해봅니다. 
+본 예제에서는 `<h1>`부터 `<h6>`까지 있는 다양한 h태그들과 문단을 나타내는 `<p>`태그 및 개행을 하는 `<br>`태그를 이용하여 웹 문서를 작성해봅니다.
+
 
 
 
 #### step-1> html 소스코드 작성 (3-1.html)
-New file 버튼을 클릭해 새로운 파일을 생성해 3-1.html 이라 이름을 입력하고 다음과 같이 html 코드를 작성합니다.
+New file 버튼을 클릭해 새로운 파일을 생성해 3-1.html 이라 이름을 입력하고 다음과 같이 html 코드를 작성합니다. 본문 내의 연속된 공백 및 줄바꿈을 HTML에서 어떻게 처리하는지 확인하기 위해 아래와 같이 코드를 작성합니다.
 
 
 ```html
@@ -145,7 +146,7 @@ New file 버튼을 클릭해 새로운 파일을 생성해 3-2.html 이라 이�
 #### step-2> 실행 및 결과 확인
 파일을 선택후 오른쪽 마우스를 눌러 open in browser 메뉴를 선택해 브라우저에서 실행결과를 확인 합니다.
 
-<img alt="3-2결과" src="img/3-2.png" width="50%">
+<img alt="3-2결과" src="img/3-2.png" width="80%">
 
 ## 4. 목록, 하이퍼링크
 ### 예제 4-1) 목록 만들기
@@ -154,7 +155,7 @@ New file 버튼을 클릭해 새로운 파일을 생성해 3-2.html 이라 이�
 
 
 #### step-1> html 소스코드 작성 (4-1.html)
-New file 버튼을 클릭해 새로운 파일을 생성하고 4-1.html 이라 이름을 입력하고 다음과 같이 html 코드를 작성합니다.
+예제 4-1은 여러가지 음료를 리스트를 통해 보여주는 코드입니다. 4-1.html 파일을 생성하고 순서 있는 목록과 순서 없는 목록, 두 가지로 표현해보기 위해 다음과 같이 코드를 작성합니다.
 
 ```html
 <!doctype html>
@@ -180,41 +181,26 @@ New file 버튼을 클릭해 새로운 파일을 생성하고 4-1.html 이라 �
 </html>
 ```
 #### step-2> 실행 및 결과 확인
-파일을 선택후 오른쪽 마우스를 눌러 open in browser 메뉴를 선택해 브라우저에서 실행결과를 확인 합니다.
+브라우저에서 실행결과를 확인 합니다. 아래와 같이 `<ul>`은 순서가 없는 리스트가 만들어지고, `<ol>`은 순서가 있는 리스트가 만들어지는 것을 확인할 수 있습니다.
 
-<img alt="4-1-1결과" src="img/4-1.png" width="50%">
+<img alt="4-1-1결과" src="img/4-1.png" width="80%">
 
 #### step-3> type 속성 추가
-위에서 작성한 4-1.html의 코드를 아래처럼 수정합니다.
+순서 있는 목록의 순서 표기법을 변경해보기 위해, 위에서 작성한 4-1.html의 코드를 아래처럼 수정합니다.
 
 ```html
-<!doctype html>
-<html> 
-    <head>
-        <title>4-1.html</title>
-    </head>
-    <body>
-        <h2>Unordered List</h2>
-        <ul>
-        <li>Coffee</li>
-        <li>Tea</li>
-        <li>Milk</li>
-        </ul>  
-
-        <h2>Ordered List</h2>
-        <ol type="A">
-        <li>Coffee</li>
-        <li>Tea</li>
-        <li>Milk</li>
-        </ol> 
-    </body>
-</html>
+<h2>Ordered List</h2>
+<ol type="A">
+<li>Coffee</li>
+<li>Tea</li>
+<li>Milk</li>
+</ol> 
 ```
 
 #### step-4> 실행 및 결과 확인
-파일을 선택후 오른쪽 마우스를 눌러 open in browser 메뉴를 선택해 브라우저에서 실행결과를 확인 합니다.
+브라우저에서 실행결과를 확인 합니다. 아래 그림처럼 1,2,3이였던 순서가 A,B,C로 바뀐 것을 확인 할 수 있습니다. 
 
-<img alt="4-1-3결과" src="img/4-2.png" width="50%">
+<img alt="4-1-3결과" src="img/4-2.png" width="80%">
 
 
 ### 예제 4-2) 하이퍼링크 사용하기
@@ -223,7 +209,7 @@ New file 버튼을 클릭해 새로운 파일을 생성하고 4-1.html 이라 �
 
 
 #### step-1> html 소스코드 작성 (4-2.html)
-New file 버튼을 클릭해 새로운 파일을 생성하고 4-2.html 이라 이름을 입력하고 다음과 같이 html 코드를 작성합니다.
+예제 4-2는 가천대학교로 연결하는 하이퍼링크를 만들어보는 코드입니다. 4-2.html 파일을 생성하고 하이퍼링크를 만들기 위해 다음과 같이 html 코드를 작성합니다.
 
 ```html
 <!doctype html>
@@ -237,29 +223,21 @@ New file 버튼을 클릭해 새로운 파일을 생성하고 4-2.html 이라 �
 </html>
 ```
 #### step-2> 실행 및 결과 확인
-파일을 선택후 오른쪽 마우스를 눌러 open in browser 메뉴를 선택해 브라우저에서 실행결과를 확인 합니다.
+브라우저에서 실행결과를 확인 합니다. 
 
-<img alt="4-2결과" src="img/4-2.gif" width="90%">
+<img alt="4-2결과" src="img/4-2.gif" width="80%">
 
 #### step-3> target 속성 추가
-위에서 작성한 4-2.html의 코드를 아래처럼 수정합니다.
+target 속성을 추가하여 링크가 열리는 위치를 변경하고자 합니다. 새로운 탭에서 열리게 하기위해, 위에서 작성한 4-2.html의 코드를 아래처럼 수정합니다.
 
 ```html
-<!doctype html>
-<html> 
-    <head>
-        <title>4-2.html</title>
-    </head>
-    <body>
-        <a href="http://www.gachon.ac.kr" target="_self">Gachon</a>
-    </body>
-</html>
+<a href="http://www.gachon.ac.kr" target="_blank">Gachon</a>
 ```
 
 #### step-4> 실행 및 결과 확인
-파일을 선택후 오른쪽 마우스를 눌러 open in browser 메뉴를 선택해 브라우저에서 실행결과를 확인 합니다. `target`속성은 연결된 문서를 열 위치를 지정합니다. `_self`로 지정을 해둘 경우, 현재의 창에서 열게 됩니다.
+파일을 선택후 오른쪽 마우스를 눌러 open in browser 메뉴를 선택해 브라우저에서 실행결과를 확인 합니다. `target`속성은 연결된 문서를 열 위치를 지정합니다. `_blank`로 지정을 해둘 경우, 새로운 탭에서 열리게 됩니다..
 
-<img alt="4-3결과" src="img/4-3.gif" width="90%">
+<img alt="4-3결과" src="img/4-3.gif" width="80%">
 
 ### 예제 4-3) 책갈피
 본 예제에서는 `<a>`태그를 통해 본문 내에서 특정한 위치로 이동하는 책갈피 기능을 사용해봅니다.
@@ -267,7 +245,7 @@ New file 버튼을 클릭해 새로운 파일을 생성하고 4-2.html 이라 �
 
 
 #### step-1> html 소스코드 작성 (4-3.html)
-New file 버튼을 클릭해 새로운 파일을 생성하고 4-3.html 이라 이름을 입력하고 다음과 같이 html 코드를 작성합니다.
+예제 4-3은 커피숍 메뉴판에서 원하는 항목으로 이동시켜주는 책갈피 기능을 만들어보는 코드입니다. 4-3.html 파일을 생성하고 `<ul>`을 통해 메뉴판을 만들고 `<a>`태그를 이용하여 책갈피 기능을 만들기 위해 다음과 같이 html 코드를 작성합니다.
 
 ```html
 <!doctype html>
@@ -276,44 +254,56 @@ New file 버튼을 클릭해 새로운 파일을 생성하고 4-3.html 이라 �
         <title>4-3.html</title>
     </head>
     <body>
-        <a href="#menu1">go to menu1</a><br>
-        <a href="#menu2">go to menu2</a><br>
-        <a href="#menu3">go to menu3</a><br>
+        <h1>Menu</h1>
+        <a href="#index1">Coffee</a><br>
+        <a href="#index2">Cake</a><br>
+        <a href="#index3">Juice</a><br>
 
-        <br><br><br><br><br><br><br><br><br><br><br>
-        <h2 id="menu1">Menu1</h2>
-        <br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br>
-        <h2 id="menu2">Menu2</h2>
-        <br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br>
-        <h2 id="menu3">Menu3</h2>
-        <br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br>
+        
+        <h2 id="index1">Menu01::Coffee</h2>
+        <ui>
+            <li>Americano</li>
+            <li>Cappuccino</li>
+            <li>Cafe latte</li>
+        </ui>
+        
+        <h2 id="index2">Menu02::Cake</h2>
+        <ui>
+            <li>Carrot cake</li>
+            <li>black tea cake</li>
+            <li>Strawberry shortcake</li>
+        </ui>
+        
+        <h2 id="index3">Menu03::Juice</h2>
+        <ui>
+            <li>orange</li>
+            <li>grape</li>
+            <li>watermelon</li>
+        </ui>
 
     </body>
 </html>
 ```
 #### step-2> 실행 및 결과 확인
-파일을 선택후 오른쪽 마우스를 눌러 open in browser 메뉴를 선택해 브라우저에서 실행결과를 확인 합니다.
+브라우저에서 실행결과를 확인 합니다. 화면이 클 경우, 특정 위치로 이동하는 것이 보이지 않을 수 있습니다. 창을 작게 줄여서 확인하도록 합니다.
 
-<img alt="4-2결과" src="img/4-4.gif" width="90%">
+<img alt="4-2결과" src="img/4-4.gif" width="80%">
 
 
 
 ## 5. 이미지, 테이블
-### 예제 5-1) 이미지 추가
-본 예제에서는 `<img>`태그를 통해 이미지를 삽입합니다. 이미지를 삽입하는 2가지 방식을 알아보고, 이미지의 크기를 조절합니다. 또한 `alt`속성을 적용하여봅니다.
+### 예제 5-1) 이미지 추가 및 속성
+본 예제에서는 `<img>`태그를 통해 이미지를 삽입합니다. 인터넷에 있는 이미지를 이미지 주소를 통해 본문에 추가해보고 크기를 조정해봅니다. 또한 alt 속성을 직접 사용해보고 어떻게 나타나는지 확인합니다.
 
 
 #### step-1> 이미지 준비
-웹 사이트에서 원하는 이미지를 찾습니다. 해당 이미지를 예제폴더 안에 저장하고, 이미지를 좌클릭하여 이미지의 주소를 복사합니다.
+웹 사이트에서 원하는 이미지를 찾습니다. 원하는 이미지를 좌클릭하고 이미지 주소 복사를 클릭해 이미지의 주소를 복사합니다.
 
-<img alt="5-1결과" src="img/5-1.gif" width="90%">
+<img alt="5-1결과" src="img/5-1.gif" width="80%">
 
 
 #### step-2> html 소스코드 작성 (5-1.html)
-New file 버튼을 클릭해 새로운 파일을 생성해 5-1.html 이라 이름을 입력하고 다음과 같이 html 코드를 작성합니다. 첫번째 `img`태그의 `src`속성에는 복사한 이미지의 주소를, 두번째 `img`태그의 `src`속성에는 저장한 이미지의 경로를 입력합니다.
+5-1.html 파일을 생성하고 이미지를 본문에 추가하기 위해 다음과 같이 코드를 작성합니다. `img`태그의 `src`속성에는 복사해두었던 이미지의 주소를 넣어줍니다.
 
 
 ```html
@@ -323,59 +313,69 @@ New file 버튼을 클릭해 새로운 파일을 생성해 5-1.html 이라 이�
         <title>5-1.html</title>
     </head>
     <body>
-        <img src="https://www.google.co.kr/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
-        <img src="sample.png">
+        <img src="https://t1.daumcdn.net/cfile/tistory/17441F41509D287F03">
     </body>
 </html>
 ```
 #### step-3> 실행 및 결과 확인
-파일을 선택후 오른쪽 마우스를 눌러 open in browser 메뉴를 선택해 브라우저에서 실행결과를 확인 합니다.
+브라우저에서 실행결과를 확인 합니다.
 
-<img alt="3-1결과" src="img/5-2.png" width="70%">
+<img alt="3-1결과" src="img/5-2.png" width="80%">
 
 #### step-4> 이미지 크기 조절
-위에서 작성한 4-2.html의 코드를 아래처럼 수정합니다.
+이미지의 크기를 임의적으로 조절해봅니다. 높이와 너비의 조절을 위해 위에서 작성한 4-2.html의 코드를 아래처럼 수정합니다.
 
 ```html
-<!doctype html>
-<html> 
-    <head>
-        <title>5-1.html</title>
-    </head>
-    <body>
-        <img src="https://www.google.co.kr/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" width="300px" height="100px">
-        <img src="sample.png" width="30px" height="10px">
-    </body>
-</html>
+<img src="https://t1.daumcdn.net/cfile/tistory/17441F41509D287F03" width="100px" height="100px">
 ```
 
 #### step-5> 실행 및 결과 확인
-파일을 선택후 오른쪽 마우스를 눌러 open in browser 메뉴를 선택해 브라우저에서 실행결과를 확인 합니다.
+브라우저에서 실행결과를 확인 합니다. 아래와 같이 이미지의 크기가 줄어든 것을 확인 할 수 있습니다.
 
-<img alt="3-1결과" src="img/5-3.png" width="70%">
+<img alt="3-1결과" src="img/5-3.png" width="80%">
 
 #### step-6> alt 속성 적용
-위에서 작성한 4-2.html의 코드를 아래처럼 수정합니다. `alt`속성의 적용 여부를 확인하기 위해 이미지의 경로 혹은 이미지의 주소를 틀리게 설정합니다.
+위에서 작성한 4-2.html의 코드를 아래처럼 수정합니다. `alt`속성의 적용 여부를 확인하기 위해 이미지의 주소를 일부로 틀리게 설정해봅시다.
+
+```html
+<img src="https://XXX" alt="가천대 로고">
+```
+
+#### step-7> 실행 및 결과 확인
+브라우저에서 실행결과를 확인 합니다. 이미지가 오류 등으로 인해 보여지지 않을 경우, `alt`속성의 값이 이미지 대신 표시됩니다.
+
+<img alt="3-1결과" src="img/5-4.png" width="80%">
+
+### 예제 5-2) 로컬 이미지 추가
+본 예제에서는 컴퓨터에 저장되어있는 로컬이미지를 본문에 추가해봅니다.
+
+#### step-1> img 폴더 생성하기
+```
+예제 폴더 안에 이름이 img 인 폴더를 하나 생성합니다.
+```
+#### step-2> img 폴더안에 이미지 저장하기
+```
+원하는 이미지를 img 폴더 안에 저장합니다.
+```
+#### step-3> html 소스코드 작성 (5-2.html)
+5-2.html 파일을 생성하고 이미지를 본문에 추가하기 위해 다음과 같이 코드를 작성합니다. `img`태그의 `src`속성에는 저장한 이미지의 상대 경로를 입력합니다. 아래 코드의 경로는 현재 작업중인 5-2.html 파일을 기준으로 img폴더 안에 있는 sample.png 파일을 의미합니다.
+
 
 ```html
 <!doctype html>
 <html> 
     <head>
-        <title>5-1.html</title>
+        <title>5-2.html</title>
     </head>
     <body>
-        <img src="https://www.google.co.kr/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" width="300px" height="100px">
-        <img src="x.png" width="30px" height="10px" alt="google img">
+        <img src="img/sample.png">
     </body>
 </html>
 ```
+#### step-4> 실행 및 결과 확인
+브라우저에서 실행결과를 확인 합니다.
 
-#### step-7> 실행 및 결과 확인
-파일을 선택후 오른쪽 마우스를 눌러 open in browser 메뉴를 선택해 브라우저에서 실행결과를 확인 합니다.
-
-<img alt="3-1결과" src="img/5-4.png" width="70%">
-
-
+<img alt="3-1결과" src="img/5-5.png" width="80%">
 
 
 [din-badge]:https://img.shields.io/badge/dinfree-edu-orange.svg
