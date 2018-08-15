@@ -261,25 +261,25 @@ target 속성을 추가하여 링크가 열리는 위치를 변경하고자 합�
 
         
         <h2 id="index1">Menu01::Coffee</h2>
-        <ui>
+        <ul>
             <li>Americano</li>
             <li>Cappuccino</li>
             <li>Cafe latte</li>
-        </ui>
+        </ul>
         
         <h2 id="index2">Menu02::Cake</h2>
-        <ui>
+        <ul>
             <li>Carrot cake</li>
             <li>black tea cake</li>
             <li>Strawberry shortcake</li>
-        </ui>
+        </ul>
         
         <h2 id="index3">Menu03::Juice</h2>
-        <ui>
+        <ul>
             <li>orange</li>
             <li>grape</li>
             <li>watermelon</li>
-        </ui>
+        </ul>
 
     </body>
 </html>
