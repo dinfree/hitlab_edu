@@ -134,49 +134,38 @@ function displayDate() {
 ![샘플이미지](https://imgur.com/DstJWeR.jpg")
 
 
-### 캡처링 & 버블링
+### 캡처링 & 버블링 방식
+
+- 버블링: 이벤트가 자식으로부터 발생하여 부모로 전파되는 방식입니다. 이벤트가 발생하면 트리위치강 가장 깊은곳부터 거슬러 올라가게 되고 이모습이 마치 거품이 올라가는것 같아서 이벤트 버블링이라고 불리웁니다.
 
 ```html
-<body>
-
-
-<div id="myDiv1">
-  <h2>Bubbling:</h2>
-  <p id="myP1">Click me!</p>
-</div><br>
-
-<div id="myDiv2">
-  <h2>Capturing:</h2>
-  <p id="myP2">Click me!</p>
-</div>
-
-<script>
-document.getElementById("myP1").addEventListener("click", function() {
-    alert("You clicked the white element!");
-}, false);
-
-document.getElementById("myDiv1").addEventListener("click", function() {
-    alert("You clicked the orange element!");
-}, false);
-
-document.getElementById("myP2").addEventListener("click", function() {
-    alert("You clicked the white element!");
-}, true);
-
-document.getElementById("myDiv2").addEventListener("click", function() {
-    alert("You clicked the orange element!");
-}, true);
-</script>
-
-</body>
+<!DOCTYPE html> 
+<html>
+ <head> 
+ <title>이벤트 버블링 예제</title> 
+ </head> 
+ <body> 
+ <div id="mydiv">Click Me</div> 
+ </body> 
 </html>
-
 ```
-결과
-![샘플이미지](https://imgur.com/Hck6Rda.jpg")<br><br>
-![샘플이미지](https://imgur.com/kCdXQ6m.jpg")<br>
-- 캡처링: 이벤트가 부모로부터 발생하여 자식으로 전파되는 방식.
-- 버블링: 이벤트가 자식으로부터 발생하여 부모로 전파되는 방식.
+위 요소에서 #mydiv를 클릭 했다면 아래와 같이 이벤트가 발생합니다.
+
+1. div
+2. body
+3. html
+4. document
+
+![샘플이미지](https://imgur.com/gRGvyAz.jpg")<br><br>
+
+
+- 캡처링: 이벤트 버블링과 정반대로 최상위 노드에서 이벤트가 발생합니다. 위의 이벤트 버블링 때 처럼 div요소를 클릭했을 때 아래 순서로 이벤트가 발생합니다.
+1. document
+2. html
+3. body
+4. div
+![샘플이미지](https://imgur.com/uMZQWAU.jpg")<br>
+
 ### 동영상 강좌
 - JavaScript – 이벤트
     >https://bit.ly/2NzNcxG 
