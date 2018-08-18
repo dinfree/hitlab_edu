@@ -106,15 +106,15 @@ DOM의 사용 예시
 <html>
 <body>
 
-<p id="intro">Hello World!</p>
+<p id="intro">Hello World!</p>   //id가 intro 인 p태그
 
 <p>This example demonstrates the <b>getElementById</b> method!</p>
 
-<p id="demo"></p>
+<p id="demo"></p>               //id가 demo인 p태그
 
 <script>
-var myElement = document.getElementById("intro");
-document.getElementById("demo").innerHTML = 
+var myElement = document.getElementById("intro");  //intro 아이디의 요소를 선택함.
+document.getElementById("demo").innerHTML =         //demo 아이디의 요소를 선택 후 innerHTML 로 내용 변경.
 "The text from the intro paragraph is " + myElement.innerHTML;
 </script>
 
