@@ -378,6 +378,273 @@ target 속성을 추가하여 링크가 열리는 위치를 변경하고자 합�
 <img alt="3-1결과" src="img/5-5.png" width="80%">
 
 
+### 예제 5-3) 테이블 만들기
+본 예제에서는 `<table>`태그 및 `<td>`, `<tr>`, `<th>` 태그들을 이용하여 테이블을 만들어봅니다.
+
+#### step-1> html 소스코드 작성 (5-3.html)
+예제 5-3은 인적사항이 정리되어 있는 테이블을 작성하는 코드입니다. 5-3.html 파일을 생성하고 `<table>`을 통해 테이블을 만들고 `<tr>`태그를 이용하여 테이블의 행을, `<td>`태그를 이용하여 각 행의 요소를 생성하기 위해 다음과 같이 html 코드를 작성합니다.
+
+```html
+<!doctype html>
+<html>
+    <head>
+        <title>5-3.html</title>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th>no.</th>
+                <th>name</th>
+                <th>email</th>
+                <th>tel</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>James Kang</td>
+                <td>james@gachon.ac.kr</td>
+                <td>010-1234-1234</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Justin Born</td>
+                <td>justin@google.com</td>
+                <td>010-9876-1234</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Mariata Kumba</td>
+                <td>kumba@amazon.com</td>
+                <td>010-2222-3333</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Mola Landa</td>
+                <td>mola@naver.com</td>
+                <td>010-4444-5555</td>
+            </tr>
+        </table>
+    </body>
+</html>
+```
+
+#### step-2> 실행 및 결과 확인
+브라우저에서 실행결과를 확인 합니다. 
+
+<img alt="5-3결과" src="img/5-6.png" width="80%">
+
+#### step-3> 테두리 만들기
+테이블을 더 보기 좋게 하기 위해서 테두리를 추가해봅시다. 테두리를 만들기위해 작성한 5-3.html의 코드를 아래처럼 수정합니다.
+
+```html
+<table border="1">
+```
+
+#### step-4> 실행 및 결과 확인
+브라우저에서 실행결과를 확인 합니다. 
+
+<img alt="5-3결과" src="img/5-7.png" width="80%">
+
+#### step-5> 테이블 병합하기
+1번의 email과 tel을 하나의 칸으로, no.의 2번과 3번을 하나의 칸으로 합쳐보려고 합니다. 
+작성한 5-3.html의 코드를 아래처럼 수정합니다.
+
+```html
+<tr>
+    <td>1</td>
+    <td>James Kang</td>
+    <td colspan="2">james@gachon.ac.kr,010-1234-1234</td>
+</tr>
+<tr>
+    <td rowspan="2">2</td>
+    <td>Justin Born</td>
+    <td>justin@google.com</td>
+    <td>010-9876-1234</td>
+</tr>
+<tr>
+    <td>Mariata Kumba</td>
+    <td>kumba@amazon.com</td>
+    <td>010-2222-3333</td>
+</tr>        
+```
+
+#### step-6> 실행 및 결과 확인
+브라우저에서 실행결과를 확인 합니다. 
+
+<img alt="5-3결과" src="img/5-8.png" width="80%">
+
+### 예제 5-4) 테이블 병합 연습
+본 예제에서는 `colspan`과 `rowspan`을 사용해 테이블을 병합하는 것을 중점적으로 연습해봅니다.
+
+#### step-1> html 소스코드 작성 (5-4.html)
+예제 5-4는 테이블을 병합하는 코드입니다. 5-4.html 파일을 생성하고 병합을 하기 전 기본적인 테이블 구조를 잡아주기 위해 다음과 같이 html 코드를 작성합니다.
+
+```html
+<!doctype html>
+<html>
+    <head>
+        <title>5-4.html</title>
+    </head>
+    <body>
+        <table border=1 width=300 height=300>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+            </tr>
+        </table>
+    </body>
+</html>
+```
+
+
+#### step-2> 실행 및 결과 확인
+브라우저에서 실행결과를 확인 합니다. 
+
+<img alt="5-4결과" src="img/5-9.png" width="80%">
+
+
+#### step-3> 행 병합
+위 테이블의 3번과 7번을 하나의 칸으로 합치고 그 안에 3이라 적어넣고, 8번과 12번을 합치고 그 안에 6을 적어 넣어봅시다. 
+작성한 5-3.html의 코드를 아래처럼 수정합니다.
+
+```html
+<tr>
+    <td>1</td>
+    <td>2</td>
+    <td rowspan=2>3</td>
+    <td>4</td>
+</tr>
+<tr>
+    <td>5</td>
+    <td>5</td>
+    <td rowspan=2>6</td>
+</tr>
+<tr>
+    <td>7</td>
+    <td>8</td>
+    <td>9</td>
+</tr>
+```
+
+#### step-4> 실행 및 결과 확인
+브라우저에서 실행결과를 확인 합니다. 
+
+<img alt="5-4결과" src="img/5-10.png" width="80%">
+
+#### step-5> 열 병합
+위 테이블의 2개의 5번을 하나의 칸으로 합쳐 그 안에 5라 적어넣고, 8번과 9번을 합쳐 그 안에 8이라 적어넣어봅니다.
+작성한 5-3.html의 코드를 아래처럼 수정합니다.
+
+```html
+<tr>
+    <td colspan=2>5</td>
+    <td rowspan=2>6</td>
+</tr>
+<tr>
+    <td>7</td>
+    <td colspan=2>8</td>
+</tr>
+```
+
+#### step-6> 실행 및 결과 확인
+브라우저에서 실행결과를 확인 합니다. 
+
+<img alt="5-4결과" src="img/5-11.png" width="80%">
+
+
+## 6. 입력양식
+### 예제 6-1) 검색창 만들기
+본 예제에서는 `form`을 이용하여 text입력창과 제출버튼으로 이루어진 검색창을 만들어봅니다.
+
+#### step-1> html 소스코드 작성 (6-1.html)
+예제 6-1은 검색창을 만드는 코드입니다. 6-1.html 파일을 생성하고 `form`태그 안에 `<input type="text">`로 텍스트 입력란을, `<input type="submit">`로 전송 버튼을 만들기위해 다음과 같이 html 코드를 작성합니다.
+
+```html
+<!doctype html>
+<html>
+    <head>
+        <title>6-1.html</title>
+    </head>
+    <body>
+        <form action=""> 
+        search: <input type="text">
+        <input type="submit" value="search">
+        </form>
+    </body>
+</html>
+```
+
+
+#### step-2> 실행 및 결과 확인
+브라우저에서 실행결과를 확인 합니다. 
+
+<img alt="6-1결과" src="img/6-1.png" width="80%">
+
+
+### 예제 6-2) 신청서 만들기
+본 예제에서는 테이블 및 입력양식을 이용하여 신청서를 만들어봅니다.
+
+#### step-1> html 소스코드 작성 (6-2.html)
+예제 6-2은 신청서를 만드는 코드입니다. 6-2.html 파일을 생성하고 테이블로 레이아웃을 잡고 다양한 input 태그를 이용하여 신청서를 만들기위해 다음과 같이 html 코드를 작성합니다.
+
+```html
+<!doctype html>
+<html>
+    <head>
+        <title>6-2.html</title>
+    </head>
+    <body>
+        <table border=0>
+            <tr>
+                <td>
+                    <form>
+                    First name:<br>  
+                    <input type="text" name="fname"><br>  
+                    Last name:<br>  
+                    <input type="text" name="lname"><br>
+                    Email:<br>
+                    <input type="email" name="email"><br>
+                    Gender: <input type="radio" name="gender">Male, <input type="radio" name="gender">Female <br>
+                    Favorite : <input type="checkbox" name="fav">HTML, <input type="checkbox" name="fav">Java, <input type="checkbox" name="fav">PHP<br>
+                    University : <select>
+                        <option>Gachon University</option>
+                        <option>Korea University</option>
+                        <option>Yeonsei University</option>
+                        <option>Seoul University</option>
+                    </select>
+                    <br>
+                    Color: <input type="color"> <br>
+                    Date: <input type="date"> <br>
+                    <br><br>
+                    <input type="submit" value="Registration">
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
+```
+
+
+#### step-2> 실행 및 결과 확인
+브라우저에서 실행결과를 확인 합니다. 
+
+<img alt="6-2결과" src="img/6-2.png" width="80%">
+
+
 [din-badge]:https://img.shields.io/badge/dinfree-edu-orange.svg
 [din-url]:https://github.com/dinfree
 [css-badge]:https://img.shields.io/badge/frontend-css-ff69b4.svg
