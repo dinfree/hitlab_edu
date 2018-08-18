@@ -85,7 +85,7 @@ function add(a,b){
 </div>
 </details>
 
----
+
 #### 2) 위의 정의한 함수를 호출하세요
 <details>
 <summary>해답보기</summary>
