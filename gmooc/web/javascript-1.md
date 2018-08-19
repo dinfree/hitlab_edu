@@ -4,8 +4,7 @@
 [STS-10]은 웹프로그래밍의 핵심 개념에서 부터 주요 기술인 html, css, javascript를 비롯해 필수 응용 라이브러리인 bootstrap, jquery까지를 다루는 과정 입니다.
 
  ## JavaScript
-이부분은 해당 챕터에 대한 설명과 안내가 나와야 하는데 우선 이부분은 비워 두도록 한다.
-
+이 챕터에서는 JavaScript가 무엇인지, 어떤 특징을 가지고있는지, 기본 문법과 구문을 알아보고, JavaScript의 사용방법에 대해 소개합니다.
 ### 목차
 1. JavaScript 소개
 2. JavaScript 기본문법
