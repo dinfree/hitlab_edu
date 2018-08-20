@@ -156,6 +156,112 @@ css_2-2.css파일을 외부 스타일시트 방식으로 html 파일에 포함�
 <img alt="1-1결과" src="img/css_1-6.png" width="80%">
 
 
+## 3. 셀렉터 기초
+### 예제 3-1) 셀렉터
+본 예제에서는 기본적인 셀렉터에 대해 알아봅니다. 
+
+#### step-1> 소스 코드 작성 (css_3-1.html)
+css_3-1.css파일을 생성하고 id와 class를 이용하여 셀렉터를 사용하기위해 다음과 같이 코드를 작성합니다.
+
+```html
+<!doctype html>
+<html>
+    <head>
+        <title>css_3-1.html</title>
+        <style>
+            h2 {
+                color: darkorange;
+            }
+            .blue_text{
+                color: blue;
+            }
+            #red_text{
+                color: red;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <h2>Embedded stylesheet</h2>   
+        <hr> 
+        <h2 class="blue_text">Embedded stylesheet - class</h2>                
+        <HR>
+        <h2 id="red_text">EEmbedded stylesheet - id</h2>                               
+    </body>
+</html>
+```
+#### step-2> 실행결과 확인
+브라우저에서 실행결과를 확인 합니다. 
+
+<img alt="1-1결과" src="img/css_3-1.png" width="80%">
+
+## 4. 컬러, 배경색 지정하기
+### 예제 4-1) 색상과 배경색 설정하기
+본 예제에서는 css에서 색상을 색상이름, HEX(#)코드, RGB코드로 나타내는 방식을 알아봅니다. 이를 통해 글자의 색과 배경색을 변경해봅니다.
+
+#### step-1> 소스 코드 작성 (css_4-1.html)
+css_3-1.css파일을 생성하고 빨간색을 색상이름, HEX코드, RGB코드의 각 방식으로 적용시키기위해 다음과 같이 코드를 작성합니다.
+
+```html
+<!doctype html>
+<html>
+    <head>
+        <title>css_4-1.html</title>
+        <style>
+            #text1{
+                color: red;
+            }
+            #text2{
+                color: #FF0000;
+            }
+            #text3{
+                color: rgb(255,0,0);
+            }
+        </style>
+        
+    </head>
+    <body>
+        <h2 id="text1">Color Name</h2>   
+        <hr> 
+        <h2 id="text2">HEX(#)</h2>                
+        <HR>
+        <h2 id="text3">RGB</h2>                               
+    </body>
+</html>
+```
+#### step-2> 실행결과 확인
+브라우저에서 실행결과를 확인 합니다. 
+
+<img alt="1-1결과" src="img/css_4-1.png" width="80%">
+
+#### step-3> 소스 코드 수정 
+배경색을 지정하기 위해 css_4-1.html의 코드를 아래처럼 수정합니다.
+
+
+```html
+<style>
+    #text1{
+        color: red;
+        background-color: black;
+    }
+    #text2{
+        color: #FF0000;
+        background-color: #000000
+    }
+    #text3{
+        color: rgb(255,0,0);
+        background-color: rgb(0,0,0)
+    }
+</style>
+```
+#### step-4> 실행결과 확인
+브라우저에서 실행결과를 확인 합니다. 
+
+<img alt="1-1결과" src="img/css_4-2.png" width="80%">
+
+
+
+
 
 [din-badge]:https://img.shields.io/badge/dinfree-edu-orange.svg
 [din-url]:https://github.com/dinfree
