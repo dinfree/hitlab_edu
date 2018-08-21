@@ -71,7 +71,7 @@ html로만 이루어진 NAVER화면과 CSS가 적용되어 있던 기존 NAVER�
 #### step-3> 실행결과 확인
 브라우저에서 실행결과를 확인 합니다.
 
-<img alt="1-1결과" src="img/css_1-3.png" width="80%">
+<img alt="1-1결과" src="img/css_1-3.png" width="30%">
 
 
 ### 예제 2-2) css 포함 방법
@@ -107,7 +107,7 @@ css_2-2.html 파일을 생성하고 다음과 같이 소스코드를 작성하�
 #### step-3> 실행결과 확인
 브라우저에서 실행결과를 확인 합니다. 
 
-<img alt="1-1결과" src="img/css_1-4.png" width="80%">
+<img alt="1-1결과" src="img/css_1-4.png" width="30%">
 
 
 #### step-4> 내부 스타일시트
@@ -127,7 +127,7 @@ css_2-2.html 파일을 생성하고 다음과 같이 소스코드를 작성하�
 #### step-5> 실행결과 확인
 브라우저에서 실행결과를 확인 합니다. 
 
-<img alt="1-1결과" src="img/css_1-5.png" width="80%">
+<img alt="1-1결과" src="img/css_1-5.png" width="30%">
 
 #### step-6> css 코드 작성 (css_2-2.css)
 외부 스타일시트 방식으로 포함을 시킬 css파일을 만들기위해, css_2-2.css파일을 생성하고 다음과 같이 코드를 작성합니다.
@@ -154,7 +154,7 @@ css_2-2.css파일을 외부 스타일시트 방식으로 html 파일에 포함�
 #### step-8> 실행결과 확인
 브라우저에서 실행결과를 확인 합니다. 
 
-<img alt="1-1결과" src="img/css_1-6.png" width="80%">
+<img alt="1-1결과" src="img/css_1-6.png" width="30%">
 
 
 <a id="index3"></a>
@@ -195,7 +195,7 @@ css_3-1.css파일을 생성하고 id와 class를 이용하여 셀렉터를 사�
 #### step-2> 실행결과 확인
 브라우저에서 실행결과를 확인 합니다. 
 
-<img alt="1-1결과" src="img/css_3-1.png" width="80%">
+<img alt="1-1결과" src="img/css_3-1.png" width="40%">
 
 <a id="index4"></a>
 ## 4. 컬러, 배경색 지정하기
@@ -235,7 +235,7 @@ css_3-1.css파일을 생성하고 빨간색을 색상이름, HEX코드, RGB코�
 #### step-2> 실행결과 확인
 브라우저에서 실행결과를 확인 합니다. 
 
-<img alt="1-1결과" src="img/css_4-1.png" width="80%">
+<img alt="1-1결과" src="img/css_4-1.png" width="30%">
 
 #### step-3> 소스 코드 수정 
 배경색을 지정하기 위해 css_4-1.html의 코드를 아래처럼 수정합니다.
@@ -260,7 +260,7 @@ css_3-1.css파일을 생성하고 빨간색을 색상이름, HEX코드, RGB코�
 #### step-4> 실행결과 확인
 브라우저에서 실행결과를 확인 합니다. 
 
-<img alt="1-1결과" src="img/css_4-2.png" width="80%">
+<img alt="1-1결과" src="img/css_4-2.png" width="30%">
 
 
 
