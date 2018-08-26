@@ -21,16 +21,16 @@
 
 ### step-1> 대상 선정하기
 ```
-- 크롬 웹브라우저에서 `네이버`를 들어갑니다.
+- 크롬 웹브라우저에서 네이버를 들어갑니다.
 - 네이버 메인 화면을 기준으로 합니다.
 - 메인 화면 전체가 아닌 부분만 구성합니다.
 ```
 
-<kbd><img alt="proj_1-1" src="img/proj_1-1.PNG" width="100%"></kbd>
+<img class="img-shadow" alt="proj_1-1" src="img/proj_1-1.PNG" width="80%">
 
 ### step-2> 레이아웃 분석하기
 
-<kbd><img alt="proj_1-2" src="img/proj_1-2.png" width="100%"></kbd>
+<img class="img-shadow" alt="proj_1-2" src="img/proj_1-2.PNG" width="80%">
 
 - HTML \<table>태그를 이용합니다.
 - 먼저 헤더, 바디, 푸터 세부분으로 레이아웃을 나눕니다.
@@ -38,7 +38,7 @@
 
 ### step-3> 리소스 준비하기
 
-<kbd><img alt="proj_1-3" src="img/proj_1-3.gif" width="100%"></kbd>
+<img class="img-shadow" alt="proj_1-3" src="img/proj_1-3.gif" width="80%">
 
 - 우클릭하여 이미지 저장이 안되는 컨텐츠는 캡처를 합니다.
 - 리소스는 해당 소스파일이 있는 폴더 안에 res폴더를 만들어 저장합니다.
@@ -87,7 +87,7 @@ project_1.html 파일을 생성하고 기본적인 HTML코드 작성을 위해 �
 <summary>결과보기</summary>
 <p></p>
 
-<kbd><img alt="proj_1-5" src="img/proj_1-5.PNG" width="100%"></kbd>
+<img class="img-shadow" alt="proj_1-5" src="img/proj_1-5.PNG" width="80%">
 
 </details> 
 
@@ -118,7 +118,7 @@ project_1.html 파일을 생성하고 기본적인 HTML코드 작성을 위해 �
 <summary>결과보기</summary>
 <p></p>
 
-<kbd><img alt="proj_1-6" src="img/proj_1-6.PNG" width="100%"></kbd>
+<img class="img-shadow" alt="proj_1-6" src="img/proj_1-6.PNG" width="80%">
 
 </details> 
 
@@ -167,7 +167,7 @@ project_1.html 파일을 생성하고 기본적인 HTML코드 작성을 위해 �
 <summary>결과보기</summary>
 <p></p>
 
-<kbd><img alt="proj_1-7" src="img/proj_1-7.PNG" width="100%" ></kbd>
+<img class="img-shadow" alt="proj_1-7" src="img/proj_1-7.PNG" width="80%" >
 
 </details> 
 
@@ -188,7 +188,7 @@ project_1.html 파일을 생성하고 기본적인 HTML코드 작성을 위해 �
 <summary>결과보기</summary>
 <p></p>
 
-<kbd><img alt="proj_1-8" src="img/proj_1-8.PNG" width="100%"></kbd>
+<img class="img-shadow" alt="proj_1-8" src="img/proj_1-8.PNG" width="80%">
 
 </details> 
 
@@ -196,9 +196,7 @@ project_1.html 파일을 생성하고 기본적인 HTML코드 작성을 위해 �
 
 테이블 속성의 border를 제거한 후 브라우저에서 실행 결과를 확인합니다.
 
-<kbd><img alt="proj_1-9" src="img/proj_1-9.PNG" width="100%" ></kbd>
-
-
+<img class="img-shadow" alt="proj_1-9" src="img/proj_1-9.PNG" width="80%" >
 ---
 <a id="m2"></a>
 ## 2. 게시판 만들기
