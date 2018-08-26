@@ -30,7 +30,7 @@
 
 ### step-2> 레이아웃 분석하기
 
-<kbd><img alt="proj_1-2" src="img/proj_1-2.PNG" width="100%"></kbd>
+<kbd><img alt="proj_1-2" src="img/proj_1-2.png" width="100%"></kbd>
 
 - HTML \<table>태그를 이용합니다.
 - 먼저 헤더, 바디, 푸터 세부분으로 레이아웃을 나눕니다.
