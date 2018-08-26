@@ -197,6 +197,8 @@ project_1.html 파일을 생성하고 기본적인 HTML코드 작성을 위해 �
 테이블 속성의 border를 제거한 후 브라우저에서 실행 결과를 확인합니다.
 
 <img class="img-shadow" alt="proj_1-9" src="img/proj_1-9.PNG" width="80%" >
+
+
 ---
 <a id="m2"></a>
 ## 2. 게시판 만들기
