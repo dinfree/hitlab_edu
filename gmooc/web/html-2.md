@@ -19,25 +19,24 @@
 ## 1. 제목
 `<h>` 태그는 제목을 나타낸다. `<h1> ~ <h6>`까지 있는데, 숫자들은 제목의 등급을 나타낸다. `<h1>`이 가장 높은 등급이며 크기도 가장 크고, `<h6>`이 가장 낮은 등급이며 크기도 가장 작다. 
 
-<img alt="샘플이미지" src="img/html_2-1.png" width="40%">
+<img class="img-shadow" alt="샘플이미지" src="img/html_2-1.png" width="40%">
 
 - 계층 구조에 맞게 순서대로 작성되어지는 것이 좋다.
 - 컴퓨터 및 검색엔진이 문서를 파악하기 위해 쓰이므로, 상황에 맞게 `<h>`의 등급을 잘 써주는 것이 중요하다.
 
-
 ### 동영상 강좌
 - h태그 (2:35)
-  > http://bit.ly/2LG0qs9 (3:35~6:10)
+  > [http://bit.ly/2LG0qs9](http://bit.ly/2LG0qs9){:target="_blank"} (3:35~6:10)
 - h1~h6 태그 (0:19)
-  > http://bit.ly/2LH7xQY
+  > [http://bit.ly/2LH7xQY](http://bit.ly/2LH7xQY){:target="_blank"}
 - h태그 (2:10)
-  > http://bit.ly/2LxKIT1 (7:50~10:00)
+  > [http://bit.ly/2LxKIT1](http://bit.ly/2LxKIT1){:target="_blank"} (7:50~10:00)
 
 
 ### 참고 자료
 > pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.
-- h# 태그: http://bit.ly/2uXwxfI
-- h1 ~ h6: http://bit.ly/2Lh14Aa
+- h# 태그: [http://bit.ly/2uXwxfI](http://bit.ly/2uXwxfI){:target="_blank"}
+- h1 ~ h6: [http://bit.ly/2Lh14Aa](http://bit.ly/2Lh14Aa){:target="_blank"}
 
 ### 퀴즈
 #### 1) 크기가 가장 큰 h태그는 무엇인가
@@ -96,17 +95,17 @@
 
 ### 동영상 강좌
 - p태그 (4:19)
-  > http://bit.ly/2O9hng9
+  > [http://bit.ly/2O9hng9](http://bit.ly/2O9hng9){:target="_blank"}
 - 문단과 Line Break (7:52)
-  > http://bit.ly/2Lejp0F
+  > [http://bit.ly/2Lejp0F](http://bit.ly/2Lejp0F){:target="_blank"}
 
 
 
 ### 참고 자료
 > pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.
-- p 태그, br 태그: http://bit.ly/2O7hIzM
-- 문단을 정의하는 태그, BR 강제 줄바꿈: http://bit.ly/2A32lWc 
-- br, p 태그: http://bit.ly/2LEnwz7  
+- p 태그, br 태그: [http://bit.ly/2O7hIzM](http://bit.ly/2O7hIzM){:target="_blank"} 
+- 문단을 정의하는 태그, BR 강제 줄바꿈: [http://bit.ly/2A32lWc](http://bit.ly/2A32lWc){:target="_blank"}
+- br, p 태그: [http://bit.ly/2LEnwz7](http://bit.ly/2LEnwz7){:target="_blank"}
 
 ### 퀴즈
 #### 1) p태그는 무엇을 나타내는 태그인가
@@ -163,20 +162,20 @@
 
 ### 동영상 강좌
 - 텍스트 태그들 (1:56) 
-  > http://bit.ly/2A2pA2v
+  > [http://bit.ly/2A2pA2v](http://bit.ly/2A2pA2v){:target="_blank"}
 - b태그, hr태그, i태그 (3:24)
-  > http://bit.ly/2LuoOjz (29:46~33:10)
+  > [http://bit.ly/2LuoOjz](http://bit.ly/2LuoOjz){:target="_blank"} (29:46~33:10)
 - Formatting Tags (6:05)
-  > http://bit.ly/2Lwb2wD
+  > [http://bit.ly/2Lwb2wD](http://bit.ly/2Lwb2wD){:target="_blank"}
 
 
 
 ### 참고 자료
 > pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.
-- b 요소와 strong 요소의 차이: http://bit.ly/2Lie6xh
-- b 태그, i 태그: http://bit.ly/2JQUo62
-- 텍스트 관련 태그: http://bit.ly/2NFyrtg
-- b, em, i, mark, strong, u 태그: http://bit.ly/2O8YCcF
+- b 요소와 strong 요소의 차이: [http://bit.ly/2Lie6xh](http://bit.ly/2Lie6xh){:target="_blank"}
+- b 태그, i 태그: [http://bit.ly/2JQUo62](http://bit.ly/2JQUo62){:target="_blank"}
+- 텍스트 관련 태그: [http://bit.ly/2NFyrtg](http://bit.ly/2NFyrtg){:target="_blank"}
+- b, em, i, mark, strong, u 태그: [http://bit.ly/2O8YCcF](http://bit.ly/2O8YCcF){:target="_blank"}
 
 ### 퀴즈
 #### 1) b태그와 strong태그의 차이점을 서술하시오
@@ -249,17 +248,17 @@ b태그는 단순히 텍스트를 진하게, strong태그는 텍스트를 강조
 
 ### 동영상 강좌
 - 리스트와 리스트 타입 (3:10)
-  > http://bit.ly/2LG6i4F
+  > [http://bit.ly/2LG6i4F](http://bit.ly/2LG6i4F){:target="_blank"}
 - 하위 항목이 있는 리스트 (2:42)
-  > http://bit.ly/2JQWm6q (11:26~14:08)
+  > [http://bit.ly/2JQWm6q](http://bit.ly/2JQWm6q){:target="_blank"} (11:26~14:08)
 
 
 
 ### 참고 자료
 > pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.
-- li 태그: http://bit.ly/2JNFVYu
-- 리스트 태그, 리스트의 type 속성: http://bit.ly/2LhVMV6
-- li, ol, ul 태그: http://bit.ly/2JKSPqs
+- li 태그: [http://bit.ly/2JNFVYu](http://bit.ly/2JNFVYu){:target="_blank"}
+- 리스트 태그, 리스트의 type 속성: [http://bit.ly/2LhVMV6](http://bit.ly/2LhVMV6){:target="_blank"}
+- li, ol, ul 태그: [http://bit.ly/2JKSPqs](http://bit.ly/2JKSPqs){:target="_blank"}
 
 ### 퀴즈
 #### 1) ul태그와 ol태그의 차이점은 무엇인가
@@ -281,7 +280,7 @@ b태그는 단순히 텍스트를 진하게, strong태그는 텍스트를 강조
 ## 5. 하이퍼링크
 `<a>`태그를 사용해 하이퍼링크를 걸어준다. 기본적으로 `href`속성을 가지며, 이동할 페이지의 주소를 적어준다. `target` 속성은 페이지를 어떻게 열 것인가를 결정한다. a태그를 이용하여 다른 페이지로 이동하거나 혹은 하나의 페이지 내부에서 이동 할 수 있다. 
 
-<img alt="샘플이미지" src="img/html_2-6.png" >
+<img class="img-shadow" alt="샘플이미지" src="img/html_2-6.png" >
 <!-- 사진 주소 : http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/text-markup-with-html/-->
 
 
@@ -292,22 +291,22 @@ b태그는 단순히 텍스트를 진하게, strong태그는 텍스트를 강조
 
 ### 동영상 강좌
 - a 태그와 속성 (9:38)
-  > http://bit.ly/2NF9DBh
+  > [http://bit.ly/2NF9DBh](http://bit.ly/2NF9DBh){:target="_blank"}
 - 링크 태그 (7:33)
-  > http://bit.ly/2LrDNuF
+  > [http://bit.ly/2LrDNuF](http://bit.ly/2LrDNuF){:target="_blank"}
 - a 태그 하나의 페이지 내부에서 이동하기 (6:26)
-  > http://bit.ly/2A35dlW
+  > [http://bit.ly/2A35dlW](http://bit.ly/2A35dlW){:target="_blank"}
 - a 태그 동일 사이트의 다른 페이지로 이동하기 (17:18)
-  > http://bit.ly/2uFw56A
+  > [http://bit.ly/2uFw56A](http://bit.ly/2uFw56A){:target="_blank"}
 - 상대경로 & 절대경로 개념 (9:28)
-  > http://bit.ly/2LxN5Fp
+  > [http://bit.ly/2LxN5Fp](http://bit.ly/2LxN5Fp){:target="_blank"}
 
 
 ### 참고 자료
 > pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.
-- a 태그: http://bit.ly/2mFb3QN
-- 링크, 내부링크(책갈피 기능): http://bit.ly/2NDpyAb
-- a 태그: http://bit.ly/2NFbB4D
+- a 태그: [http://bit.ly/2mFb3QN](http://bit.ly/2mFb3QN){:target="_blank"}
+- 링크, 내부링크(책갈피 기능): [http://bit.ly/2NDpyAb](http://bit.ly/2NDpyAb){:target="_blank"}
+- a 태그: [http://bit.ly/2NFbB4D](http://bit.ly/2NFbB4D){:target="_blank"}
 
 ### 퀴즈
 #### 1) 상대경로와 절대경로의 차이점을 서술하시오
