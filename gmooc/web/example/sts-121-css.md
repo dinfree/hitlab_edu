@@ -46,7 +46,7 @@
 #### step-4> 결과 확인
 html로만 이루어진 NAVER화면과 CSS가 적용되어 있던 기존 NAVER화면을 비교해봅시다.
 
-<img alt="1-1결과" src="img/css_1-2.gif" width="80%">
+<img class="img-shadow" alt="1-1결과" src="img/css_1-2.gif" width="80%">
 
 <a id="index2"></a>
 ## 2. 기본 문법과 포함 방법
@@ -71,7 +71,7 @@ html로만 이루어진 NAVER화면과 CSS가 적용되어 있던 기존 NAVER�
 #### step-3> 실행결과 확인
 브라우저에서 실행결과를 확인 합니다.
 
-<img alt="1-1결과" src="img/css_1-3.png" width="30%">
+<img class="img-shadow" alt="1-1결과" src="img/css_1-3.png" width="30%">
 
 
 ### 예제 2-2) css 포함 방법
@@ -107,7 +107,7 @@ css_2-2.html 파일을 생성하고 다음과 같이 소스코드를 작성하�
 #### step-3> 실행결과 확인
 브라우저에서 실행결과를 확인 합니다. 
 
-<img alt="1-1결과" src="img/css_1-4.png" width="30%">
+<img class="img-shadow" alt="1-1결과" src="img/css_1-4.png" width="30%">
 
 
 #### step-4> 내부 스타일시트
@@ -127,7 +127,7 @@ css_2-2.html 파일을 생성하고 다음과 같이 소스코드를 작성하�
 #### step-5> 실행결과 확인
 브라우저에서 실행결과를 확인 합니다. 
 
-<img alt="1-1결과" src="img/css_1-5.png" width="30%">
+<img class="img-shadow" alt="1-1결과" src="img/css_1-5.png" width="30%">
 
 #### step-6> css 코드 작성 (css_2-2.css)
 외부 스타일시트 방식으로 포함을 시킬 css파일을 만들기위해, css_2-2.css파일을 생성하고 다음과 같이 코드를 작성합니다.
@@ -154,7 +154,7 @@ css_2-2.css파일을 외부 스타일시트 방식으로 html 파일에 포함�
 #### step-8> 실행결과 확인
 브라우저에서 실행결과를 확인 합니다. 
 
-<img alt="1-1결과" src="img/css_1-6.png" width="30%">
+<img class="img-shadow" alt="1-1결과" src="img/css_1-6.png" width="30%">
 
 
 <a id="index3"></a>
@@ -195,7 +195,7 @@ css_3-1.css파일을 생성하고 id와 class를 이용하여 셀렉터를 사�
 #### step-2> 실행결과 확인
 브라우저에서 실행결과를 확인 합니다. 
 
-<img alt="1-1결과" src="img/css_3-1.png" width="40%">
+<img class="img-shadow" alt="1-1결과" src="img/css_3-1.png" width="40%">
 
 <a id="index4"></a>
 ## 4. 컬러, 배경색 지정하기
@@ -235,7 +235,7 @@ css_3-1.css파일을 생성하고 빨간색을 색상이름, HEX코드, RGB코�
 #### step-2> 실행결과 확인
 브라우저에서 실행결과를 확인 합니다. 
 
-<img alt="1-1결과" src="img/css_4-1.png" width="30%">
+<img class="img-shadow" alt="1-1결과" src="img/css_4-1.png" width="30%">
 
 #### step-3> 소스 코드 수정 
 배경색을 지정하기 위해 css_4-1.html의 코드를 아래처럼 수정합니다.
@@ -260,7 +260,7 @@ css_3-1.css파일을 생성하고 빨간색을 색상이름, HEX코드, RGB코�
 #### step-4> 실행결과 확인
 브라우저에서 실행결과를 확인 합니다. 
 
-<img alt="1-1결과" src="img/css_4-2.png" width="30%">
+<img class="img-shadow" alt="1-1결과" src="img/css_4-2.png" width="30%">
 
 <a id="index5"></a>
 ## 5. css 단위, 박스모델
@@ -302,20 +302,20 @@ css_5-1.css파일을 생성하고 css에서의 절대 단위와 상대 단위의
 #### step-2> 실행결과 확인
 브라우저에서 실행결과를 확인 합니다. 
 
-<img alt="5-1결과" src="img/css_5-1.png" width="30%">
+<img class="img-shadow" alt="5-1결과" src="img/css_5-1.png" width="30%">
 
 #### step-3> 브라우저 글씨 크기 조정
 절대단위와 상대단위의 차이를 알아보기위해 브라우저의 글꼴 크기를 
 조정합니다.
 
-<img alt="5-1결과" src="img/css_5-2.gif" width="80%">
+<img class="img-shadow" alt="5-1결과" src="img/css_5-2.gif" width="80%">
 
 #### step-4> 실행결과 확인
 브라우저에서 실행결과를 확인 합니다. 아래 결과와 같이 브라우저 글꼴 크기의 변화에 따라 절대단위(px)의 크기는 변하지 않지만, 상대단위(em, rem)의 크기는 변하는 것을 확인 할 수 있습니다.
 
-<img alt="5-1결과" src="img/css_5-3.png" width="30%">
+<img class="img-shadow" alt="5-1결과" src="img/css_5-3.png" width="30%">
 
-<img alt="5-1결과" src="img/css_5-4.png" width="30%">
+<img class="img-shadow" alt="5-1결과" src="img/css_5-4.png" width="30%">
 
 
 ### 예제 5-2) 박스모델
@@ -357,7 +357,7 @@ css_5-2.css파일을 생성하고 박스 모델을 이해하기위해 다음과 
 #### step-2> 실행결과 확인
 브라우저에서 실행결과를 확인 합니다. 
 
-<img alt="5-2결과" src="img/css_5-5.png" width="80%">
+<img class="img-shadow" alt="5-2결과" src="img/css_5-5.png" width="80%">
 
 #### step-3> 개발자도구 실행
 ```
@@ -367,7 +367,7 @@ css_5-2.css파일을 생성하고 박스 모델을 이해하기위해 다음과 
 #### step-4> 박스모델 확인하기
 ctrl+shift+c를 눌러 요소 선택할 수 있는 기능을 실행합니다. 그 후 박스를 클릭하여 박스모델을 확인합니다.
 
-<img alt="5-2결과" src="img/css_5-6.gif" width="80%">
+<img class="img-shadow" alt="5-2결과" src="img/css_5-6.gif" width="80%">
 
 <a id="index6"></a>
 ## 6. 복합셀렉터
@@ -402,7 +402,7 @@ css_6-1.css파일을 생성하고 부모 요소와 자식 요소 사이의 상�
 #### step-2> 실행결과 확인
 브라우저에서 실행결과를 확인 합니다. 아래와 같이 배경색, 글자색, 글씨 크기 등은 상속이 되었지만, padding과 border는 상속되지 않은 것을 확인 할 수 있습니다.
 
-<img alt="5-1결과" src="img/css_6-1.png" width="50%">
+<img class="img-shadow" alt="5-1결과" src="img/css_6-1.png" width="50%">
 
 
 ### 예제 6-2) 조합 선택자
@@ -450,7 +450,7 @@ css_6-1.css파일을 생성하고 부모 요소와 자식 요소 사이의 상�
 #### step-3> 실행결과 확인
 브라우저에서 실행결과를 확인 합니다. 아래와 같이 body아래 있는 h1의 속성이 변경된 것을 확인 할 수 있습니다.
 
-<img alt="5-1결과" src="img/css_6-2.png" width="40%">
+<img class="img-shadow" alt="5-1결과" src="img/css_6-2.png" width="40%">
 
 #### step-4> 자손 선택자
 선택자A > 선택자B를 할 경우, 선택자A의 자손인 선택자B가 선택됩니다. 이를 확인해보기위해 css_6-2.css파일을 다음과 같이 수정합니다.
@@ -463,7 +463,7 @@ body > h2{
 #### step-5> 실행결과 확인
 브라우저에서 실행결과를 확인 합니다. 아래와 같이 body의 자손 h2의 속성이 변경된 것을 확인 할 수 있습니다.
 
-<img alt="5-1결과" src="img/css_6-3.png" width="40%">
+<img class="img-shadow" alt="5-1결과" src="img/css_6-3.png" width="40%">
 
 
 #### step-6> 형제 선택자
@@ -477,7 +477,7 @@ body > h2{
 #### step-7> 실행결과 확인
 브라우저에서 실행결과를 확인 합니다. 아래와 같이 body의 자손 h2의 속성이 변경된 것을 확인 할 수 있습니다.
 
-<img alt="5-1결과" src="img/css_6-3.png" width="40%">
+<img class="img-shadow" alt="5-1결과" src="img/css_6-3.png" width="40%">
 
 
 <a id="index7"></a>
@@ -505,7 +505,7 @@ css_7-1.css파일을 생성하고 각 태그들의 인라인 레벨 및 블록 �
 #### step-2> 소스 코드 다운받기
 브라우저에서 실행 결과를 확인 합니다. F12를 눌러 개발자 도구를 실행시키고, 각 요소들에 커서를 가져다대서 요소들이 영역을 어떻게 차지하는지 확인합니다. 아래 결과와 같이 h태그와 p태그는 한 줄을, a태그와 span태그는 각 요소의 너비만큼의 영역을 차지합니다.
 
-<img alt="7-2결과" src="img/css_7-1.gif" width="80%">
+<img class="img-shadow" alt="7-2결과" src="img/css_7-1.gif" width="80%">
 
 
 #### step-3> 인라인, 블록 레벨 변경
@@ -527,7 +527,7 @@ css_7-1.css파일을 생성하고 각 태그들의 인라인 레벨 및 블록 �
 #### step-3> 실행결과 확인
 브라우저에서 실행결과를 확인 합니다. 아래와 같이 h1, p, a태그의 블록, 인라인 레벨이 변경된 것을 확인 할 수 있습니다.
 
-<img alt="7-1결과" src="img/css_7-2.png" width="70%">
+<img class="img-shadow" alt="7-1결과" src="img/css_7-2.png" width="70%">
 
 
 ### 예제 7-2) 정렬
@@ -560,7 +560,7 @@ css_7-2.css파일을 생성하고 글자의 정렬과 요소의 배치 지정을
 #### step-2> 실행결과 확인
 브라우저에서 실행 결과를 확인 합니다. 아래 결과와 같이 p태그의 글씨들이 가운데로 정렬되고, 이미지가 다른 요소의 왼쪽에 배치된 것을 확인 할 수 있습니다.
 
-<img alt="7-2결과" src="img/css_7-3.png" width="80%">
+<img class="img-shadow" alt="7-2결과" src="img/css_7-3.png" width="80%">
 
 
 ### 예제 7-3) 포지셔닝
@@ -610,7 +610,7 @@ css_7-2.css파일을 생성하고 각 요소들에 다른 position 속성을 적
 #### step-2> 실행결과 확인
 브라우저에서 실행 결과를 확인 합니다. 아래 결과와 같이 p태그의 글씨들이 가운데로 정렬되고, 이미지가 다른 요소의 왼쪽에 배치된 것을 확인 할 수 있습니다.
 
-<img alt="7-2결과" src="img/css_7-4.png" width="80%">
+<img class="img-shadow" alt="7-2결과" src="img/css_7-4.png" width="80%">
 
 
 
