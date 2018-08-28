@@ -18,7 +18,7 @@
 ## 1. 월드와이드웹이란?
 웹이라고도 불리며, 다양한 형태의 데이터와 정보에 접근할 수 있도록 해주는 `인터넷 서비스`이다. 팀 버너스-리에 의해 개발되어 보편적인 인터넷 서비스로 확대되었다.
 
-<img alt="샘플이미지" src="img/html_1-1.png" width="70%">
+<img class="img-shadow" alt="샘플이미지" src="img/html_1-1.png" width="70%">
 <!-- 이미지 주소 : http://techlearninghub.com/difference-bw-internet-web/ -->
 
 - 웹은 인터넷 상의 정보를 `하이퍼텍스트` 방식과 멀티미디어 환경에서 검색 할 수 있게 해주는 정보 검색 시스템이다.
@@ -28,21 +28,21 @@
 
 ### 동영상 강좌
 - What is the world wide web? (3:54)
-  > <a href="http://bit.ly/2zXoOnv" target="_blank">http://bit.ly/2zXoOnv</a>
+  > [http://bit.ly/2zXoOnv](http://bit.ly/2zXoOnv){:target="_blank"}
 - 웹 서비스? (2:39)
-  > http://bit.ly/2mBncGF
+  > [http://bit.ly/2mBncGF](http://bit.ly/2mBncGF){:target="_blank"}
 - 웹의 개요(4:46)
-  > http://bit.ly/2NAmS6t (~4:46)
+  > [http://bit.ly/2NAmS6t](http://bit.ly/2NAmS6t){:target="_blank"}(~4:46)
 - 인터넷과 웹의 역사 (8:07)
-  > http://bit.ly/2Lg2CKH
+  > [http://bit.ly/2Lg2CKH](http://bit.ly/2Lg2CKH){:target="_blank"}
 - 웹의 의미와 역사 (10:37)
-  > http://bit.ly/2NCDvP5
+  > [http://bit.ly/2NCDvP5](http://bit.ly/2NCDvP5){:target="_blank"}
 
 ### 참고 자료
 > pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.
-- 웹이란 무엇인가: http://bit.ly/2zWAYgD
-- 웹의 역사: http://bit.ly/2uTkcZS
-- 인터넷과 웹의 역사: http://bit.ly/2mz5fIE
+- 웹이란 무엇인가: [http://bit.ly/2zWAYgD](http://bit.ly/2zWAYgD){:target="_blank"}
+- 웹의 역사: [http://bit.ly/2uTkcZS](http://bit.ly/2uTkcZS){:target="_blank"}
+- 인터넷과 웹의 역사: [http://bit.ly/2mz5fIE](http://bit.ly/2mz5fIE){:target="_blank"}
 
 ### 퀴즈
 #### 1) 월드 와이드 웹이란 무엇인가
@@ -75,7 +75,7 @@
 ## 2. HTML 소개
 웹 문서를 만들기 위해 사용하는 프로그래밍 언어 중 하나이다. 하이퍼텍스트 작성을 위해 개발되었으며, 대부분의 웹 페이지들은 HTML로 작성된다.
 
-<img alt="샘플이미지" src="img/html_1-2.jpg" width="50%">
+<img class="img-shadow" alt="샘플이미지" src="img/html_1-2.jpg" width="50%">
 <!-- 이미지 주소 : http://kyd5083.blogspot.com/2013/02/web-html.html -->
 
 - HTML은 `HyperText Markup Language`의 약자로, 문서의 글자 크기나 색깔, 모양, 문서 이동 등에 관여한다.
@@ -85,20 +85,20 @@
 
 ### 동영상 강좌
 - 웹 프로그래밍이란? (10:34)
-  > http://bit.ly/2O5bpwC (5:06~15:40)
+  > [http://bit.ly/2O5bpwC](http://bit.ly/2O5bpwC){:target="_blank"} (5:06~15:40)
 - HTML에서 hyperText Markup 의미
-  > http://bit.ly/2NwOSYy (7:14)
+  > [http://bit.ly/2NwOSYy](http://bit.ly/2NwOSYy){:target="_blank"} (7:14)
 - 언어로써의 HTML 의미 알아보기(3:36)
-  > http://bit.ly/2JPbFwI (~3:36)
+  > [http://bit.ly/2JPbFwI](http://bit.ly/2JPbFwI){:target="_blank"} (~3:36)
 - HTML의 역사 (10:09)
-  > http://bit.ly/2Nzjzwc
+  > [http://bit.ly/2Nzjzwc](http://bit.ly/2Nzjzwc){:target="_blank"}
 
 
 ### 참고 자료
 > pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.
-- HTML 입문: http://bit.ly/2mBnMUR
-- HTML5와 XHTML: http://bit.ly/2LDiX8t  
-- HTML 기초: http://bit.ly/2JLN7V5
+- HTML 입문: [http://bit.ly/2mBnMUR](http://bit.ly/2mBnMUR){:target="_blank"}
+- HTML5와 XHTML: [http://bit.ly/2LDiX8t](http://bit.ly/2LDiX8t){:target="_blank"}
+- HTML 기초: [http://bit.ly/2JLN7V5](http://bit.ly/2JLN7V5){:target="_blank"}
 
 ### 퀴즈
 #### 1) HTML은 무엇의 약자인가
@@ -119,7 +119,7 @@ HyperText Markup Language
 ## 3. HTML 기본 작성법
 HTML에서는 `태그(Tag)`를 사용하며, `<>`를 사용하여 나타낸다. 태그는 일반적으로 시작과 끝을 표시하는 `2개의 쌍`으로 이루어져 있으며, 종료태그는 `/`로 시작된다. 태그의 이름은 규칙으로 정해져 있고 태그마다 역할이 다르다.
 
-<img alt="샘플이미지" src="img/html_1-3.png" width="70%">
+<img class="img-shadow" alt="샘플이미지" src="img/html_1-3.png" width="70%">
 <!--이미지 주소 : https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics-->
 
 - `<strong> hello world </strong>`처럼 태그를 사용해 데이터를 표현한다.
@@ -129,20 +129,20 @@ HTML에서는 `태그(Tag)`를 사용하며, `<>`를 사용하여 나타낸다. 
 
 ### 동영상 강좌
 - HTML 기본 문법 (12:07)
-  > http://bit.ly/2uViKGB
+  > [http://bit.ly/2uViKGB](http://bit.ly/2uViKGB){:target="_blank"}
 - HTML 태그의 속성과 div태그 (4:53)
-  > http://bit.ly/2JLPjvN
+  > [http://bit.ly/2JLPjvN](http://bit.ly/2JLPjvN){:target="_blank"}
 - 닫는 태그의 사용규칙 (2:49)
-  > http://bit.ly/2O4LHbP
+  > [http://bit.ly/2O4LHbP](http://bit.ly/2O4LHbP){:target="_blank"}
 - HTML 주석 달기 (1:41)
-  > http://bit.ly/2Led1GJ
+  > [http://bit.ly/2Led1GJ](http://bit.ly/2Led1GJ){:target="_blank"}
 
 
 ### 참고 자료
 > pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.
-- 태그, 태그의 속성: http://bit.ly/2uWbcmU
-- 주석: http://bit.ly/2NF5eyz
-- 태그, 요소, 속성, 변수: http://bit.ly/2JOkQ07
+- 태그, 태그의 속성: [http://bit.ly/2uWbcmU](http://bit.ly/2uWbcmU){:target="_blank"}
+- 주석: [http://bit.ly/2NF5eyz](http://bit.ly/2NF5eyz){:target="_blank"}
+- 태그, 요소, 속성, 변수: [http://bit.ly/2JOkQ07](http://bit.ly/2JOkQ07){:target="_blank"}
 
 ### 퀴즈
 #### 1) 옳게 태그를 사용한 것은 무엇인가
@@ -183,7 +183,7 @@ HTML에서는 `태그(Tag)`를 사용하며, `<>`를 사용하여 나타낸다. 
 ## 4. HTML 기본 구조
 HTML 문서는 `<!DOCTYPE html>`, `<html>`, `<head>`, `<title>`, `<body>`의 기본태그로 이루어져 있다. 
 
-<img alt="샘플이미지" src="img/html_1-4.jpg" width="80%">
+<img class="img-shadow" alt="샘플이미지" src="img/html_1-4.jpg" width="80%">
 <!-- 사진 주소 : http://lux.cuenet.kr/93-->
 
 
@@ -194,24 +194,24 @@ HTML 문서는 `<!DOCTYPE html>`, `<html>`, `<head>`, `<title>`, `<body>`의 기
 
 ### 동영상 강좌
 - HTML 기본 구조 (13:24)
-  > http://bit.ly/2LiK5xp
+  > [http://bit.ly/2LiK5xp](http://bit.ly/2LiK5xp){:target="_blank"}
 - HTML head (2:21)
-  > http://bit.ly/2A2hozw
+  > [http://bit.ly/2A2hozw](http://bit.ly/2A2hozw){:target="_blank"}
 - Title 태그 (0:53)
-  > http://bit.ly/2uWZicu
+  > [http://bit.ly/2uWZicu](http://bit.ly/2uWZicu){:target="_blank"}
 - meta 태그 (8:45)
-  > http://bit.ly/2Lk5V3q
+  > [http://bit.ly/2Lk5V3q](http://bit.ly/2Lk5V3q){:target="_blank"}
 - 기본구조 및 시맨틱 태그 (12:51)
-  > http://bit.ly/2LGlgYm
+  > [http://bit.ly/2LGlgYm](http://bit.ly/2LGlgYm){:target="_blank"}
 - 시맨틱 태그 (8:53)
-  > http://bit.ly/2Ldy8Jj
+  > [http://bit.ly/2Ldy8Jj](http://bit.ly/2Ldy8Jj){:target="_blank"}
 
 
 ### 참고 자료
 > pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.
-- 인코딩, Head태그, title 태그, meta 태그: http://bit.ly/2mA4Fu9
-- HTML의 기본구성: http://bit.ly/2mDkIHy
-- body, footer, header, head, html, meta, title 태그: http://bit.ly/2LuGaNa
+- 인코딩, Head태그, title 태그, meta 태그: [http://bit.ly/2mA4Fu9](http://bit.ly/2mA4Fu9){:target="_blank"}
+- HTML의 기본구성: [http://bit.ly/2mDkIHy](http://bit.ly/2mDkIHy){:target="_blank"}
+- body, footer, header, head, html, meta, title 태그: [http://bit.ly/2LuGaNa](http://bit.ly/2LuGaNa){:target="_blank"}
 
 ### 퀴즈
 #### 1) HTML의 기본 구조를 서술하시오.
