@@ -52,7 +52,7 @@ js_1-1.html파일을 생성하고 javascript코드를 추가하기 전, 기본 �
 #### step-3> 실행 및 결과 확인
 브라우저에서 실행결과를 확인 합니다. 아래와 같이 버튼을 누르면 `id="demo"`의 문구가 변경되는 것을 확인 할 수 있습니다.
 
-<img class="img-shadow" alt="4-1-3결과" src="img/js_1-1.gif" width="80%">
+<img class="img-shadow" alt="4-1-3결과" src="img/js_1-1.gif" width="60%">
 
 ### 예제 1-2) javascript 적용 방법
 본 예제에서는 javascript를 적용시키는 방법을 알아봅니다. 
@@ -143,7 +143,7 @@ js_1-3.html은 로그인을 하는 프로그램입니다. 아이디와 비밀번
 #### step-2> 실행 및 결과 확인
 브라우저에서 실행결과를 확인 합니다.
 
-<img class="img-shadow" alt="js_1-3결과" src="img/js_1-3.gif" width="80%">
+<img class="img-shadow" alt="js_1-3결과" src="img/js_1-3.gif" width="60%">
 
 
 ### 예제 1-4) 연산자
@@ -288,7 +288,7 @@ js_2-1.html파일을 생성하고 함수를 만들어 특정한 기능을 수행
 #### step-2> 실행 및 결과 확인
 브라우저에서 실행결과를 확인 합니다.
 
-<img class="img-shadow" alt="js_2-1결과" src="img/js_2-1.gif" width="80%">
+<img class="img-shadow" alt="js_2-1결과" src="img/js_2-1.gif" width="60%">
 
 
 ## 3. 문서객체모델(DOM) 
@@ -321,7 +321,7 @@ js_2-1.html파일을 생성하고 문서 객체를 생성하기위해 다음과 
 #### step-2> 실행 및 결과 확인
 브라우저에서 실행결과를 확인 합니다.
 
-<img class="img-shadow" alt="js_3-1결과" src="img/js_3-1.gif" width="80%">
+<img class="img-shadow" alt="js_3-1결과" src="img/js_3-1.gif" width="60%">
 
 ### 예제 3-2) 문서 객체 스타일 변경하기
 본 예제에서는 문서객체의 스타일을 변경하는 방법을 학습합니다.
@@ -350,7 +350,7 @@ js_3-2.html파일을 생성하고 문서 객체의 스타일을 변경하기위�
 #### step-2> 실행 및 결과 확인
 브라우저에서 실행결과를 확인 합니다.
 
-<img class="img-shadow" alt="js_3-2결과" src="img/js_3-2.gif" width="80%">
+<img class="img-shadow" alt="js_3-2결과" src="img/js_3-2.gif" width="60%">
 
 
 [din-badge]:https://img.shields.io/badge/dinfree-edu-orange.svg
