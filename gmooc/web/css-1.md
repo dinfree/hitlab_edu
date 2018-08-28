@@ -6,20 +6,22 @@
 [STS-10]은 웹프로그래밍의 핵심 개념에서 부터 주요 기술인 html, css, javascript를 비롯해 필수 응용 라이브러리인 bootstrap, jquery까지를 다루는 과정 입니다.
 
 ## CSS - 개념 이해
-이부분은 해당 챕터에 대한 설명과 안내가 나와야 하는데 우선 이부분은 비워 두도록 한다. 이부분은 해당 챕터에 대한 설명과 안내가 나와야 하는데 우선 이부분은 비워 두도록 한다.이부분은 해당 챕터에 대한 설명과 안내가 나와야 하는데 우선 이부분은 비워 두도록 한다.이부분은 해당 챕터에 대한 설명과 안내가 나와야 하는데 우선 이부분은 비워 두도록 한다.이부분은 해당 챕터에 대한 설명과 안내가 나와야 하는데 우선 이부분은 비워 두도록 한다.
+HTML 태그를 보조하여 웹 페이지를 꾸미는 역할을 하는 CSS에 대해 살펴봅니다. CSS란 무엇인가에 대해 알아본 후 그 역할에 대해 생각해 봅니다. CSS 기본 구조는 어떻게 이루어졌는지 파악하고 해당 용어에 대해 학습합니다. CSS를 HTML에 포함하는 방법 3가지를 알아본 후 각각의 차이점을 분석해 봅니다.
 
 ### 목차
-1. CSS 소개
-2. 사용 이유
-3. 기본 문법
-4. 포함 방법
+1. [CSS 소개](#m1)
+2. [사용 이유](#m2)
+3. [기본 문법](#m3)
+4. [포함 방법](#m4)
 
 ---
+<a id="m1"></a>
+
 ## 1. CSS 소개
 
 CSS(Cascading Style Sheets)는 HTML과 함께 웹 표준의 기본 개념입니다. HTML이 텍스트나 이미지, 표 같은 각 요소를 웹 문서에 넣어 뼈대를 만드는 것이라면 CSS는 텍스트 색상이나 크기, 이미지 크기나 위치, 표 색상, 배치 방법 등 웹 문서의 디자인 요소를 담당합니다.
 
-<img alt="css_1-1" src="img/css_1-1.png" width="60%" >
+<img class="img-shadow" alt="css_1-1" src="img/css_1-1.png" width="60%" >
 <p></p>
 
 - CSS란 `Cascading Style Sheet`의 약자로써, HTML 문서를 표현하는 방법을 기술하는 언어입니다.
@@ -28,11 +30,11 @@ CSS(Cascading Style Sheets)는 HTML과 함께 웹 표준의 기본 개념입니�
 
 ### 동영상 강좌
 - 스타일과 스타일시트는 무엇인가?
-  > https://bit.ly/2O7vd2z (00:00 ~ 03:14) <!-- 03:14-->
+  > https://bit.ly/2O7vd2z (00:00 ~ 03:14) `03:14`
 - CSS 소개: HTML과 CSS
-  > https://bit.ly/2JKpUCC <!--15:21-->
+  > https://bit.ly/2JKpUCC `15:21`
 - CSS 소개 및 기본 구조
-  > https://bit.ly/2LBbiY1 (00:00 ~ 02:07) <!--02:07-->
+  > https://bit.ly/2LBbiY1 (00:00 ~ 02:07) `02:07`
 
  <!--20분 42초-->
 
@@ -54,7 +56,7 @@ CSS(Cascading Style Sheets)는 HTML과 함께 웹 표준의 기본 개념입니�
 <p></p>
 <div markdown="1">
 
-> Cascading Style Sheet
+- Cascading Style Sheet
 </div>
 </details>
 
@@ -69,13 +71,15 @@ CSS(Cascading Style Sheets)는 HTML과 함께 웹 표준의 기본 개념입니�
 </div>
 </details>
 
-<br />
+<br>
 
 ---
+<a id="m2"></a>
+
 ## 2. 사용 이유
 내용과 디자인이 구분되어 있기 때문에 웹 페이지의 내용을 수정해야 할 때도 디자인에 전혀 영향을 미치지 않고 내용만 수정할 수 있습니다. 또한, 기존 HTML 문서는 웹 브라우저 화면을 기본으로 하기 때문에 각 기기에 맞는 브라우저에 적합하게 문서를 만들어야 했습니다. 하지만 CSS는 내용은 그대로 두고 대상 기기에 맞게 CSS만 바꾸어 주면 같은 내용을 여러 기기에 맞추어 볼 수 있습니다.
 
-<img alt="css_1-2" src="img/css_1-2.png" width="100%" >
+<img class="img-shadow" alt="css_1-2" src="img/css_1-2.png" width="100%" >
 <p></p>
 
 - 웹 문서의 내용과 상관없이 디자인만 바꿀 수 있습니다.
@@ -85,9 +89,9 @@ CSS(Cascading Style Sheets)는 HTML과 함께 웹 표준의 기본 개념입니�
 
 ### 동영상 강좌
 - CSS 목적 및 역사
-  > https://bit.ly/2uODijQ (08:45 ~ 12:06) <!--03:21-->
+  > https://bit.ly/2uODijQ (08:45 ~ 12:06) `03:21`
 - CSS 등장배경
-  > https://bit.ly/2Lsa1Ga <!--10:44-->
+  > https://bit.ly/2Lsa1Ga `10:44`
 
  <!--14분 05초-->
 
@@ -109,11 +113,13 @@ CSS(Cascading Style Sheets)는 HTML과 함께 웹 표준의 기본 개념입니�
 <br />
 
 ---
+<a id="m3"></a>
+
 ## 3. 기본 문법
 
 CSS는 선택자와 선언부로 구성됩니다. 선택자는 스타일을 지정할 HTML 요소를 가리킵니다. 선언에는 CSS 속성 이름과 값이 포함됩니다. 속성이 여러 개일 경우, 한 줄로 나열해도 상관없지만 여러 줄에 걸쳐 작성하는 것이 좋습니다.
 
-<img alt="css_1-3" src="img/css_1-3.png" width="75%" >
+<img class="img-shadow" alt="css_1-3" src="img/css_1-3.png" width="75%" >
 <p></p>
 
 - CSS규칙은 `선택자(selector)`와 `선언부(declaration)`로 구성됩니다.
@@ -129,11 +135,11 @@ h1 { color: blue; }
 
 ### 동영상 강좌
 - CSS 규칙
-  > https://bit.ly/2uODijQ (12:08 ~ 20:20) <!--08:12-->
+  > https://bit.ly/2uODijQ (12:08 ~ 20:20) `08:12`
 - 실시간 코딩을 통한 CSS 기본 문법 알아보기
-  > https://bit.ly/2fbTQN5 <!--05:06-->
+  > https://bit.ly/2fbTQN5 `05:06`
 - 기본 문법에 따른 실습 강의
-  > https://bit.ly/2AzKrKR (02:07 ~ 06:33) <!--04:26-->
+  > https://bit.ly/2AzKrKR (02:07 ~ 06:33) `04:26`
 
  <!--17분 44초-->
 
@@ -177,11 +183,13 @@ h1 {
 <br />
 
 ---
+<a id="m4"></a>
+
 ## 4. 포함 방법
 
 CSS의 포함방법에는 `내부 스타일시트, 외부 스타일시트, 인라인 스타일` 총 3가지가 있습니다.
 
-<img alt="css_1-4" src="img/css_1-4.jpg" width="60%" >
+<img class="img-shadow" alt="css_1-4" src="img/css_1-4.jpg" width="60%" >
 <p></p>
 
 #### 1) 내부 스타일시트
@@ -203,21 +211,21 @@ h1 {
 ```
 #### 3) 인라인 스타일
 ```html
-<h1 style="color:blue;margin-left:30px;">This is a heading</h1>
+<h1 style="color:blue; margin-left:30px;">This is a heading</h1>
 ```
 
 
 ### 동영상 강좌
 - HTML과 CSS가 만나는 법
-  > https://bit.ly/2mEZhGt <!--06:50-->
+  > https://bit.ly/2mEZhGt `06:50`
 - HTML 문서와 CSS 연결 방법
-  > https://bit.ly/2uODijQ (22:52 ~ 27:00) <!--04:08-->
+  > https://bit.ly/2uODijQ (22:52 ~ 27:00) `04:08`
 - 내부 스타일시트, 외부 스타일시트, 인라인 스타일
-  > https://bit.ly/2LDZG6K (05:15 ~ 09:43) <!--04:28-->
+  > https://bit.ly/2LDZG6K (05:15 ~ 09:43) `04:28`
 - 외부 스타일시트 실습 강의
-  > https://bit.ly/2O7eNHm <!--05:02-->
+  > https://bit.ly/2O7eNHm `05:02`
 - CSS 재사용
-  > https://bit.ly/2NxvIlm <!--05:03-->
+  > https://bit.ly/2NxvIlm `05:03`
 
 <!--25분 31초-->
 
@@ -257,6 +265,7 @@ h1 {
 
 <!-- 1:18:02-->
  
+
 
 [din-badge]:https://img.shields.io/badge/dinfree-edu-orange.svg
 [din-url]:https://github.com/dinfree

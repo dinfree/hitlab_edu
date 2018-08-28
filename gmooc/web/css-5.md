@@ -6,18 +6,20 @@
 [STS-10]은 웹프로그래밍의 핵심 개념에서 부터 주요 기술인 html, css, javascript를 비롯해 필수 응용 라이브러리인 bootstrap, jquery까지를 다루는 과정 입니다.
 
 ## CSS - 레이아웃
-이부분은 해당 챕터에 대한 설명과 안내가 나와야 하는데 우선 이부분은 비워 두도록 한다. 이부분은 해당 챕터에 대한 설명과 안내가 나와야 하는데 우선 이부분은 비워 두도록 한다.이부분은 해당 챕터에 대한 설명과 안내가 나와야 하는데 우선 이부분은 비워 두도록 한다.이부분은 해당 챕터에 대한 설명과 안내가 나와야 하는데 우선 이부분은 비워 두도록 한다.이부분은 해당 챕터에 대한 설명과 안내가 나와야 하는데 우선 이부분은 비워 두도록 한다.
+웹 페이지 개발에 사용하는 주요 레이아웃 구성 방법을 정리합니다. 먼저, HTML요소의 블록레벨, 인라인레벨 그리고 인라인-블록 레벨에 대해 살펴봅니다. 각 레벨들의 특징을 살펴본 후 차이점을 분석합니다. 레이아웃을 정렬할 때 사용하는 속성은 텍스트 정렬과 요소정렬로 나누어 살펴봅니다. 그리고 해당 웹 페이지에 요소를 배치하는 속성인 포지셔닝에 대해 알아봅니다. 요소 배치 방법 4가지를 학습한 후 각각의 차이점을 분석해 봅니다.
 
 ### 목차
-1. Inline-block
-2. Align
-3. 포지셔닝
+1. [Inline-block](#m1)
+2. [Align](#m2)
+3. [포지셔닝](#m3)
 
 ---
+<a id="m1"></a>
+
 ## 1. Inline-block
 HTML 요소는 블록 레벨인지 인라인 레벨인지에 따라 나열 방법이 달라집니다. 블록 레벨요소는 태그를 사용해 요소를 삽입했을 때 혼자 한 줄을 차지하는 요소입니다. 이것은 해당 요소의 너비가 100% 라는 의미이기도 합니다. 반면, 인라인 레벨요소는 줄을 차지하지 않는 요소입니다. 화면에 표시되는 콘텐츠만큼만 영역을 차지하고 나머지 공간에는 다른 요소가 올 수 있습니다.
 
-<img alt="css_5-1" src="img/css_5-1.png" width="70%" >
+<img class="img-shadow" alt="css_5-1" src="img/css_5-1.png" width="70%" >
 <p></p>
 
 #### 1) block
@@ -36,15 +38,15 @@ HTML 요소는 블록 레벨인지 인라인 레벨인지에 따라 나열 방�
 
 ### 동영상 강좌
 - Inline-Block의 개념
-  > https://bit.ly/2uHTHXY <!-- 05:39 -->
+  > https://bit.ly/2uHTHXY `05:39`
 - Inline과 Block 요소
-  > https://bit.ly/2O5e34Y <!-- 09:17 -->
+  > https://bit.ly/2O5e34Y `09:17`
 - 속성에 따른 inline-block 요소의 변화 1
-  > https://bit.ly/2n9qEZu <!-- 04:08 -->
+  > https://bit.ly/2n9qEZu `04:08`
 - 속성에 따른 inline-block 요소의 변화 2
-  > https://bit.ly/2Kq9sbb <!-- 02:28 -->
+  > https://bit.ly/2Kq9sbb `02:28`
 - Inline, block 그리고 inline-block
-  > https://bit.ly/2vzozcX <!-- 03:15 -->
+  > https://bit.ly/2vzozcX `03:15`
 
  <!-- 24:47 -->
 
@@ -82,11 +84,13 @@ HTML 요소는 블록 레벨인지 인라인 레벨인지에 따라 나열 방�
 <br />
 
 ---
+<a id="m2"></a>
+
 ## 2. Align
 Align은 요소들을 정렬하는 속성입니다. 블록 안에 있는 텍스트는 text-align 속성을 이용하여 글자를 정렬합니다. 요소 배치에는 Float, clear, overflow 속성을 이용합니다. 이 속성들을 이용하여 요소들을 배치하며 레이아웃을 구성합니다.
 
 <p></p>
-<img alt="css_5-2" src="img/css_5-2.png" width="100%" >
+<img class="img-shadow" alt="css_5-2" src="img/css_5-2.png" width="100%" >
 
 #### 1) text-align
 |value|description|
@@ -111,17 +115,17 @@ Align은 요소들을 정렬하는 속성입니다. 블록 안에 있는 텍스�
 
 ### 동영상 강좌
 - Text Align
-  > https://bit.ly/2NBxFNA <!-- 04:03 -->
+  > https://bit.ly/2NBxFNA `04:03`
 - Text Align 속성
-  > https://bit.ly/2AyOmaS <!-- 01:10 -->
+  > https://bit.ly/2AyOmaS `01:10`
 - Float 개념
-  > https://bit.ly/2O8gR1L <!-- 07:56 -->
+  > https://bit.ly/2O8gR1L `07:56`
 - Float 응용
-  > https://bit.ly/2LyN7g2 <!-- 21:52 -->
+  > https://bit.ly/2LyN7g2 `21:52`
 - 코딩을 통한 Floating
-  > https://bit.ly/2MeKE7G <!-- 04:45 -->
+  > https://bit.ly/2MeKE7G `04:45`
 - Overflow 속성
-  > https://bit.ly/2AF9HQ8 <!-- 02:08 -->
+  > https://bit.ly/2AF9HQ8 `02:08`
 
  <!-- 36:41 -->
  <!-- 05:13 -->
@@ -168,10 +172,12 @@ Align은 요소들을 정렬하는 속성입니다. 블록 안에 있는 텍스�
 <br />
 
 ---
+<a id="m3"></a>
+
 ## 3. 포지셔닝
 문서 내에 삽입된 여러 가지 요소들은 별도의 위치 지정이 되지 않은 경우 기본적으로 상/하로 나열됩니다. CSS에서는 position과 float 속성을 통해 HTML 여러 요소들에 대해 위치를 직접 적용하고 레이아웃을 구성할 수 있습니다. position 속성은 문서 내 위치를 직접 지정할 수 있다는 것이 float속성과의 차이점입니다.
 
-<img alt="css_5-3" src="img/css_5-3.png" width="80%" >
+<img class="img-shadow" alt="css_5-3" src="img/css_5-3.png" width="80%" >
 
 > Position 속성은 요소에 사용되는 위치 지정 방법의 유형을 지정합니다.
 
@@ -195,19 +201,19 @@ Align은 요소들을 정렬하는 속성입니다. 블록 안에 있는 텍스�
 
 ### 동영상 강좌
 - CSS 그리드
-  > https://bit.ly/2v27Vmb <!-- 09:53 -->
+  > https://bit.ly/2v27Vmb `09:53`
 - 포지셔닝과 주요 속성들
-  > https://bit.ly/2O5FkEc <!-- 14:37 -->
+  > https://bit.ly/2O5FkEc `14:37`
 - 박스 레이아웃
-  > https://bit.ly/2O9efQG <!-- 20:26 -->
+  > https://bit.ly/2O9efQG `20:26`
 - Absolute Position 
-  > https://bit.ly/2LRhjUP <!-- 02:54 -->
+  > https://bit.ly/2LRhjUP `02:54`
 - Fixed Position
-  > https://bit.ly/2Kk8PQt <!-- 02:24 -->
+  > https://bit.ly/2Kk8PQt `02:24`
 - Relative Position
-  > https://bit.ly/2O8Zk8P <!-- 09:59 -->
+  > https://bit.ly/2O8Zk8P `09:59`
 - CSS 레이아웃 포지셔닝
-  > https://bit.ly/2OI0LfU <!-- 18:48 -->
+  > https://bit.ly/2OI0LfU `18:48`
 
  <!-- 1:19:01 -->
 
@@ -233,6 +239,7 @@ Align은 요소들을 정렬하는 속성입니다. 블록 안에 있는 텍스�
 </details>
 
 <!-- 2:25:42 -->
+
 
 [din-badge]:https://img.shields.io/badge/dinfree-edu-orange.svg
 [din-url]:https://github.com/dinfree
