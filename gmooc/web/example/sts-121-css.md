@@ -527,7 +527,7 @@ css_7-1.css파일을 생성하고 각 태그들의 인라인 레벨 및 블록 �
 #### step-3> 실행결과 확인
 브라우저에서 실행결과를 확인 합니다. 아래와 같이 h1, p, a태그의 블록, 인라인 레벨이 변경된 것을 확인 할 수 있습니다.
 
-<img class="img-shadow" alt="7-1결과" src="img/css_7-2.png" width="70%">
+<img class="img-shadow" alt="7-1결과" src="img/css_7-2.png" width="50%">
 
 
 ### 예제 7-2) 정렬
@@ -560,7 +560,7 @@ css_7-2.css파일을 생성하고 글자의 정렬과 요소의 배치 지정을
 #### step-2> 실행결과 확인
 브라우저에서 실행 결과를 확인 합니다. 아래 결과와 같이 p태그의 글씨들이 가운데로 정렬되고, 이미지가 다른 요소의 왼쪽에 배치된 것을 확인 할 수 있습니다.
 
-<img class="img-shadow" alt="7-2결과" src="img/css_7-3.png" width="80%">
+<img class="img-shadow" alt="7-2결과" src="img/css_7-3.png" width="50%">
 
 
 ### 예제 7-3) 포지셔닝
@@ -610,7 +610,7 @@ css_7-2.css파일을 생성하고 각 요소들에 다른 position 속성을 적
 #### step-2> 실행결과 확인
 브라우저에서 실행 결과를 확인 합니다. 아래 결과와 같이 p태그의 글씨들이 가운데로 정렬되고, 이미지가 다른 요소의 왼쪽에 배치된 것을 확인 할 수 있습니다.
 
-<img class="img-shadow" alt="7-2결과" src="img/css_7-4.png" width="80%">
+<img class="img-shadow" alt="7-2결과" src="img/css_7-4.png" width="50%">
 
 
 
