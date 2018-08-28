@@ -47,7 +47,7 @@
 </form>
 </div>
 </details><br><br>
-<img alt="샘플이미지" src="img/html_4-2.png" width="50%">
+<img class="img-shadow" alt="샘플이미지" src="img/html_4-2.png" width="50%">
 <!--이미지 주소 : https://opentechlabs.blogspot.com/2014/10/difference-between-post-get.html -->
 
 - `<form>`은 입력양식의 최상위 요소로 입력양식의 범위를 지정한다. 
@@ -55,15 +55,15 @@
 
 ### 동영상 강좌
 - form 기본 (12:19)
-  > http://bit.ly/2uHYadt
+  > [http://bit.ly/2uHYadt](http://bit.ly/2uHYadt){:target="_blank"}
 - GET과 POST의차이 (10:03)
-  > http://bit.ly/2A9oa6m
+  > [http://bit.ly/2A9oa6m](http://bit.ly/2A9oa6m){:target="_blank"}
 
 
 ### 참고 자료
 > pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.
-- form 태그: http://bit.ly/2uJ2cSO
-- HTML Forms: http://bit.ly/2uRY2XY
+- form 태그: [http://bit.ly/2uJ2cSO](http://bit.ly/2uJ2cSO){:target="_blank"}
+- HTML Forms: [http://bit.ly/2uRY2XY](http://bit.ly/2uRY2XY){:target="_blank"}
 
 
 ### 퀴즈
@@ -124,22 +124,22 @@ post 방식은 HTTP Request 헤더에 파라미터를 붙여서 전송하여 보
 
 ### 동영상 강좌
 - 폼 관련 태그들 (12:11)
-  > http://bit.ly/2mAvZIN
+  > [http://bit.ly/2mAvZIN](http://bit.ly/2mAvZIN){:target="_blank"}
 - input type (10:11)
-  > http://bit.ly/2JNfdPJ
+  > [http://bit.ly/2JNfdPJ](http://bit.ly/2JNfdPJ){:target="_blank"}
 - input 태그 color 속성 (1:03)
-  > http://bit.ly/2uXDg9s
+  > [http://bit.ly/2uXDg9s](http://bit.ly/2uXDg9s){:target="_blank"}
 - input 태그 date, month, week 속성 (2:24)
-  > http://bit.ly/2JNfYs3
+  > [http://bit.ly/2JNfYs3](http://bit.ly/2JNfYs3){:target="_blank"}
 - fildset (6:52)
-  > http://bit.ly/2mAVlWU
+  > [http://bit.ly/2mAVlWU](http://bit.ly/2mAVlWU){:target="_blank"}
 - 회원가입 폼 태그 예제 (23:00)
-  > http://bit.ly/2uWddPS (~23:00)
+  > [http://bit.ly/2uWddPS](http://bit.ly/2uWddPS){:target="_blank"} (~23:00)
 
 
 ### 참고 자료
 > pdf, ppt, slideshare, 관련정보사이트 등 충분하게. 영상과 마찬가지로 추후 설명이 추가 되어야 함.
-- button, form, input 태그: http://bit.ly/2uVyY2b
+- button, form, input 태그: [http://bit.ly/2uVyY2b](http://bit.ly/2uVyY2b){:target="_blank"}
 
 
 ### 퀴즈
