@@ -28,7 +28,7 @@
 
 ### 동영상 강좌
 - What is the world wide web? (3:54)
-  > http://bit.ly/2zXoOnv
+  > <a href="http://bit.ly/2zXoOnv" target="_blank">http://bit.ly/2zXoOnv</a>
 - 웹 서비스? (2:39)
   > http://bit.ly/2mBncGF
 - 웹의 개요(4:46)
