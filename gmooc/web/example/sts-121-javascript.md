@@ -52,7 +52,7 @@ js_1-1.html파일을 생성하고 javascript코드를 추가하기 전, 기본 �
 #### step-3> 실행 및 결과 확인
 브라우저에서 실행결과를 확인 합니다. 아래와 같이 버튼을 누르면 `id="demo"`의 문구가 변경되는 것을 확인 할 수 있습니다.
 
-<img alt="4-1-3결과" src="img/js_1-1.gif" width="80%">
+<img class="img-shadow" alt="4-1-3결과" src="img/js_1-1.gif" width="80%">
 
 ### 예제 1-2) javascript 적용 방법
 본 예제에서는 javascript를 적용시키는 방법을 알아봅니다. 
@@ -106,7 +106,7 @@ document.write("외부 javascript 문서 실행"+num+"<br>");
 #### step-4> 실행 및 결과 확인
 브라우저에서 실행결과를 확인 합니다.
 
-<img alt="js_1-2결과" src="img/js_1-2.png" width="30%">
+<img class="img-shadow" alt="js_1-2결과" src="img/js_1-2.png" width="30%">
 
 ### 예제 1-3) 조건문
 본 예제에서는 javascript의 제어문에 대해 알아봅니다.
@@ -143,7 +143,7 @@ js_1-3.html은 로그인을 하는 프로그램입니다. 아이디와 비밀번
 #### step-2> 실행 및 결과 확인
 브라우저에서 실행결과를 확인 합니다.
 
-<img alt="js_1-3결과" src="img/js_1-3.gif" width="80%">
+<img class="img-shadow" alt="js_1-3결과" src="img/js_1-3.gif" width="80%">
 
 
 ### 예제 1-4) 연산자
@@ -207,7 +207,54 @@ js_1-3.html은 로그인을 하는 프로그램입니다. 아이디와 비밀번
 #### step-2> 실행 및 결과 확인
 브라우저에서 실행결과를 확인 합니다.
 
-<img alt="js_1-4결과" src="img/js_1-3.png" width="30%">
+<img class="img-shadow" alt="js_1-4결과" src="img/js_1-3.png" width="30%">
+
+### 예제 1-5) 반복문
+본 예제에서는 반복문이 무엇인지 배우고, 반복문인 while과 for을 사용하는 방법에 대해서 학습합니다.
+
+#### step-1> 소스코드 작성(js_1-5.html)
+js_1-5.html은 구구단 2단을 보여주는 예제입니다. javascript로 구구단 2단을 계산하여 출력하기위해 js_1-5.html파일을 생성하고 다음과 같이 코드를 작성합니다.
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>1-5.html</title>
+    </head>
+
+    <body>
+        <script>
+            for (i = 1; i < 10; i++) {
+                document.write("2*" + i + "=" + 2*i + "<br>");
+            }
+        </script>
+    </body>
+</html>
+```
+#### step-2> 실행 및 결과 확인
+브라우저에서 실행결과를 확인 합니다.
+
+<img class="img-shadow" alt="js_1-5결과" src="img/js_1-5.png" width="10%">
+
+#### step-3> 소스코드 변경
+For로 구현하였던 구구단을 While로 변경하여 만들어보려고합니다. 반복문 중에 하나인 While을 이용해 구구단 2단을 출력하기위해 js_1-5.html파일의 코드를 다음과 같이 수정합니다.
+
+```html
+<script>
+    var i=1;
+    while (i < 10) {
+        document.write("2*" + i + "=" + 2*i + "<br>");
+        i++;
+    }
+</script>
+```
+
+#### step-4> 실행 및 결과 확인
+브라우저에서 실행결과를 확인 합니다.
+
+<img class="img-shadow" alt="js_1-5결과" src="img/js_1-5.png" width="10%">
+
+
 
 ## 2. 함수와 이벤트 처리
 ### 예제 2-1) 함수
@@ -241,7 +288,7 @@ js_2-1.html파일을 생성하고 함수를 만들어 특정한 기능을 수행
 #### step-2> 실행 및 결과 확인
 브라우저에서 실행결과를 확인 합니다.
 
-<img alt="js_2-1결과" src="img/js_2-1.gif" width="80%">
+<img class="img-shadow" alt="js_2-1결과" src="img/js_2-1.gif" width="80%">
 
 
 ## 3. 문서객체모델(DOM) 
@@ -274,7 +321,7 @@ js_2-1.html파일을 생성하고 문서 객체를 생성하기위해 다음과 
 #### step-2> 실행 및 결과 확인
 브라우저에서 실행결과를 확인 합니다.
 
-<img alt="js_3-1결과" src="img/js_3-1.gif" width="80%">
+<img class="img-shadow" alt="js_3-1결과" src="img/js_3-1.gif" width="80%">
 
 ### 예제 3-2) 문서 객체 스타일 변경하기
 본 예제에서는 문서객체의 스타일을 변경하는 방법을 학습합니다.
@@ -303,7 +350,7 @@ js_3-2.html파일을 생성하고 문서 객체의 스타일을 변경하기위�
 #### step-2> 실행 및 결과 확인
 브라우저에서 실행결과를 확인 합니다.
 
-<img alt="js_3-2결과" src="img/js_3-2.gif" width="80%">
+<img class="img-shadow" alt="js_3-2결과" src="img/js_3-2.gif" width="80%">
 
 
 [din-badge]:https://img.shields.io/badge/dinfree-edu-orange.svg
