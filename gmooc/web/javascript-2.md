@@ -46,21 +46,15 @@ function add(x, y) {
 ```
 
 ### 동영상 강좌
-- JavaScript 함수란?
-    > https://bit.ly/2zY2xWG `10:07`
-- 함수 사용하기
-    > https://bit.ly/2uXlXW9  `05:44`
-- JavaScript Functions
-    > https://bit.ly/2mzrSN0 `06:28`
-- Javascript Functions Tutorial
-    > https://bit.ly/2uW6qpn `13:49`
-- JavaScript 함수 (리턴)
-    > https://bit.ly/2Lwu7Pn `07:19`
+- JavaScript 함수란? : [https://bit.ly/2zY2xWG](https://bit.ly/2zY2xWG){:target="_blank"} `10:07`
+- 함수 사용하기 : [https://bit.ly/2uXlXW9](https://bit.ly/2uXlXW9){:target="_blank"}  `05:44`
+- JavaScript Functions : [https://bit.ly/2mzrSN0](https://bit.ly/2mzrSN0){:target="_blank"} `06:28`
+- Javascript Functions Tutorial : [https://bit.ly/2uW6qpn](https://bit.ly/2uW6qpn){:target="_blank"} `13:49`
+- JavaScript 함수 (리턴) : [https://bit.ly/2Lwu7Pn](https://bit.ly/2Lwu7Pn){:target="_blank"} `07:19`
 
 
 ### 참고 자료
-- JavaScript Function Definitions
-    > https://bit.ly/2Lf4eV0
+- JavaScript Function Definitions : [https://bit.ly/2Lf4eV0](https://bit.ly/2Lf4eV0){:target="_blank"}
     
 
 ### 퀴즈
@@ -137,41 +131,24 @@ var x = add(4,3);
 `이벤트가 자식으로부터 발생하여 부모로 전파되는 방식`입니다. 이벤트가 발생하면 트리 위치가 가장 깊은 곳부터 거슬러 올라가게 되고 이 모습이 마치 거품이 올라가는 것과 같아 이벤트 버블링이라고 불립니다.
 - div → body → html → document
 
-<!--
-<img alt="js_2-2" src="img/js_2-2.png" width="50%" >
--->
-
 #### 2) 캡처링
 이벤트 버블링과 정반대로 `최상위 노드에서 이벤트가 발생`합니다. 위의 이벤트 버블링 때 처럼 div요소를 클릭했을 때 아래 순서로 이벤트가 발생합니다.
 - document → html → body → div
 
-<!--
-<img alt="js_2-3" src="img/js_2-3.png" width="50%" >
--->
-
 
 ### 동영상 강좌
-- JavaScript – 이벤트
-  > https://bit.ly/2NzNcxG  `04:24`
-- 자바스크립트 이벤트 사용법
-  > https://bit.ly/2O9IpnF `17:07`
-- JavaScript - 이벤트 소개
-  > https://bit.ly/2O8OcK5 `05:08`
-- JavaScript - 이벤트 캡처링
-  > https://bit.ly/2NCqsNq `10:38`
-- JavaScript - 이벤트 버블링
-  > https://bit.ly/2LyDaPK `10:27`
-- JavaScript - 마우스 이벤트
-  > https://bit.ly/2JKCUbG `14:19`
-- JavaScript - 폼 이벤트
-  > https://bit.ly/2LtfxZ0 `08:43`
-- JavaScript - 문서로드 이벤트
-  > https://bit.ly/2Lhg1SR `10:19`
+- JavaScript – 이벤트 : [https://bit.ly/2NzNcxG](https://bit.ly/2NzNcxG){:target="_blank"}  `04:24`
+- 자바스크립트 이벤트 사용법 : [https://bit.ly/2O9IpnF](https://bit.ly/2O9IpnF){:target="_blank"} `17:07`
+- JavaScript - 이벤트 소개 : [https://bit.ly/2O8OcK5](https://bit.ly/2O8OcK5){:target="_blank"} `05:08`
+- JavaScript - 이벤트 캡처링 : [https://bit.ly/2NCqsNq](https://bit.ly/2NCqsNq){:target="_blank"} `10:38`
+- JavaScript - 이벤트 버블링 : [https://bit.ly/2LyDaPK](https://bit.ly/2LyDaPK){:target="_blank"} `10:27`
+- JavaScript - 마우스 이벤트 : [https://bit.ly/2JKCUbG](https://bit.ly/2JKCUbG){:target="_blank"} `14:19`
+- JavaScript - 폼 이벤트 : [https://bit.ly/2LtfxZ0](https://bit.ly/2LtfxZ0){:target="_blank"} `08:43`
+- JavaScript - 문서로드 이벤트 : [https://bit.ly/2Lhg1SR](https://bit.ly/2Lhg1SR){:target="_blank"} `10:19`
     
 
 ### 참고 자료
-- JavaScript Events
-  > https://bit.ly/2AzCdRP
+- JavaScript Events : [https://bit.ly/2AzCdRP](https://bit.ly/2AzCdRP){:target="_blank"}
 
 
 ### 퀴즈

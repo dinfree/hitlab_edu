@@ -37,26 +37,18 @@ HTML 요소는 블록 레벨인지 인라인 레벨인지에 따라 나열 방�
 
 
 ### 동영상 강좌
-- Inline-Block의 개념
-  > https://bit.ly/2uHTHXY `05:39`
-- Inline과 Block 요소
-  > https://bit.ly/2O5e34Y `09:17`
-- 속성에 따른 inline-block 요소의 변화 1
-  > https://bit.ly/2n9qEZu `04:08`
-- 속성에 따른 inline-block 요소의 변화 2
-  > https://bit.ly/2Kq9sbb `02:28`
-- Inline, block 그리고 inline-block
-  > https://bit.ly/2vzozcX `03:15`
+- Inline-Block의 개념 : [https://bit.ly/2uHTHXY](https://bit.ly/2uHTHXY){:target="_blank"} `05:39`
+- Inline과 Block 요소 : [https://bit.ly/2O5e34Y](https://bit.ly/2O5e34Y){:target="_blank"} `09:17`
+- 속성에 따른 inline-block 요소의 변화 1 : [https://bit.ly/2n9qEZu](https://bit.ly/2n9qEZu){:target="_blank"} `04:08`
+- 속성에 따른 inline-block 요소의 변화 2 : [https://bit.ly/2Kq9sbb](https://bit.ly/2Kq9sbb){:target="_blank"} `02:28`
+- Inline, block 그리고 inline-block : [https://bit.ly/2vzozcX](https://bit.ly/2vzozcX){:target="_blank"} `03:15`
 
  <!-- 24:47 -->
 
 ### 참고 자료
-- w3school - inline-block
-  > https://bit.ly/2vmKOFT
-- MDN web docs - Inline 요소
-  > https://mzl.la/2Md8PDz
-- 4PSA - inline, block
-  > https://bit.ly/2Kojgm3
+- inline-block : [https://bit.ly/2vmKOFT](https://bit.ly/2vmKOFT){:target="_blank"}
+- Inline 요소 : [https://mzl.la/2Md8PDz](https://mzl.la/2Md8PDz){:target="_blank"}
+- inline, block : [https://bit.ly/2Kojgm3](https://bit.ly/2Kojgm3){:target="_blank"}
 
 ### 퀴즈
 #### 1) Inline과 Block의 차이점은 무엇입니까?
@@ -114,37 +106,24 @@ Align은 요소들을 정렬하는 속성입니다. 블록 안에 있는 텍스�
 - 속성 값으로는 visible, hidden, scroll, auto, inherit 가 있습니다.
 
 ### 동영상 강좌
-- Text Align
-  > https://bit.ly/2NBxFNA `04:03`
-- Text Align 속성
-  > https://bit.ly/2AyOmaS `01:10`
-- Float 개념
-  > https://bit.ly/2O8gR1L `07:56`
-- Float 응용
-  > https://bit.ly/2LyN7g2 `21:52`
-- 코딩을 통한 Floating
-  > https://bit.ly/2MeKE7G `04:45`
-- Overflow 속성
-  > https://bit.ly/2AF9HQ8 `02:08`
+- Text Align : [https://bit.ly/2NBxFNA](https://bit.ly/2NBxFNA){:target="_blank"} `04:03`
+- Text Align 속성 : [https://bit.ly/2AyOmaS](https://bit.ly/2AyOmaS){:target="_blank"} `01:10`
+- Float 개념 : [https://bit.ly/2O8gR1L](https://bit.ly/2O8gR1L){:target="_blank"} `07:56`
+- Float 응용 : [https://bit.ly/2LyN7g2](https://bit.ly/2LyN7g2){:target="_blank"} `21:52`
+- 코딩을 통한 Floating : [https://bit.ly/2MeKE7G](https://bit.ly/2MeKE7G){:target="_blank"} `04:45`
+- Overflow 속성 : [https://bit.ly/2AF9HQ8](https://bit.ly/2AF9HQ8){:target="_blank"} `02:08`
 
  <!-- 36:41 -->
  <!-- 05:13 -->
 
 ### 참고 자료
-- w3school - Align
-  > https://bit.ly/2j6sbk4
-- ofcourse - text align
-  > https://bit.ly/2JOQRp6 
-- w3school - Float and Clear
-  > https://bit.ly/2xrXzPK
-- w3school - overflow
-  > https://bit.ly/2vvaq0o
-- ofcourse - Float, Clear
-  > https://bit.ly/2vxikq1
-- Tech Altum Tutorial - CSS Float and Clear 
-  > https://bit.ly/2v9NXGT
-- MDN web docs - Float examples
-  > https://mzl.la/2AzgtXz
+- Align : [https://bit.ly/2j6sbk4](https://bit.ly/2j6sbk4){:target="_blank"}
+- text align : [https://bit.ly/2JOQRp6](https://bit.ly/2JOQRp6){:target="_blank"} 
+- Float and Clear : [https://bit.ly/2xrXzPK](https://bit.ly/2xrXzPK){:target="_blank"}
+- overflow : [https://bit.ly/2vvaq0o](https://bit.ly/2vvaq0o){:target="_blank"}
+- Float, Clear : [https://bit.ly/2vxikq1](https://bit.ly/2vxikq1){:target="_blank"}
+- CSS Float and Clear  : [https://bit.ly/2v9NXGT](https://bit.ly/2v9NXGT){:target="_blank"}
+- Float examples : [https://mzl.la/2AzgtXz](https://mzl.la/2AzgtXz){:target="_blank"}
 
 ### 퀴즈
 #### 1) Text를 오른쪽 정렬하는 코드를 작성하시오.
@@ -200,32 +179,21 @@ Align은 요소들을 정렬하는 속성입니다. 블록 안에 있는 텍스�
 
 
 ### 동영상 강좌
-- CSS 그리드
-  > https://bit.ly/2v27Vmb `09:53`
-- 포지셔닝과 주요 속성들
-  > https://bit.ly/2O5FkEc `14:37`
-- 박스 레이아웃
-  > https://bit.ly/2O9efQG `20:26`
-- Absolute Position 
-  > https://bit.ly/2LRhjUP `02:54`
-- Fixed Position
-  > https://bit.ly/2Kk8PQt `02:24`
-- Relative Position
-  > https://bit.ly/2O8Zk8P `09:59`
-- CSS 레이아웃 포지셔닝
-  > https://bit.ly/2OI0LfU `18:48`
+- CSS 그리드 : [https://bit.ly/2v27Vmb](https://bit.ly/2v27Vmb){:target="_blank"} `09:53`
+- 포지셔닝과 주요 속성들 : [https://bit.ly/2O5FkEc](https://bit.ly/2O5FkEc){:target="_blank"} `14:37`
+- 박스 레이아웃 : [https://bit.ly/2O9efQG](https://bit.ly/2O9efQG){:target="_blank"} `20:26`
+- Absolute Position  : [https://bit.ly/2LRhjUP](https://bit.ly/2LRhjUP){:target="_blank"} `02:54`
+- Fixed Position : [https://bit.ly/2Kk8PQt](https://bit.ly/2Kk8PQt){:target="_blank"} `02:24`
+- Relative Position : [https://bit.ly/2O8Zk8P](https://bit.ly/2O8Zk8P){:target="_blank"} `09:59`
+- CSS 레이아웃 포지셔닝 : [https://bit.ly/2OI0LfU](https://bit.ly/2OI0LfU){:target="_blank"} `18:48`
 
  <!-- 1:19:01 -->
 
 ### 참고 자료
-- w3school - Position
-  > https://bit.ly/2qs4kK3
-- ofcourse - Position 속성
-  > https://bit.ly/2JJw3Pu
-- MDN web docs - Positioning
-  > https://mzl.la/2O4DO5c
-- Tech Altum Tutorial - CSS Positions
-  > https://bit.ly/2OEz5bF
+- Position : [https://bit.ly/2qs4kK3](https://bit.ly/2qs4kK3){:target="_blank"}
+- Position 속성 : [https://bit.ly/2JJw3Pu](https://bit.ly/2JJw3Pu){:target="_blank"}
+- Positioning : [https://mzl.la/2O4DO5c](https://mzl.la/2O4DO5c){:target="_blank"}
+- CSS Positions : [https://bit.ly/2OEz5bF](https://bit.ly/2OEz5bF){:target="_blank"}
 
 ### 퀴즈
 #### 1) Relative와 Absolute 포지셔닝의 차이점은 무엇입니까?

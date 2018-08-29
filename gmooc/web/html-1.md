@@ -29,24 +29,16 @@
 - 인터넷은 `컴퓨터 네트워크 망`을 의미하고, 웹은 `인터넷 서비스`입니다.
 
 ### 동영상 강좌
-- What is the world wide web? `03:54`
-  > http://bit.ly/2zXoOnv
-- 웹 서비스? `02:39`
-  > http://bit.ly/2mBncGF
-- 웹의 개요 `04:46`
-  > http://bit.ly/2NAmS6t (00:00~04:46) `04:46`
-- 인터넷과 웹의 역사 `08:07`
-  > http://bit.ly/2Lg2CKH
-- 웹의 의미와 역사 `10:37`
-  > http://bit.ly/2NCDvP5
+- What is the world wide web? : [http://bit.ly/2zXoOnv](http://bit.ly/2zXoOnv){:target="_blank"} `03:54`
+- 웹 서비스 : [http://bit.ly/2mBncGF](http://bit.ly/2mBncGF){:target="_blank"} `02:39`
+- 웹의 개요 : [http://bit.ly/2NAmS6t](http://bit.ly/2NAmS6t){:target="_blank"} (00:00~04:46) `04:46`
+- 인터넷과 웹의 역사 : [http://bit.ly/2Lg2CKH](http://bit.ly/2Lg2CKH){:target="_blank"} `08:07`
+- 웹의 의미와 역사 : [http://bit.ly/2NCDvP5](http://bit.ly/2NCDvP5){:target="_blank"} `10:37`
 
 ### 참고 자료
-- 웹이란 무엇인가
-  > http://bit.ly/2zWAYgD
-- 웹의 역사
-  > http://bit.ly/2uTkcZS
-- 인터넷과 웹의 역사
-  > http://bit.ly/2mz5fIE
+- 웹이란 무엇인가 : [http://bit.ly/2zWAYgD](http://bit.ly/2zWAYgD){:target="_blank"}
+- 웹의 역사 : [http://bit.ly/2uTkcZS](http://bit.ly/2uTkcZS){:target="_blank"}
+- 인터넷과 웹의 역사 : [http://bit.ly/2mz5fIE](http://bit.ly/2mz5fIE){:target="_blank"}
 
 ### 퀴즈
 #### 1) 월드 와이드 웹이란 무엇인가
@@ -89,23 +81,16 @@
 
 
 ### 동영상 강좌
-- 웹 프로그래밍이란? 
-  > http://bit.ly/2O5bpwC (5:06~15:40) `10:34`
-- HTML에서 hyperText Markup 의미
-  > http://bit.ly/2NwOSYy `07:14`
-- 언어로써의 HTML 의미 알아보기
-  > http://bit.ly/2JPbFwI (~3:36) `03:36`
-- HTML의 역사 
-  > http://bit.ly/2Nzjzwc `10:09`
+- 웹 프로그래밍이란? : [http://bit.ly/2O5bpwC](http://bit.ly/2O5bpwC){:target="_blank"} (5:06~15:40) `10:34`
+- HTML에서 hyperText Markup 의미 : [http://bit.ly/2NwOSYy](http://bit.ly/2NwOSYy){:target="_blank"} `07:14`
+- 언어로써의 HTML 의미 알아보기 : [http://bit.ly/2JPbFwI](http://bit.ly/2JPbFwI){:target="_blank"} (~3:36) `03:36`
+- HTML의 역사 : [http://bit.ly/2Nzjzwc](http://bit.ly/2Nzjzwc){:target="_blank"} `10:09`
 
 
 ### 참고 자료
-- HTML 입문
-  > http://bit.ly/2mBnMUR
-- HTML5와 XHTML
-  > http://bit.ly/2LDiX8t  
-- HTML 기초
-  > http://bit.ly/2JLN7V5
+- HTML 입문 : [http://bit.ly/2mBnMUR](http://bit.ly/2mBnMUR){:target="_blank"}
+- HTML5와 XHTML : [http://bit.ly/2LDiX8t](http://bit.ly/2LDiX8t){:target="_blank"}  
+- HTML 기초 : [http://bit.ly/2JLN7V5](http://bit.ly/2JLN7V5){:target="_blank"}
 
 ### 퀴즈
 #### 1) HTML은 무엇의 약자인가
@@ -136,23 +121,16 @@ HTML에서는 `태그(Tag)`를 사용하며 태그는 `< >`를 사용하여 나�
 - 주석은 `<!--내용-->`의 형식으로 사용합니다.
 
 ### 동영상 강좌
-- HTML 기본 문법 
-  > http://bit.ly/2uViKGB `12:07`
-- HTML 태그의 속성과 div태그 
-  > http://bit.ly/2JLPjvN `04:53`
-- 닫는 태그의 사용규칙 
-  > http://bit.ly/2O4LHbP `02:49`
-- HTML 주석 달기 
-  > http://bit.ly/2Led1GJ `01:41`
+- HTML 기본 문법 : [http://bit.ly/2uViKGB](http://bit.ly/2uViKGB){:target="_blank"} `12:07`
+- HTML 태그의 속성과 div태그 : [http://bit.ly/2JLPjvN](http://bit.ly/2JLPjvN){:target="_blank"} `04:53`
+- 닫는 태그의 사용규칙 : [http://bit.ly/2O4LHbP](http://bit.ly/2O4LHbP){:target="_blank"} `02:49`
+- HTML 주석 달기 : [http://bit.ly/2Led1GJ](http://bit.ly/2Led1GJ){:target="_blank"} `01:41`
 
 
 ### 참고 자료
-- 태그, 태그의 속성
-  > http://bit.ly/2uWbcmU
-- 주석
-  > http://bit.ly/2NF5eyz
-- 태그, 요소, 속성, 변수
-  > http://bit.ly/2JOkQ07
+- 태그, 태그의 속성 : [http://bit.ly/2uWbcmU](http://bit.ly/2uWbcmU){:target="_blank"}
+- 주석 : [http://bit.ly/2NF5eyz](http://bit.ly/2NF5eyz){:target="_blank"}
+- 태그, 요소, 속성, 변수 : [http://bit.ly/2JOkQ07](http://bit.ly/2JOkQ07){:target="_blank"}
 
 
 ### 퀴즈
@@ -206,27 +184,18 @@ HTML 문서는 `<!DOCTYPE html>`, `<HTML>`, `<HEAD>`, `<TITLE>`, `<BODY>`의 기
 
 
 ### 동영상 강좌
-- HTML 기본 구조 
-  > http://bit.ly/2LiK5xp `13:24`
-- HTML head 
-  > http://bit.ly/2A2hozw `02:21`
-- Title 태그 
-  > http://bit.ly/2uWZicu `00:53`
-- meta 태그 
-  > http://bit.ly/2Lk5V3q `08:45`
-- 기본구조 및 시맨틱 태그 
-  > http://bit.ly/2LGlgYm `12:51`
-- 시맨틱 태그 
-  > http://bit.ly/2Ldy8Jj `08:53`
+- HTML 기본 구조 : [http://bit.ly/2LiK5xp](http://bit.ly/2LiK5xp){:target="_blank"} `13:24`
+- HTML head : [http://bit.ly/2A2hozw](http://bit.ly/2A2hozw){:target="_blank"} `02:21`
+- Title 태그 : [http://bit.ly/2uWZicu](http://bit.ly/2uWZicu){:target="_blank"} `00:53`
+- meta 태그 : [http://bit.ly/2Lk5V3q](http://bit.ly/2Lk5V3q){:target="_blank"} `08:45`
+- 기본구조 및 시맨틱 태그 : [http://bit.ly/2LGlgYm](http://bit.ly/2LGlgYm){:target="_blank"} `12:51`
+- 시맨틱 태그 : [http://bit.ly/2Ldy8Jj](http://bit.ly/2Ldy8Jj){:target="_blank"} `08:53`
 
 
 ### 참고 자료
-- 인코딩, Head태그, title 태그, meta 태그
-  > http://bit.ly/2mA4Fu9
-- HTML의 기본구성
-  > http://bit.ly/2mDkIHy
-- body, footer, header, head, html, meta, title 태그
-  > http://bit.ly/2LuGaNa
+- 인코딩, Head태그, title 태그, meta 태그 : [http://bit.ly/2mA4Fu9](http://bit.ly/2mA4Fu9){:target="_blank"}
+- HTML의 기본구성 : [http://bit.ly/2mDkIHy](http://bit.ly/2mDkIHy){:target="_blank"}
+- body, footer, header, head, html, meta, title 태그 : [http://bit.ly/2LuGaNa](http://bit.ly/2LuGaNa){:target="_blank"}
 
 ### 퀴즈
 #### 1) HTML의 기본 구조를 서술하시오.

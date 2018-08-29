@@ -19,9 +19,6 @@
 CSS에는 길이 표현을 위한 여러 단위가 있습니다. 많은 CSS 속성은 width, margin, padding과 같은 길이 값을 사용합니다. 길이는 10px, 2em과 같은 길이 단위가 뒤에 오는 숫자입니다. 길이 단위에는 절대 단위와 상대 단위의 두 가지 유형이 있습니다.
 
 #### 1) 절대 단위
-<!--
-<img alt="css_3-1-1" src="img/css_3-1-1.png" width="65%" >
--->
 
 | Unit | Description |
 |------|-------------|
@@ -37,9 +34,6 @@ CSS에는 길이 표현을 위한 여러 단위가 있습니다. 많은 CSS 속�
 - pt : 포인트. 일반 문서에서 많이 사용하는 단위입니다.
 
 #### 2) 상대 단위
-<!--
-<img alt="css_3-1-2" src="img/css_3-1-2.png" width="100%" >
--->
 
 | Unit | Description |
 |------|-------------|
@@ -59,22 +53,16 @@ CSS에는 길이 표현을 위한 여러 단위가 있습니다. 많은 CSS 속�
 - rem : rem에서 r은 루트(root)를 뜻하며, 처음부터 기본크기를 지정하기 때문에 중간에 기본값이 바뀌지 않습니다.
 
 ### 동영상 강좌
-- 폰트 사이즈
-  > https://bit.ly/2M4CuSN (05:51 ~ 09:16) `03:25`
-- CSS 길이와 단위
-  > https://bit.ly/2my1JhH (19:05 ~ 22:55) `03:50`
-- 다양한 폰트 사이즈
-  > https://bit.ly/2Kp4HP1 `05:26`
-- 실시간 코딩을 통한 폰트사이즈 특성
-  > https://bit.ly/2ACJcdZ `02:59`
+- 폰트 사이즈 : [https://bit.ly/2M4CuSN](https://bit.ly/2M4CuSN){:target="_blank"} (05:51 ~ 09:16) `03:25`
+- CSS 길이와 단위 : [https://bit.ly/2my1JhH](https://bit.ly/2my1JhH){:target="_blank"} (19:05 ~ 22:55) `03:50`
+- 다양한 폰트 사이즈 : [https://bit.ly/2Kp4HP1](https://bit.ly/2Kp4HP1){:target="_blank"} `05:26`
+- 실시간 코딩을 통한 폰트사이즈 특성 : [https://bit.ly/2ACJcdZ](https://bit.ly/2ACJcdZ){:target="_blank"} `02:59`
 
  <!-- 15:40 -->
 
 ### 참고 자료
-- w3school - CSS 단위
-  > https://bit.ly/2LEEc9R
-- WebNots - CSS Units Tutorial
-  > https://bit.ly/2Km5Jvn  
+- CSS 단위 : [https://bit.ly/2LEEc9R](https://bit.ly/2LEEc9R){:target="_blank"}
+- CSS Units Tutorial : [https://bit.ly/2Km5Jvn](https://bit.ly/2Km5Jvn){:target="_blank"}  
 
 ### 퀴즈
 #### 1) 절대크기와 상대크기 단위 각각 2가지씩 쓰시오.
@@ -124,30 +112,20 @@ div {
 
 
 ### 동영상 강좌
-- 박스모델 개념
-  > https://bit.ly/2zWgLaL  `08:57`
-- 박스모델을 사용해야 되는 이유와 개념
-  > https://bit.ly/2mze19t `16:20`
-- 박스모델 응용
-  > https://bit.ly/2NuVGpu `06:24`
-- 박스모델 소개
-  > https://bit.ly/2vf3YLM (00:00 ~ 03:50) `03:50`
-- 박스모델의 각각의 속성들
-  > https://bit.ly/2LMjrx0 `06:18`
-- Margin과 Padding 응용
-  > https://bit.ly/2OEZg1K `05:25`
-- 각 속성들의 top, right, bottom, left 속성
-  > https://bit.ly/2MfJ71g `04:45`
+- 박스모델 개념 : [https://bit.ly/2zWgLaL](https://bit.ly/2zWgLaL){:target="_blank"}  `08:57`
+- 박스모델을 사용해야 되는 이유와 개념 : [https://bit.ly/2mze19t](https://bit.ly/2mze19t){:target="_blank"} `16:20`
+- 박스모델 응용 : [https://bit.ly/2NuVGpu](https://bit.ly/2NuVGpu){:target="_blank"} `06:24`
+- 박스모델 소개 : [https://bit.ly/2vf3YLM](https://bit.ly/2vf3YLM){:target="_blank"} (00:00 ~ 03:50) `03:50`
+- 박스모델의 각각의 속성들 : [https://bit.ly/2LMjrx0](https://bit.ly/2LMjrx0){:target="_blank"} `06:18`
+- Margin과 Padding 응용 : [https://bit.ly/2OEZg1K](https://bit.ly/2OEZg1K){:target="_blank"} `05:25`
+- 각 속성들의 top, right, bottom, left 속성 : [https://bit.ly/2MfJ71g](https://bit.ly/2MfJ71g){:target="_blank"} `04:45`
 
  <!-- 51:59 -->
 
 ### 참고 자료
-- w3school - Box Model, Border, Margin, Padding, Height/Width
-  > https://bit.ly/2stLx30
-- Tech Altum Tutorial - CSS Box Model
-  > https://bit.ly/2O90am9 
-- W3 - 8. Box Model
-  > https://bit.ly/2BUB0Gf
+- Box Model, Border, Margin, Padding, Height/Width : [https://bit.ly/2stLx30](https://bit.ly/2stLx30){:target="_blank"}
+- CSS Box Model : [https://bit.ly/2O90am9](https://bit.ly/2O90am9){:target="_blank"} 
+- Box Model : [https://bit.ly/2BUB0Gf](https://bit.ly/2BUB0Gf){:target="_blank"}
 
 
 ### 퀴즈

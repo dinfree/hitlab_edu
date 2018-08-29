@@ -41,25 +41,18 @@
 ```
 
 ### 동영상 강좌
-- 부트스트랩 개요
-  > https://bit.ly/2vDfY9k `12:33` 
-- 부트스트랩 소개
-  > https://bit.ly/2n7KKmP `06:16`
-- 부트스트랩 설치
-  > https://bit.ly/2ObrSin `07:50`
-- 부트스트랩 소개 및 개발환경 구축하기
-  > https://bit.ly/2LQnEjo `11:19`
+- 부트스트랩 개요 : [https://bit.ly/2vDfY9k](https://bit.ly/2vDfY9k){:target="_blank"} `12:33` 
+- 부트스트랩 소개 : [https://bit.ly/2n7KKmP](https://bit.ly/2n7KKmP){:target="_blank"} `06:16`
+- 부트스트랩 설치 : [https://bit.ly/2ObrSin](https://bit.ly/2ObrSin){:target="_blank"} `07:50`
+- 부트스트랩 소개 및 개발환경 구축하기 : [https://bit.ly/2LQnEjo](https://bit.ly/2LQnEjo){:target="_blank"} `11:19`
 
 
  <!-- 37:58 -->
 
 ### 참고 자료
-- w3school - Bootstrap3
-  > https://bit.ly/2l8hzQe
-- w3school - Get Started
-  > https://bit.ly/2mP58v9
-- Tech Altum Tutorial - Bootstrap Tutorial
-  > https://bit.ly/2O8Egzj
+- Bootstrap3 : [https://bit.ly/2l8hzQe](https://bit.ly/2l8hzQe){:target="_blank"}
+- Get Started : [https://bit.ly/2mP58v9](https://bit.ly/2mP58v9){:target="_blank"}
+- Bootstrap Tutorial : [https://bit.ly/2O8Egzj](https://bit.ly/2O8Egzj){:target="_blank"}
 
 
 ### 퀴즈
@@ -118,16 +111,13 @@
 ```
 
 ### 동영상 강좌
-- 부트스트랩 기본 사용법
-  > https://bit.ly/2O9H8ME `07:55`
-- 부트스트랩 사용법 - 기본 페이지
-  > https://bit.ly/2AIBTSd `10:13`
+- 부트스트랩 기본 사용법 : [https://bit.ly/2O9H8ME](https://bit.ly/2O9H8ME){:target="_blank"} `07:55`
+- 부트스트랩 사용법 - 기본 페이지 : [https://bit.ly/2AIBTSd](https://bit.ly/2AIBTSd){:target="_blank"} `10:13`
 
  <!-- 18:08 -->
 
 ### 참고 자료
-- w3school - Bootstrap Grids
-  > https://bit.ly/2DaTJhi
+- Bootstrap Grids : [https://bit.ly/2DaTJhi](https://bit.ly/2DaTJhi){:target="_blank"}
 
 ### 퀴즈
 #### 1) 2대 1 비율을 가진 너비를 구성하시오.

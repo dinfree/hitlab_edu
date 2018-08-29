@@ -25,15 +25,12 @@ JavaScript는 DOM을 이용하여 HTML의 요소, 속성, 스타일 등을 변�
 - 웹페이지가 열리면 브라우저는 페이지의 문서 객체 모델을 만듭니다.
 
 ### 동영상 강좌
-- DOM이란
-  > https://bit.ly/2M0PaLa  `05:19`
-- What is the DOM in JavaScript?
-  > https://bit.ly/2niZ0ZQ `04:31`
+- DOM이란 : [https://bit.ly/2M0PaLa](https://bit.ly/2M0PaLa){:target="_blank"}  `05:19`
+- What is the DOM in JavaScript? : [https://bit.ly/2niZ0ZQ](https://bit.ly/2niZ0ZQ){:target="_blank"} `04:31`
 
 
 ### 참고자료
-- DOM Intro
-  > https://bit.ly/2riNpxI 
+- DOM Intro : [https://bit.ly/2riNpxI](https://bit.ly/2riNpxI){:target="_blank"} 
 
 
 ### 퀴즈
@@ -125,21 +122,15 @@ document.replaceChild(element)
 
 
 ### 동영상 강좌
-- DOM 객체
-  > https://bit.ly/2LYf169 `10:33`
-- DOCUMENT 객체
-  > https://bit.ly/2vGRQCA `07:52`
-- 자바스크립트(javascript)와 DOM 프로그래밍
-  > https://bit.ly/2nk8nJ0 `07:48`
-- DOM 메소드와 속성
-  > https://bit.ly/2vpvrdH `12:11`
+- DOM 객체 : [https://bit.ly/2LYf169](https://bit.ly/2LYf169){:target="_blank"} `10:33`
+- DOCUMENT 객체 : [https://bit.ly/2vGRQCA](https://bit.ly/2vGRQCA){:target="_blank"} `07:52`
+- 자바스크립트(javascript)와 DOM 프로그래밍 : [https://bit.ly/2nk8nJ0](https://bit.ly/2nk8nJ0){:target="_blank"} `07:48`
+- DOM 메소드와 속성 : [https://bit.ly/2vpvrdH](https://bit.ly/2vpvrdH){:target="_blank"} `12:11`
 
 
 ### 참고자료
-- DOM 메소드
-  > https://bit.ly/2qW7t9n 
-- DOM 요소
-  > https://bit.ly/2OjjRHR 
+- DOM 메소드 : [https://bit.ly/2qW7t9n](https://bit.ly/2qW7t9n){:target="_blank"} 
+- DOM 요소 : [https://bit.ly/2OjjRHR](https://bit.ly/2OjjRHR){:target="_blank"} 
 
 
 ### 퀴즈

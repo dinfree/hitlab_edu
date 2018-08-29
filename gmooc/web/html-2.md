@@ -39,19 +39,14 @@ HTML에서의 기본적이며 중요한 태그들에 대해 학습합니다. 제
 
 
 ### 동영상 강좌
-- h태그 
-  > http://bit.ly/2LG0qs9 (3:35~6:10) `02:35`
-- h1~h6 태그 
-  > http://bit.ly/2LH7xQY `00:19`
-- h태그 
-  > http://bit.ly/2LxKIT1 (7:50~10:00) `02:10`
+- h태그 : [http://bit.ly/2LG0qs9](http://bit.ly/2LG0qs9){:target="_blank"} (3:35~6:10) `02:35`
+- h1~h6 태그 : [http://bit.ly/2LH7xQY](http://bit.ly/2LH7xQY){:target="_blank"} `00:19`
+- h태그 : [http://bit.ly/2LxKIT1](http://bit.ly/2LxKIT1){:target="_blank"} (7:50~10:00) `02:10`
 
 
 ### 참고 자료
-- h# 태그
-  > http://bit.ly/2uXwxfI
-- h1 ~ h6
-  > http://bit.ly/2Lh14Aa
+- h# 태그 : [http://bit.ly/2uXwxfI](http://bit.ly/2uXwxfI){:target="_blank"}
+- h1 ~ h6 : [http://bit.ly/2Lh14Aa](http://bit.ly/2Lh14Aa){:target="_blank"}
 
 
 ### 퀴즈
@@ -95,19 +90,14 @@ HTML에서의 기본적이며 중요한 태그들에 대해 학습합니다. 제
 
 
 ### 동영상 강좌
-- p태그 
-  > http://bit.ly/2O9hng9 `04:19`
-- 문단과 Line Break 
-  > http://bit.ly/2Lejp0F `07:52`
+- p태그 : [http://bit.ly/2O9hng9](http://bit.ly/2O9hng9){:target="_blank"} `04:19`
+- 문단과 Line Break : [http://bit.ly/2Lejp0F](http://bit.ly/2Lejp0F){:target="_blank"} `07:52`
 
 
 ### 참고 자료
-- p 태그, br 태그
-  > http://bit.ly/2O7hIzM
-- 문단을 정의하는 태그, BR 강제 줄바꿈
-  > http://bit.ly/2A32lWc 
-- br, p 태그
-  > http://bit.ly/2LEnwz7  
+- p 태그, br 태그 : [http://bit.ly/2O7hIzM](http://bit.ly/2O7hIzM){:target="_blank"}
+- 문단을 정의하는 태그, BR 강제 줄바꿈 : [http://bit.ly/2A32lWc](http://bit.ly/2A32lWc){:target="_blank"} 
+- br, p 태그 : [http://bit.ly/2LEnwz7](http://bit.ly/2LEnwz7){:target="_blank"}  
 
 
 ### 퀴즈
@@ -161,23 +151,16 @@ HTML에서의 기본적이며 중요한 태그들에 대해 학습합니다. 제
 
 
 ### 동영상 강좌
-- 텍스트 태그들 
-  > http://bit.ly/2A2pA2v `01:56`
-- b태그, hr태그, i태그 
-  > http://bit.ly/2LuoOjz (29:46~33:10) `03:24`
-- Formatting Tags 
-  > http://bit.ly/2Lwb2wD `06:05`
+- 텍스트 태그들 : [http://bit.ly/2A2pA2v](http://bit.ly/2A2pA2v){:target="_blank"} `01:56`
+- b태그, hr태그, i태그 : [http://bit.ly/2LuoOjz](http://bit.ly/2LuoOjz){:target="_blank"} (29:46~33:10) `03:24`
+- Formatting Tags : [http://bit.ly/2Lwb2wD](http://bit.ly/2Lwb2wD){:target="_blank"} `06:05`
 
 
 ### 참고 자료
-- b 요소와 strong 요소의 차이
-  > http://bit.ly/2Lie6xh
-- b 태그, i 태그
-  > http://bit.ly/2JQUo62
-- 텍스트 관련 태그
-  > http://bit.ly/2NFyrtg
-- b, em, i, mark, strong, u 태그
-  > http://bit.ly/2O8YCcF
+- b 요소와 strong 요소의 차이 : [http://bit.ly/2Lie6xh](http://bit.ly/2Lie6xh){:target="_blank"}
+- b 태그, i 태그 : [http://bit.ly/2JQUo62](http://bit.ly/2JQUo62){:target="_blank"}
+- 텍스트 관련 태그 : [http://bit.ly/2NFyrtg](http://bit.ly/2NFyrtg){:target="_blank"}
+- b, em, i, mark, strong, u 태그 : [http://bit.ly/2O8YCcF](http://bit.ly/2O8YCcF){:target="_blank"}
 
 
 ### 퀴즈
@@ -234,19 +217,14 @@ HTML에서의 기본적이며 중요한 태그들에 대해 학습합니다. 제
 
 
 ### 동영상 강좌
-- 리스트와 리스트 타입 
-  > http://bit.ly/2LG6i4F `03:10`
-- 하위 항목이 있는 리스트 
-  > http://bit.ly/2JQWm6q (11:26~14:08) `02:42`
+- 리스트와 리스트 타입 : [http://bit.ly/2LG6i4F](http://bit.ly/2LG6i4F){:target="_blank"} `03:10`
+- 하위 항목이 있는 리스트 : [http://bit.ly/2JQWm6q](http://bit.ly/2JQWm6q){:target="_blank"} (11:26~14:08) `02:42`
 
 
 ### 참고 자료
-- li 태그
-  > http://bit.ly/2JNFVYu
-- 리스트 태그, 리스트의 type 속성
-  > http://bit.ly/2LhVMV6
-- li, ol, ul 태그
-  > http://bit.ly/2JKSPqs
+- li 태그 : [http://bit.ly/2JNFVYu](http://bit.ly/2JNFVYu){:target="_blank"}
+- 리스트 태그, 리스트의 type 속성 : [http://bit.ly/2LhVMV6](http://bit.ly/2LhVMV6){:target="_blank"}
+- li, ol, ul 태그 : [http://bit.ly/2JKSPqs](http://bit.ly/2JKSPqs){:target="_blank"}
 
 
 ### 퀴즈
@@ -285,25 +263,17 @@ HTML에서의 기본적이며 중요한 태그들에 대해 학습합니다. 제
 
 
 ### 동영상 강좌
-- a 태그와 속성 
-  > http://bit.ly/2NF9DBh `09:38`
-- 링크 태그 
-  > http://bit.ly/2LrDNuF `07:33`
-- a 태그 하나의 페이지 내부에서 이동하기 
-  > http://bit.ly/2A35dlW `06:26`
-- a 태그 동일 사이트의 다른 페이지로 이동하기 
-  > http://bit.ly/2uFw56A `17:18`
-- 상대경로 & 절대경로 개념 
-  > http://bit.ly/2LxN5Fp `09:28`
+- a 태그와 속성 : [http://bit.ly/2NF9DBh](http://bit.ly/2NF9DBh){:target="_blank"} `09:38`
+- 링크 태그 : [http://bit.ly/2LrDNuF](http://bit.ly/2LrDNuF){:target="_blank"} `07:33`
+- a 태그 하나의 페이지 내부에서 이동하기 : [http://bit.ly/2A35dlW](http://bit.ly/2A35dlW){:target="_blank"} `06:26`
+- a 태그 동일 사이트의 다른 페이지로 이동하기 : [http://bit.ly/2uFw56A](http://bit.ly/2uFw56A){:target="_blank"} `17:18`
+- 상대경로 & 절대경로 개념 : [http://bit.ly/2LxN5Fp](http://bit.ly/2LxN5Fp){:target="_blank"} `09:28`
 
 
 ### 참고 자료
-- a 태그
-  > http://bit.ly/2mFb3QN
-- 링크, 내부링크(책갈피 기능)
-  > http://bit.ly/2NDpyAb
-- a 태그
-  > http://bit.ly/2NFbB4D
+- a 태그 : [http://bit.ly/2mFb3QN](http://bit.ly/2mFb3QN){:target="_blank"}
+- 링크, 내부링크(책갈피 기능) : [http://bit.ly/2NDpyAb](http://bit.ly/2NDpyAb){:target="_blank"}
+- a 태그 : [http://bit.ly/2NFbB4D](http://bit.ly/2NFbB4D){:target="_blank"}
 
 
 ### 퀴즈

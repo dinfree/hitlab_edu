@@ -13,7 +13,7 @@
 2. [입력 양식 태그](#m2)
 3. [다양한 입력 양식 태그](#m3)
 
----
+---ㄴ
 <a id="m1"></a>
 
 ## 1. 입력 양식
@@ -59,17 +59,13 @@
 - `post`방식은 HTTP Request 헤더에 파라미터를 붙여서 전송하며 get방식에 비해 보안이 더 뛰어납니다. 
 
 ### 동영상 강좌
-- form 기본 
-  > http://bit.ly/2uHYadt `12:19`
-- GET과 POST의차이
-  > http://bit.ly/2A9oa6m `10:03`
+- form 기본 : [http://bit.ly/2uHYadt](http://bit.ly/2uHYadt){:target="_blank"} `12:19`
+- GET과 POST의차이 : [http://bit.ly/2A9oa6m](http://bit.ly/2A9oa6m){:target="_blank"} `10:03`
 
 
 ### 참고 자료
-- form 태그
-  > http://bit.ly/2uJ2cSO
-- HTML Forms
-  > http://bit.ly/2uRY2XY
+- form 태그 : [http://bit.ly/2uJ2cSO](http://bit.ly/2uJ2cSO){:target="_blank"}
+- HTML Forms : [http://bit.ly/2uRY2XY](http://bit.ly/2uRY2XY){:target="_blank"}
 
 
 ### 퀴즈
@@ -135,23 +131,16 @@
 
 
 ### 동영상 강좌
-- 폼 관련 태그들 
-  > http://bit.ly/2mAvZIN `12:11`
-- input type 
-  > http://bit.ly/2JNfdPJ `10:11`
-- input 태그 color 속성 
-  > http://bit.ly/2uXDg9s `01:03`
-- input 태그 date, month, week 속성 
-  > http://bit.ly/2JNfYs3 `02:24`
-- fildset 
-  > http://bit.ly/2mAVlWU `06:52`
-- 회원가입 폼 태그 예제 
-  > http://bit.ly/2uWddPS (~23:00) `23:00`
+- 폼 관련 태그들 : [http://bit.ly/2mAvZIN](http://bit.ly/2mAvZIN){:target="_blank"} `12:11`
+- input type : [http://bit.ly/2JNfdPJ](http://bit.ly/2JNfdPJ){:target="_blank"} `10:11`
+- input 태그 color 속성 : [http://bit.ly/2uXDg9s](http://bit.ly/2uXDg9s){:target="_blank"} `01:03`
+- input 태그 date, month, week 속성 : [http://bit.ly/2JNfYs3](http://bit.ly/2JNfYs3){:target="_blank"} `02:24`
+- fildset : [http://bit.ly/2mAVlWU](http://bit.ly/2mAVlWU){:target="_blank"} `06:52`
+- 회원가입 폼 태그 예제 : [http://bit.ly/2uWddPS](http://bit.ly/2uWddPS){:target="_blank"} (~23:00) `23:00`
 
 
 ### 참고 자료
-- button, form, input 태그
-  > http://bit.ly/2uVyY2b
+- button, form, input 태그 : [http://bit.ly/2uVyY2b](http://bit.ly/2uVyY2b){:target="_blank"}
 
 
 ### 퀴즈

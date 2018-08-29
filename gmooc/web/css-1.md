@@ -29,24 +29,17 @@ CSS(Cascading Style Sheets)는 HTML과 함께 웹 표준의 기본 개념입니�
 - CSS는 HTML문서를 디자인하는 언어입니다.
 
 ### 동영상 강좌
-- 스타일과 스타일시트는 무엇인가?
-  > https://bit.ly/2O7vd2z (00:00 ~ 03:14) `03:14`
-- CSS 소개: HTML과 CSS
-  > https://bit.ly/2JKpUCC `15:21`
-- CSS 소개 및 기본 구조
-  > https://bit.ly/2LBbiY1 (00:00 ~ 02:07) `02:07`
+- 스타일과 스타일시트는 무엇인가? : [https://bit.ly/2O7vd2z](https://bit.ly/2O7vd2z){:target="_blank"} (00:00 ~ 03:14) `03:14`
+- CSS 소개: HTML과 CSS : [https://bit.ly/2JKpUCC](https://bit.ly/2JKpUCC){:target="_blank"} `15:21`
+- CSS 소개 및 기본 구조 : [https://bit.ly/2LBbiY1](https://bit.ly/2LBbiY1){:target="_blank"} (00:00 ~ 02:07) `02:07`
 
  <!--20분 42초-->
 
 ### 참고 자료
-- w3school - CSS 정의
-  > https://bit.ly/2skLnhw 
-- ofcourse - CSS 개요
-  > https://bit.ly/2O7dgkA
-- MDN web docs - How CSS works
-  > https://mzl.la/2dggA9Q
-- Tech Altum tutorial - 개요, Type
-  > https://bit.ly/2nd67TT
+- CSS 정의 : [https://bit.ly/2skLnhw](https://bit.ly/2skLnhw){:target="_blank"} 
+- CSS 개요 : [https://bit.ly/2O7dgkA](https://bit.ly/2O7dgkA){:target="_blank"}
+- How CSS works : [https://mzl.la/2dggA9Q](https://mzl.la/2dggA9Q){:target="_blank"}
+- 개요, Type : [https://bit.ly/2nd67TT](https://bit.ly/2nd67TT){:target="_blank"}
 
 
 ### 퀴즈
@@ -88,16 +81,13 @@ CSS(Cascading Style Sheets)는 HTML과 함께 웹 표준의 기본 개념입니�
 
 
 ### 동영상 강좌
-- CSS 목적 및 역사
-  > https://bit.ly/2uODijQ (08:45 ~ 12:06) `03:21`
-- CSS 등장배경
-  > https://bit.ly/2Lsa1Ga `10:44`
+- CSS 목적 및 역사 : [https://bit.ly/2uODijQ](https://bit.ly/2uODijQ){:target="_blank"} (08:45 ~ 12:06) `03:21`
+- CSS 등장배경 : [https://bit.ly/2Lsa1Ga](https://bit.ly/2Lsa1Ga){:target="_blank"} `10:44`
 
  <!--14분 05초-->
 
 ### 참고 자료
-- w3school - CSS 사용이유, 목적
-  > https://bit.ly/2skLnhw 
+- CSS 사용이유, 목적 : [https://bit.ly/2skLnhw](https://bit.ly/2skLnhw){:target="_blank"} 
 
 ### 퀴즈
 #### 1) CSS를 사용하는 이유는 무엇입니까?
@@ -134,22 +124,16 @@ h1 { color: blue; }
 ```
 
 ### 동영상 강좌
-- CSS 규칙
-  > https://bit.ly/2uODijQ (12:08 ~ 20:20) `08:12`
-- 실시간 코딩을 통한 CSS 기본 문법 알아보기
-  > https://bit.ly/2fbTQN5 `05:06`
-- 기본 문법에 따른 실습 강의
-  > https://bit.ly/2AzKrKR (02:07 ~ 06:33) `04:26`
+- CSS 규칙 : [https://bit.ly/2uODijQ](https://bit.ly/2uODijQ){:target="_blank"} (12:08 ~ 20:20) `08:12`
+- 실시간 코딩을 통한 CSS 기본문법 : [https://bit.ly/2fbTQN5](https://bit.ly/2fbTQN5){:target="_blank"} `05:06`
+- 기본 문법에 따른 실습 강의 : [https://bit.ly/2AzKrKR](https://bit.ly/2AzKrKR){:target="_blank"} (02:07 ~ 06:33) `04:26`
 
  <!--17분 44초-->
 
 ### 참고 자료
-- w3school - CSS 기본 문법
-  > https://bit.ly/2skLnhw 
-- ofcourse - CSS 사용법, 주석
-  > https://bit.ly/2O7dgkA
-- MDN web docs - CSS syntax
-  > https://mzl.la/2LUDsRj
+- CSS 기본 문법 : [https://bit.ly/2skLnhw](https://bit.ly/2skLnhw){:target="_blank"} 
+- CSS 사용법, 주석 : [https://bit.ly/2O7dgkA](https://bit.ly/2O7dgkA){:target="_blank"}
+- CSS syntax : [https://mzl.la/2LUDsRj](https://mzl.la/2LUDsRj){:target="_blank"}
 
 
 ### 퀴즈
@@ -205,10 +189,12 @@ h1 {
 } 
 </style>
 ```
+
 #### 2) 외부 스타일시트
 ```html
 <link rel="stylesheet" type="text/css" href="mystyle.css">
 ```
+
 #### 3) 인라인 스타일
 ```html
 <h1 style="color:blue; margin-left:30px;">This is a heading</h1>
@@ -216,27 +202,19 @@ h1 {
 
 
 ### 동영상 강좌
-- HTML과 CSS가 만나는 법
-  > https://bit.ly/2mEZhGt `06:50`
-- HTML 문서와 CSS 연결 방법
-  > https://bit.ly/2uODijQ (22:52 ~ 27:00) `04:08`
-- 내부 스타일시트, 외부 스타일시트, 인라인 스타일
-  > https://bit.ly/2LDZG6K (05:15 ~ 09:43) `04:28`
-- 외부 스타일시트 실습 강의
-  > https://bit.ly/2O7eNHm `05:02`
-- CSS 재사용
-  > https://bit.ly/2NxvIlm `05:03`
+- HTML과 CSS가 만나는 법 : [https://bit.ly/2mEZhGt](https://bit.ly/2mEZhGt){:target="_blank"} `06:50`
+- HTML문서와 CSS연결 방법 : [https://bit.ly/2uODijQ](https://bit.ly/2uODijQ){:target="_blank"} (22:52 ~ 27:00) `04:08`
+- 내부 스타일시트, 외부 스타일시트, 인라인 스타일 : [https://bit.ly/2LDZG6K](https://bit.ly/2LDZG6K){:target="_blank"} (05:15 ~ 09:43) `04:28`
+- 외부 스타일시트 실습 강의 : [https://bit.ly/2O7eNHm](https://bit.ly/2O7eNHm){:target="_blank"} `05:02`
+- CSS 재사용 : [https://bit.ly/2NxvIlm](https://bit.ly/2NxvIlm){:target="_blank"} `05:03`
 
 <!--25분 31초-->
 
 
 ### 참고 자료
-- w3school - CSS How To
-  > https://bit.ly/2rTn9e9 
-- CSSTutorial - 외부스타일시트
-  > https://bit.ly/2O9ngd5 
-- MDN web docs - How to apply CSS to HTML
-  > https://mzl.la/2dggA9Q
+- CSS How To : [https://bit.ly/2rTn9e9](https://bit.ly/2rTn9e9){:target="_blank"} 
+- 외부스타일시트 : [https://bit.ly/2O9ngd5](https://bit.ly/2O9ngd5){:target="_blank"} 
+- How to apply CSS to HTML : [https://mzl.la/2dggA9Q](https://mzl.la/2dggA9Q){:target="_blank"}
 
 ### 퀴즈
 #### 1) CSS포함방법 3가지를 쓰시오.

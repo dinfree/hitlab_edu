@@ -10,27 +10,23 @@
 프로그램 개발 이전에 반드시 알아야 할 컴퓨터 사용법에 대해 다루게 됩니다. 만일 컴퓨터 사용이 익숙하다면 이번 장은 넘어가도 됩니다.
 
 ### 목차
-1. [컴퓨터란](#m1)
-2. [프로그래밍이란](#m2)
-3. [인터넷이란](#m3)
+1. [컴퓨터](#m1)
+2. [프로그래밍](#m2)
+3. [인터넷이](#m3)
 
 ---
 <a id="m1"></a>
 
-## 1. 컴퓨터란
+## 1. 컴퓨터
 컴퓨터는 16진법을 이용하여 계산하는 기계입니다. 또는 수식이나 논리적 언어로 표현된 계산을 수행하거나 작업을 통제하는 기계입니다. 스마트폰, 태블릿, 게임기, 노트북 등 모두 일종의 컴퓨터입니다. 컴퓨터는 기본적으로 CPU, 메인보드, RAM, ROM, HDD 등으로 구성되있습니다. 
 
 <img class="img-shadow" alt="basic_1-1-1" src="img/basic_1-1-1.jpg" width="60%" >
 
 ### 동영상 강좌
-- 컴퓨터 공학개론
-  > https://bit.ly/2NC5IFp `11:34`
-- 컴퓨터란?
-  > https://bit.ly/2O8yBu1 `10:29`
-- What is a Computer?
-  > https://bit.ly/2iZHhEf `02:39`
-- What is a computer?
-  > https://bit.ly/2uWLO0i `03:48`
+- 컴퓨터 공학개론 : [https://bit.ly/2NC5IFp](https://bit.ly/2NC5IFp){:target="_blank"} `11:34`
+- 컴퓨터란? : [https://bit.ly/2O8yBu1](https://bit.ly/2O8yBu1){:target="_blank"} `10:29`
+- What is a Computer? : [https://bit.ly/2iZHhEf](https://bit.ly/2iZHhEf){:target="_blank"} `02:39`
+- What is a computer? : [https://bit.ly/2uWLO0i](https://bit.ly/2uWLO0i){:target="_blank"} `03:48`
 
 
 ### 퀴즈
@@ -59,27 +55,21 @@
 ---
 <a id="m2"></a>
 
-## 2. 프로그래밍이란
+## 2. 프로그래밍
 프로그래밍이란 프로그램을 만드는 행위입니다. 즉, 컴퓨터가 행동하는 방식을 이해하고 컴퓨터가 이해할 수 있도록 명령을 합니다. 프로그램은 특정 목적을 위해 컴퓨터에 내리는 명령의 집합입니다. 프로그래밍으로 목적에 따라 게임, SNS, 어플리케이션 등 다양한 프로그램을 만들 수 있습니다. 처음 프로그래밍을 접한다면 어렵고 난해한 학문일 것입니다. 하지만 우리는 프로그래밍을 통해 체계적이면서 창의적으로 사고하는 방법을 배울 수 있습니다.
 
 <img class="img-shadow" alt="basic_1-2-1" src="img/basic_1-2-1.jpg" width="70%" >
 
 ### 동영상 강좌
-- 프로그래밍이란 무엇인가
-  > https://bit.ly/2LsZ07o `07:57`
-- 프로그래밍이란?
-  > https://bit.ly/2mA1m6h `03:09`
-- 프로그래밍이란
-  > https://bit.ly/2JRfXDO `01:29`
-- What is Programming
-  > https://bit.ly/2Ljl4SR `03:31`
+- 프로그래밍이란 무엇인가 : [https://bit.ly/2LsZ07o](https://bit.ly/2LsZ07o){:target="_blank"} `07:57`
+- 프로그래밍이란? : [https://bit.ly/2mA1m6h](https://bit.ly/2mA1m6h){:target="_blank"} `03:09`
+- 프로그래밍이란 : [https://bit.ly/2JRfXDO](https://bit.ly/2JRfXDO){:target="_blank"} `01:29`
+- What is Programming : [https://bit.ly/2Ljl4SR](https://bit.ly/2Ljl4SR){:target="_blank"} `03:31`
 
 
 ### 참고자료
-- 프로그래밍이란.
-  > https://bit.ly/2A3bONo
-- 프로그래밍이란?
-  > https://bit.ly/2Mo1zou
+- 프로그래밍이란 : [https://bit.ly/2A3bONo](https://bit.ly/2A3bONo){:target="_blank"}
+- 프로그래밍이란 : [https://bit.ly/2Mo1zou](https://bit.ly/2Mo1zou){:target="_blank"}
 
 
 ### 퀴즈
@@ -97,7 +87,7 @@
 ---
 <a id="m3"></a>
 
-## 3. 인터넷이란
+## 3. 인터넷
 인터넷이란 전세계의 모든 컴퓨터를 연결해 놓은 지구상에서 가장 큰 네트워크입니다.
 
 <img class="img-shadow" alt="basic_1-3-1" src="img/basic_1-3-1.png" width="70%" >
@@ -126,17 +116,13 @@
 
 
 ### 동영상 강좌
-- 인터넷이란?
-  > https://bit.ly/2uYmLtC `04:20`
-- 인터넷이란
-  > https://bit.ly/2uHUY1o `01:45`
+- 인터넷이란? : [https://bit.ly/2uYmLtC](https://bit.ly/2uYmLtC){:target="_blank"} `04:20`
+- 인터넷이란 : [https://bit.ly/2uHUY1o](https://bit.ly/2uHUY1o){:target="_blank"} `01:45`
 
 
 ### 참고자료
-- 인터넷이란?
-  > https://bit.ly/2Mniibj
-- 웹의 동작원리
-  > http://tcpschool.com/webbasic/works
+- 인터넷이란? : [https://bit.ly/2Mniibj](https://bit.ly/2Mniibj){:target="_blank"}
+- 웹의 동작원리 : [https://bit.ly/2PgQBCb](https://bit.ly/2PgQBCb){:target="_blank"}
 
 
 ### 퀴즈

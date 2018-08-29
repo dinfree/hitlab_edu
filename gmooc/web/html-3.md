@@ -27,25 +27,17 @@
 - % 단위 사용시 브라우저 크기에 따라 이미지 크기가 조절되도록 지정할 수 있습니다.
 
 ### 동영상 강좌
-- img 태그 
-  > http://bit.ly/2JOxdJB `10:39`
-- 이미지 태그 사용하기 (이미지 URL 사용) 
-  > http://bit.ly/2LfwC9F `04:18`
-- 이미지 태그 사용하기 (이미지 경로 사용) 
-  > http://bit.ly/2mDsSzX `04:54`
-- 이미지 경로 
-  > http://bit.ly/2uTCavn `13:08`
+- img 태그 : [http://bit.ly/2JOxdJB](http://bit.ly/2JOxdJB){:target="_blank"} `10:39`
+- 이미지 태그 사용하기 (이미지 URL 사용) : [http://bit.ly/2LfwC9F](http://bit.ly/2LfwC9F){:target="_blank"} `04:18`
+- 이미지 태그 사용하기 (이미지 경로 사용) : [http://bit.ly/2mDsSzX](http://bit.ly/2mDsSzX){:target="_blank"} `04:54`
+- 이미지 경로 : [http://bit.ly/2uTCavn](http://bit.ly/2uTCavn){:target="_blank"} `13:08`
 
 
 ### 참고 자료
-- img 태그
-  > http://bit.ly/2NBIvTO
-- HTML Images
-  > http://bit.ly/2JLirDA
-- 이미지를 삽입하는 방법, 이미지 경로 , 이미지 포맷, 이미지 정렬
-  > http://bit.ly/2mEeYgY
-- img 태그
-  > http://bit.ly/2JNEOZ0
+- img 태그 : [http://bit.ly/2NBIvTO](http://bit.ly/2NBIvTO){:target="_blank"}
+- HTML Images : [http://bit.ly/2JLirDA](http://bit.ly/2JLirDA){:target="_blank"}
+- 이미지를 삽입하는 방법, 이미지 경로 , 이미지 포맷, 이미지 정렬 : [http://bit.ly/2mEeYgY](http://bit.ly/2mEeYgY){:target="_blank"}
+- img 태그 : [http://bit.ly/2JNEOZ0](http://bit.ly/2JNEOZ0){:target="_blank"}
 
 
 ### 퀴즈
@@ -90,23 +82,16 @@
 - 레이아웃을 목적으로 테이블을 사용하는 것은 권장하지 않습니다.
 
 ### 동영상 강좌
-- 테이블 태그 
-  > http://bit.ly/2uHCtKj `06:53`
-- 표 병합 
-  > http://bit.ly/2LGG95I `05:09`
-- 테이블 행 그룹으로 나누기 
-  > http://bit.ly/2OajH6z (13:00~17:35) `04:35`
+- 테이블 태그 : [http://bit.ly/2uHCtKj](http://bit.ly/2uHCtKj){:target="_blank"} `06:53`
+- 표 병합 : [http://bit.ly/2LGG95I](http://bit.ly/2LGG95I){:target="_blank"} `05:09`
+- 테이블 행 그룹으로 나누기 : [http://bit.ly/2OajH6z](http://bit.ly/2OajH6z){:target="_blank"} (13:00~17:35) `04:35`
 
 
 ### 참고 자료
-- table 태그
-  > http://bit.ly/2uIZFrM
-- HTML Tables
-  > http://bit.ly/2LyUCDK
-- 테이블, 열과 행의 확장, 여백과 경계선
-  > http://bit.ly/2uTCIkV
-- col, table, td, th, tr 태그
-  > http://bit.ly/2LHjENY
+- table 태그 : [http://bit.ly/2uIZFrM](http://bit.ly/2uIZFrM){:target="_blank"}
+- HTML Tables : [http://bit.ly/2LyUCDK](http://bit.ly/2LyUCDK){:target="_blank"}
+- 테이블, 열과 행의 확장, 여백과 경계선 : [http://bit.ly/2uTCIkV](http://bit.ly/2uTCIkV){:target="_blank"}
+- col, table, td, th, tr 태그 : [http://bit.ly/2LHjENY](http://bit.ly/2LHjENY){:target="_blank"}
 
 
 ### 퀴즈

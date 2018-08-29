@@ -29,21 +29,16 @@ CSS에서의 상속의 개념에 대해 살펴봅니다. 계층 구조 안에서
 
 
 ### 동영상 강좌
-- 상속의 개념
-  > https://bit.ly/2O4dQ1N `09:23`
-- 코드를 이용한 상속의 개념
-  > https://bit.ly/2AEEPPK `01:21`
-- 상속과 오버라이딩
-  > https://bit.ly/2vwNbTO `04:27`
+- 상속의 개념 : [https://bit.ly/2O4dQ1N](https://bit.ly/2O4dQ1N){:target="_blank"} `09:23`
+- 코드를 이용한 상속의 개념 : [https://bit.ly/2AEEPPK](https://bit.ly/2AEEPPK){:target="_blank"} `01:21`
+- 상속과 오버라이딩 : [https://bit.ly/2vwNbTO](https://bit.ly/2vwNbTO){:target="_blank"} `04:27`
 
 
  <!-- 15:11 -->
 
 ### 참고 자료
-- MDN Web Docs - Inheritance
-  > https://mzl.la/2vxI8m2
-- Dorward's Ramblings - CSS Inheritance
-  > https://bit.ly/2n78jMs
+- Inheritance : [https://mzl.la/2vxI8m2](https://mzl.la/2vxI8m2){:target="_blank"}
+- CSS Inheritance : [https://bit.ly/2n78jMs](https://bit.ly/2n78jMs){:target="_blank"}
 
 ### 퀴즈
 #### 1) 상속의 개념에 대해 서술하시오.
@@ -101,29 +96,20 @@ CSS에서의 상속의 개념에 대해 살펴봅니다. 계층 구조 안에서
 ```
 
 ### 동영상 강좌
-- 부모 자식 선택자
-  > https://bit.ly/2Lf7Ia8 `08:21`
-- 후손 자손 선택자
-  > https://bit.ly/2uD1eXY (31:50 ~ 39:20) `07:30`
-- 연결 선택자 - 하위선택자, 자식선택자, 형제선택자
-  > https://bit.ly/2uFjz6L (00:00 ~ 07:40) `07:40`
-- 후손 선택자
-  > https://bit.ly/2O4jXmG `04:22`
-- 자손 선택자
-  > https://bit.ly/2LPKzvc `03:42`
-- nth 자손 선택자
-  > https://bit.ly/2vwOdza `03:15`
+- 부모 자식 선택자 : [https://bit.ly/2Lf7Ia8](https://bit.ly/2Lf7Ia8){:target="_blank"} `08:21`
+- 후손 자손 선택자 : [https://bit.ly/2uD1eXY](https://bit.ly/2uD1eXY){:target="_blank"} (31:50 ~ 39:20) `07:30`
+- 연결 선택자 - 하위선택자, 자식선택자, 형제선택자 : [https://bit.ly/2uFjz6L](https://bit.ly/2uFjz6L){:target="_blank"} (00:00 ~ 07:40) `07:40`
+- 후손 선택자 : [https://bit.ly/2O4jXmG](https://bit.ly/2O4jXmG){:target="_blank"} `04:22`
+- 자손 선택자 : [https://bit.ly/2LPKzvc](https://bit.ly/2LPKzvc){:target="_blank"} `03:42`
+- nth 자손 선택자 : [https://bit.ly/2vwOdza](https://bit.ly/2vwOdza){:target="_blank"} `03:15`
 
 
  <!-- 34:50 -->
 
 ### 참고 자료
-- ofcourse - 부모 자식 선택자
-  > https://bit.ly/2LBeRxj 
-- MDN Web Docs - 자식 선택자
-  > https://mzl.la/2LOBW46
-- MDN Web Docs - 후손 선택자
-  > https://mzl.la/2vzaOej
+- 부모 자식 선택자 : [https://bit.ly/2LBeRxj](https://bit.ly/2LBeRxj){:target="_blank"} 
+- 자식 선택자 : [https://mzl.la/2LOBW46](https://mzl.la/2LOBW46){:target="_blank"}
+- 후손 선택자 : [https://mzl.la/2vzaOej](https://mzl.la/2vzaOej){:target="_blank"}
 
 ### 퀴즈
 #### 1) CSS에서 부모 자식간의 관계에 대해 서술하시오.
@@ -203,26 +189,18 @@ CSS 가상 요소는 지정된 요소에 스타일을 적용하는 데 사용됩
 
 
 ### 동영상 강좌
-- 가상클래스 선택자
-  > https://bit.ly/2Nwxa7w `07:37`
-- 가상클래스와 가상요소
-  > https://bit.ly/2myAT9l `23:09`
-- 실시간 코딩을 통한 가상클래스
-  > https://bit.ly/2n9q0eu `03:48`
+- 가상클래스 선택자 : [https://bit.ly/2Nwxa7w](https://bit.ly/2Nwxa7w){:target="_blank"} `07:37`
+- 가상클래스와 가상요소 : [https://bit.ly/2myAT9l](https://bit.ly/2myAT9l){:target="_blank"} `23:09`
+- 실시간 코딩을 통한 가상클래스 : [https://bit.ly/2n9q0eu](https://bit.ly/2n9q0eu){:target="_blank"} `03:48`
 
  <!-- 34:34 -->
 
 ### 참고 자료
-- w3school - 가상 클래스
-  > https://bit.ly/2IsWSXL
-- w3school - 가상 요소
-  > https://bit.ly/2pz6uI0
-- ofcourse - 가상 선택자
-  > https://bit.ly/2Lctj2S 
-- MDN Web Docs - Pseudo classes and elements
-  > https://mzl.la/2KneEg3
-- Tech Altum Tutorial - 가상 선택자
-  > https://bit.ly/2Kt4nie
+- 가상 클래스 : [https://bit.ly/2IsWSXL](https://bit.ly/2IsWSXL){:target="_blank"}
+- 가상 요소 : [https://bit.ly/2pz6uI0](https://bit.ly/2pz6uI0){:target="_blank"}
+- 가상 선택자 : [https://bit.ly/2Lctj2S](https://bit.ly/2Lctj2S){:target="_blank"} 
+- Pseudo classes and elements : [https://mzl.la/2KneEg3](https://mzl.la/2KneEg3){:target="_blank"}
+- 가상 선택자 : [https://bit.ly/2Kt4nie](https://bit.ly/2Kt4nie){:target="_blank"}
 
 
 ### 퀴즈

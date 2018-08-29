@@ -14,12 +14,7 @@
 2. [조건문과 반복문](#m2)
 3. [함수](#m3)
 4. [객체지향 프로그래밍](#m4)
-<!--
-5. [개발도구 설치 - 자바 & 이클립스](#m5)
-6. [개발도구 설치 - git](#m6)
-7. [개발도구 설치 - intelliJ](#m7)
-8. [개발도구 설치 - VS Code](#m8)
--->
+
 
 ---
 <a id="m1"></a>
@@ -68,19 +63,14 @@
 
 
 ### 동영상 강좌
-- 변수와 상수
-  > https://bit.ly/2ocvOnG `13:52`
-- C언어의 자료형
-  > https://bit.ly/2MuKMEl `11:38`
-- Java - 변수 선언과 할당
-  > https://bit.ly/2MSOdE9 `06:23`
-- Java - 상수형 데이터 타입
-  > https://bit.ly/2MTn7g6 `13:00`
+- 변수와 상수 : [https://bit.ly/2ocvOnG](https://bit.ly/2ocvOnG){:target="_blank"} `13:52`
+- C언어의 자료형 : [https://bit.ly/2MuKMEl](https://bit.ly/2MuKMEl){:target="_blank"} `11:38`
+- Java - 변수 선언과 할당 : [https://bit.ly/2MSOdE9](https://bit.ly/2MSOdE9){:target="_blank"} `06:23`
+- Java - 상수형 데이터 타입 : [https://bit.ly/2MTn7g6](https://bit.ly/2MTn7g6){:target="_blank"} `13:00`
 
 
 ### 참고 자료
-- 데이터타입
-  > https://bit.ly/2P7bijV
+- 데이터타입 : [https://bit.ly/2P7bijV](https://bit.ly/2P7bijV){:target="_blank"}
 
 
 ### 퀴즈
@@ -110,9 +100,6 @@
 #### 1) if문
 조건식의 결과가 참(true)이면 명령문 실행하고 거짓(false)이면 아무것도 실행하지 않습니다.
 
-<!--
-<img alt="basic_2-1" src="img/basic_2-1.jpg" width="40%" >
--->
 ```c
 if(a == 1) {
   printf("a는 1입니다.");
@@ -121,9 +108,7 @@ if(a == 1) {
 
 #### 2) if/else문
 if문과 함께 사용하는 else문은 주어진 조건식의 결과가 거짓(false)이면 주어진 명령문을 실행합니다.
-<!--
-<img alt="basic_2-2" src="img/basic_2-2.png" width="60%" >
--->
+
 ```c
 if(a == 1) {
   printf("a는 1입니다.");
@@ -134,9 +119,6 @@ if(a == 1) {
 
 #### 3) if/else if/else 문
 else if문은 중첩된 if문을 간결하게 표현할 수 있도록 해줍니다. 하나의 조건문 안에서 if문과 else문은 한 번만 사용될 수 있습니다. 하지만 else if문은 여러 번 사용될 수 있어서 복잡한 조건도 표현할 수 있습니다.
-<!--
-<img alt="basic_2-3" src="img/basic_2-3.png" width="80%" >
--->
 
 ```c
 if(a == 1) {
@@ -168,9 +150,6 @@ while(true) {
 ```
 
 <!--
-<img alt="basic_2-4" src="img/basic_2-4.png" width="80%" >
--->
-<!--
 이렇게 내부의 명령문을 전부 실행하고 나면, 다시 조건식으로 돌아와 또 한 번 참인지를 판단하게 됩니다. 이렇게 표현식의 검사를 통해 반복해서 실행되는 반복문을 루프(loop)라고 합니다.
 
 - while문 내부에 조건식의 결과를 변경하는 명령문이 존재하지 않을 때는 프로그램이 영원히 반복되게 됩니다. 이것을 무한 루프(infinite loop)에 빠졌다고 합니다.
@@ -200,21 +179,15 @@ for (int i=0; i<10; i++) {
 ```
 
 ### 동영상 강좌
-- C언어 - 조건문과 반복문
-  > https://bit.ly/2MB9K4O  `07:17`
-- 조건 연산자와 조건문
-  > https://bit.ly/2wt34ep `06:56`
-- 프로그래밍이란
-  > https://bit.ly/2JRfXDO `01:29`
-- 프로그래밍이란 무엇인가
-  > https://bit.ly/2Ljl4SR `03:31`
+- C언어 - 조건문과 반복문 : [https://bit.ly/2MB9K4O](https://bit.ly/2MB9K4O){:target="_blank"}  `07:17`
+- 조건 연산자와 조건문 : [https://bit.ly/2wt34ep](https://bit.ly/2wt34ep){:target="_blank"} `06:56`
+- 프로그래밍이란 : [https://bit.ly/2JRfXDO](https://bit.ly/2JRfXDO){:target="_blank"} `01:29`
+- 프로그래밍이란 무엇인가 : [https://bit.ly/2Ljl4SR](https://bit.ly/2Ljl4SR){:target="_blank"} `03:31`
     
 
 ### 참고 자료
-- 반복문
-  > https://bit.ly/2Njpiqh
-- 조건문
-  > https://bit.ly/2P4OCAQ
+- 반복문 : [https://bit.ly/2Njpiqh](https://bit.ly/2Njpiqh){:target="_blank"}
+- 조건문 : [https://bit.ly/2P4OCAQ](https://bit.ly/2P4OCAQ){:target="_blank"}
 
 
 ### 퀴즈
@@ -266,18 +239,11 @@ for (int i=0; i<10; i++) {
 - Parameter - 함수 호출 시에 전달되는 인수의 값을 저장할 변수.
 - Statement - 함수의 기능을 수행하는 명령문.
 
-<!--
-- 함수호출 시 인수는 여러 개 전달할 수 있지만, 반환 값은 하나 뿐입니다.
-- 함수의 특성에 따라 인수나 반환값이 하나도 없는 함수도 존재할 수 있습니다.
--->
 
 ### 동영상 강좌
-- [C언어 8] 함수 (제대로 배우는 C언어 프로그래밍)
-  > https://bit.ly/2P6L8xH `1:08:47`
-- Python & Ruby - 함수 1 : 함수란 무엇인가?
-  > https://bit.ly/2PF293l `09:14`
-- #44 함수를 사용하는 이유 | 파이썬 강좌 코딩 기초 강의 Python | 김왼손의 왼손코딩
-  > https://bit.ly/2wpvKol `03:57`
+- 함수 : [https://bit.ly/2P6L8xH](https://bit.ly/2P6L8xH){:target="_blank"} `1:08:47`
+- 함수란 무엇인가? : [https://bit.ly/2PF293l](https://bit.ly/2PF293l){:target="_blank"} `09:14`
+- 함수 사용이유 : [https://bit.ly/2wpvKol](https://bit.ly/2wpvKol){:target="_blank"} `03:57`
 
 
 ### 퀴즈
@@ -325,15 +291,12 @@ for (int i=0; i<10; i++) {
 
 
 ### 동영상 강좌
-- 객체 지향 프로그래밍이란?
-  > https://bit.ly/2obmJvJ `14:04`
-- 객체지향 (OOP): 클래스와 오브젝트 한방에 이해하기
-  > https://bit.ly/2NnVgC0 `11:26`
+- 객체 지향 프로그래밍 : [https://bit.ly/2obmJvJ](https://bit.ly/2obmJvJ){:target="_blank"} `14:04`
+- 클래스와 객체 : [https://bit.ly/2NnVgC0](https://bit.ly/2NnVgC0){:target="_blank"} `11:26`
     
 
 ### 참고 자료
-- 객체지향 프로그래밍
-  > https://bit.ly/2MzwBxR
+- 객체지향 프로그래밍 : [https://bit.ly/2MzwBxR](https://bit.ly/2MzwBxR){:target="_blank"}
     
 
 ### 퀴즈
