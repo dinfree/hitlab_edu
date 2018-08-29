@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>1-3.html</title>
+    </head>
+    <body>
+        <p>아이디, 비밀번호 입력</p>
+        <script>
+            id=prompt('아이디 입력');
+            if(id=='admin'){
+                password=prompt('비밀번호 입력');
+                if(password=='123456'){
+                    window.alert('login');
+                }
+                else{
+                    window.alert('error');
+                }
+            }
+            else{
+                window.alert('error');
+            }
+        </script>
+    </body>
+</html>

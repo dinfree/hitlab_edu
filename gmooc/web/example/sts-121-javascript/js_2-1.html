@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>2-1.html</title>
+        <script>
+            function calc(n1,n2) {
+                return n1*n2;
+            }
+
+            function myFunction(n1,n2) {
+                document.getElementById("result").innerHTML = calc(n1,n2);
+            }
+        </script>
+    </head>
+
+    <body>
+        <button type="button" onclick="myFunction(12,5)">calc 12*5</button>
+        <p id="result"> </p>
+    </body>
+</html>
