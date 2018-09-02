@@ -24,7 +24,7 @@ JDK, eclipse, mySQL, tomcat, Visual Studio Code 개발도구를 설치하는 방
 JDK는 Java Development Kit 말 그대로 자바 개발을 위한 도구입니다. 자바 컴파일러(Javac), 자바가상머신(JVM), 각종 Java Libary 등을 포함하고 있어서 자바 개발을 위한 필수 도구(Kit) 입니다. JDK는 JRE를 포함하고 있습니다.
 
 
-**설치 url** : java.oracle.com
+**설치 url** : [java.oracle.com](java.oracle.com)
 
 <img class="img-shadow" alt="jdk1" src="img/jdk1.gif" width="60%" >
 <img class="img-shadow" alt="jdk1" src="img/jdk2.gif" width="60%" >
@@ -43,7 +43,7 @@ JDK는 Java Development Kit 말 그대로 자바 개발을 위한 도구입니�
 
 이클립스는  다양한 플랫폼에서 쓸 수 있으며, 자바를 비롯한 다양한 언어를 지원하는 프로그래밍 통합 개발 환경을 목적으로 시작하였으나, 현재는 OSGi를 도입하여, 범용 응용 소프트웨어 플랫폼으로 진화하였습니다. 자바로 작성되어 있으며, 자유 소프트웨어이지만 막강한 기능을 자랑합니다.
 
-**설치 url** : eclipse.org
+**설치 url** : [eclipse.org](eclipse.org)
 
 <img class="img-shadow" alt="eclipse1" src="img/eclipse1.gif" width="70%" >
 
@@ -80,7 +80,7 @@ MySQL은 세계에서 가장 많이 쓰이는 오픈 소스의 관계형 데이�
 
 아파치 톰캣은 아파치 소프트웨어 재단에서 개발한 서블릿 컨테이너만 있는 웹 애플리케이션 서버입니다. 톰캣은 웹 서버와 연동하여 실행할 수 있는 자바 환경을 제공하여 자바 서버 페이지와 자바 서블릿이 실행할 수 있는 환경을 제공하고 있습니다. 톰캣은 관리툴을 통해 설정을 변경할 수 있지만, XML 파일을 편집하여 설정할 수도 있습니다. 그리고, 톰캣은 HTTP 서버도 자체 내장하기도 합니다.
 
-**설치 url** : tomcat.apache.org
+**설치 url** : [tomcat.apache.org](tomcat.apache.org)
 
 <img class="img-shadow" alt="tomcat1" src="img/tomcat1.gif" width="70%" >
 
@@ -103,7 +103,7 @@ MySQL은 세계에서 가장 많이 쓰이는 오픈 소스의 관계형 데이�
 
 #### 플러그인 설치 방법
 
-<img class="img-shadow" alt="basic_3-6" src="img/basic_3-6.png" width="70%" >
+<img class="img-shadow" alt="basic_3-6" src="img/basic_3-6.PNG" width="70%" >
 
 1. 왼쪽 배너에서 마지막 아이콘을 누르면 Extensions 창이 뜹니다. 
 2. 설치하고 싶은 플러그인을 검색을 하여 install을 클릭합니다.
