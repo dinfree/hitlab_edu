@@ -27,7 +27,7 @@ JDK는 Java Development Kit 말 그대로 자바 개발을 위한 도구입니�
 **설치 url** : java.oracle.com
 
 <img class="img-shadow" alt="jdk1" src="img/jdk1.gif" width="60%" >
-<img class="img-shadow" alt="jdk1" src="img/jdk1.gif" width="60%" >
+<img class="img-shadow" alt="jdk1" src="img/jdk2.gif" width="60%" >
 
 ### 동영상 강좌
 - Java - 설치와 실행 2 : 윈도우에 Java 설치하기
@@ -66,7 +66,7 @@ MySQL은 세계에서 가장 많이 쓰이는 오픈 소스의 관계형 데이�
 
 <img class="img-shadow" alt="mysql1" src="img/mysql1.gif" width="70%" >
 
-<img class="img-shadow" alt="mysql2" src="img/mysql1.gif" width="70%" >
+<img class="img-shadow" alt="mysql2" src="img/mysql2.gif" width="70%" >
 
 ---
 
@@ -93,7 +93,7 @@ MySQL은 세계에서 가장 많이 쓰이는 오픈 소스의 관계형 데이�
 
 ## 5. Visual Studio Code
 
-<img class="img-shadow" alt="basic_3-5" src="img/basic_3-5.png" width="70%" >
+<img class="img-shadow" alt="basic_3-5" src="img/basic_3-5.png" width="40%" >
 
 비주얼 스튜디오 코드는 마이크로소프트가 마이크로소프트 윈도우, macOS, 리눅스용으로 개발한 소스 코드 편집기입니다. 디버깅 지원과 Git 제어, 구문 강조 기능등이 포함되어 있으며, 사용자가 편집기의 테마와 단축키, 설정 등을 수정할 수 있습니다. 비주얼 스튜디오 코드는 깃허브가 개발한 일렉트론 프레임워크를 기반으로 구동됩니다. 그러나 같은 일렉트론 기반의 편집기 아톰을 포크한 것은 아니며, 비주얼 스튜디오 온라인 에디터를 기반으로 개발되었습니다.<br>
 
