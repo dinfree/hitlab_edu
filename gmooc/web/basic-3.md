@@ -24,14 +24,17 @@ JDK, eclipse, mySQL, tomcat, Visual Studio Code 개발도구를 설치하는 방
 JDK는 Java Development Kit 말 그대로 자바 개발을 위한 도구입니다. 자바 컴파일러(Javac), 자바가상머신(JVM), 각종 Java Libary 등을 포함하고 있어서 자바 개발을 위한 필수 도구(Kit) 입니다. JDK는 JRE를 포함하고 있습니다.
 
 
-**설치 url** : [java.oracle.com](java.oracle.com)
+**설치 url** : [java.oracle.com](java.oracle.com){:target="_blank"}
 
 <img class="img-shadow" alt="jdk1" src="img/jdk1.gif" width="60%" >
+
+다운로드 후 설치
+
 <img class="img-shadow" alt="jdk1" src="img/jdk2.gif" width="60%" >
 
 ### 동영상 강좌
 - Java - 설치와 실행 2 : 윈도우에 Java 설치하기
-  > https://bit.ly/2BNUSLH `09:19`
+  > https://bit.ly/2BNUSLH{:target="_blank"} `09:19`
 
 ---
 <a id="m2"></a>
@@ -47,11 +50,13 @@ JDK는 Java Development Kit 말 그대로 자바 개발을 위한 도구입니�
 
 <img class="img-shadow" alt="eclipse1" src="img/eclipse1.gif" width="70%" >
 
+다운로드 후 설치
+
 <img class="img-shadow" alt="eclipse2" src="img/eclipse2.gif" width="70%" >
 
 ### 동영상 강좌
 - Java - 이클립스의 설치방법 - 윈도우
-  > https://bit.ly/2MBSnBe `02:41`
+  > https://bit.ly/2MBSnBe{:target="_blank"} `02:41`
 
 ---
 <a id="m3"></a>
@@ -62,9 +67,11 @@ JDK는 Java Development Kit 말 그대로 자바 개발을 위한 도구입니�
 
 MySQL은 세계에서 가장 많이 쓰이는 오픈 소스의 관계형 데이터베이스 관리 시스템(RDBMS) 입니다. 다중 스레드, 다중 사용자 형식의 구조질의어 형식의 데이터베이스 관리 시스템으로서 MySQL AB가 관리 및 지원하고 있으며, Qt처럼 이중 라이선스가 적용됩니다. 하나의 옵션은 GPL이며, GPL 이외의 라이선스로 적용시키려는 경우 전통적인 지적재산권 라이선스의 적용을 받습니다.
 
-**설치 url**: mysql.com
+**설치 url**: [mysql.com](mysql.com){:target="_blank"}
 
 <img class="img-shadow" alt="mysql1" src="img/mysql1.gif" width="70%" >
+
+다운로드 후 설치
 
 <img class="img-shadow" alt="mysql2" src="img/mysql2.gif" width="70%" >
 
@@ -80,9 +87,11 @@ MySQL은 세계에서 가장 많이 쓰이는 오픈 소스의 관계형 데이�
 
 아파치 톰캣은 아파치 소프트웨어 재단에서 개발한 서블릿 컨테이너만 있는 웹 애플리케이션 서버입니다. 톰캣은 웹 서버와 연동하여 실행할 수 있는 자바 환경을 제공하여 자바 서버 페이지와 자바 서블릿이 실행할 수 있는 환경을 제공하고 있습니다. 톰캣은 관리툴을 통해 설정을 변경할 수 있지만, XML 파일을 편집하여 설정할 수도 있습니다. 그리고, 톰캣은 HTTP 서버도 자체 내장하기도 합니다.
 
-**설치 url** : [tomcat.apache.org](tomcat.apache.org)
+**설치 url** : [tomcat.apache.org](tomcat.apache.org){:target="_blank"}
 
 <img class="img-shadow" alt="tomcat1" src="img/tomcat1.gif" width="70%" >
+
+다운로드 후 설치
 
 <img class="img-shadow" alt="tomcat2" src="img/tomcat2.gif" width="70%" >
 
