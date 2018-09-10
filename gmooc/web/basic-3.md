@@ -20,7 +20,7 @@ JDK, eclipse, mySQL, tomcat, Visual Studio Code 개발도구를 설치하는 방
 ## 1. JDK
 
 
-<img class="img-shadow" alt="basic_3-1" src="img/basic_3-1.jpg" width="60%" >
+<img class="img-shadow" alt="basic_3-1" src="img/basic_3-1.jpg" width="40%" >
 JDK는 Java Development Kit 말 그대로 자바 개발을 위한 도구입니다. 자바 컴파일러(Javac), 자바가상머신(JVM), 각종 Java Libary 등을 포함하고 있어서 자바 개발을 위한 필수 도구(Kit) 입니다. JDK는 JRE를 포함하고 있습니다.
 
 
@@ -42,7 +42,7 @@ JDK는 Java Development Kit 말 그대로 자바 개발을 위한 도구입니�
 ## 2. eclipse
 
 
-<img class="img-shadow" alt="basic_3-2" src="img/basic_3-2.png" width="70%" >
+<img class="img-shadow" alt="basic_3-2" src="img/basic_3-2.png" width="40%" >
 
 이클립스는  다양한 플랫폼에서 쓸 수 있으며, 자바를 비롯한 다양한 언어를 지원하는 프로그래밍 통합 개발 환경을 목적으로 시작하였으나, 현재는 OSGi를 도입하여, 범용 응용 소프트웨어 플랫폼으로 진화하였습니다. 자바로 작성되어 있으며, 자유 소프트웨어이지만 막강한 기능을 자랑합니다.
 
@@ -63,7 +63,7 @@ JDK는 Java Development Kit 말 그대로 자바 개발을 위한 도구입니�
 
 ## 3. mySQL
 
-<img class="img-shadow" alt="basic_3-3" src="img/basic_3-3.jpg" width="70%" >
+<img class="img-shadow" alt="basic_3-3" src="img/basic_3-3.jpg" width="40%" >
 
 MySQL은 세계에서 가장 많이 쓰이는 오픈 소스의 관계형 데이터베이스 관리 시스템(RDBMS) 입니다. 다중 스레드, 다중 사용자 형식의 구조질의어 형식의 데이터베이스 관리 시스템으로서 MySQL AB가 관리 및 지원하고 있으며, Qt처럼 이중 라이선스가 적용됩니다. 하나의 옵션은 GPL이며, GPL 이외의 라이선스로 적용시키려는 경우 전통적인 지적재산권 라이선스의 적용을 받습니다.
 
@@ -83,7 +83,7 @@ MySQL은 세계에서 가장 많이 쓰이는 오픈 소스의 관계형 데이�
 
 
 
-<img class="img-shadow" alt="basic_3-4" src="img/basic_3-4.png" width="70%" >
+<img class="img-shadow" alt="basic_3-4" src="img/basic_3-4.png" width="40%" >
 
 아파치 톰캣은 아파치 소프트웨어 재단에서 개발한 서블릿 컨테이너만 있는 웹 애플리케이션 서버입니다. 톰캣은 웹 서버와 연동하여 실행할 수 있는 자바 환경을 제공하여 자바 서버 페이지와 자바 서블릿이 실행할 수 있는 환경을 제공하고 있습니다. 톰캣은 관리툴을 통해 설정을 변경할 수 있지만, XML 파일을 편집하여 설정할 수도 있습니다. 그리고, 톰캣은 HTTP 서버도 자체 내장하기도 합니다.
 
