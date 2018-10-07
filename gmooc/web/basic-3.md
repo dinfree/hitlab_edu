@@ -97,18 +97,18 @@ JDK, eclipse, mySQL, tomcat, Visual Studio Code 개발도구를 설치하는 방
 
 - 이클립스 설치 폴더에서 eclipse.exe를 실행시키면, 프로그램이 실행되면서 [그림 2-15]와 같이 작업 공간을 선택하는 화면이 나옵니다.
 
-<img class="img-shadow" alt="eclipse3" src="img/eclipse3.png" width="70%" >
+<img class="img-shadow" alt="eclipse3" src="img/eclipse3.png" width="30%" >
 
 - 작업 공간을 선택하고 나면 [그림 2-17]과 같이 이클립스 초기 화면이 나타납니다. 오른쪽 상단 부분의 ‘Workbench’ 아이콘을 클릭합니다.
 
-<img class="img-shadow" alt="eclipse4" src="img/eclipse4.png" width="70%" >
+<img class="img-shadow" alt="eclipse4" src="img/eclipse4.png" width="30%" >
 
 #### 2) 기본 설정
 - [Window] → [Preference]  : 이클립스 전반에 걸친 옵션들을 조정할 수 있습니다. 
 - [General]→[Appearance] : 화면 모양 및 글꼴 설정을 할 수 있습니다. 
 - [General] → [Startup and Shutdown] : 이클립스를 시작할 때 작업 공간 선택 창 실행 여부를 결정합니다.
 
-<img class="img-shadow" alt="eclipse5" src="img/eclipse5.png" width="70%" >
+<img class="img-shadow" alt="eclipse5" src="img/eclipse5.png" width="30%" >
 
 #### 3) 편집기 행 번호 설정
 
@@ -127,7 +127,7 @@ JDK, eclipse, mySQL, tomcat, Visual Studio Code 개발도구를 설치하는 방
   - 보통 파일 이름, 작성일, 파일 설명이 위치.
   - <Insert Variable> 버튼을 눌러 ${} 형태의 변수 값 입력이 가능.
 
-<img class="img-shadow" alt="eclipse6" src="img/eclipse6.png" width="70%" >
+<img class="img-shadow" alt="eclipse6" src="img/eclipse6.png" width="30%" >
 
 - 타입 주석 설정
   - [Comments]→[Types]
@@ -135,7 +135,7 @@ JDK, eclipse, mySQL, tomcat, Visual Studio Code 개발도구를 설치하는 방
   - 보통 클래스 제작자의 이름이 들어가고 윈도우 로그인 이름이 변수형태로 설정되어 있습니다.
   - 실제 본인 이름과 이메일 정보 등으로 수정합니다.
 
-<img class="img-shadow" alt="eclipse7" src="img/eclipse7.png" width="70%" >
+<img class="img-shadow" alt="eclipse7" src="img/eclipse7.png" width="30%" >
 
 #### 5) 컴파일러 버젼 설정
 
@@ -144,7 +144,7 @@ JDK, eclipse, mySQL, tomcat, Visual Studio Code 개발도구를 설치하는 방
 - 호환성 유지를 위해서는 프로젝트에 따라 기본 컴파일러 버전 설정이 필요합니다.
 - [Compiler compliance level] 항목에서 원하는 버전으로 수정합니다.
 
-<img class="img-shadow" alt="eclipse8" src="img/eclipse8.png" width="70%" >
+<img class="img-shadow" alt="eclipse8" src="img/eclipse8.png" width="30%" >
 
 #### 6) 텍스트 인코딩 설정
 
@@ -153,7 +153,7 @@ JDK, eclipse, mySQL, tomcat, Visual Studio Code 개발도구를 설치하는 방
 - 안드로이드 등 모바일 앱 개발에도 유니코드가 기본입니다.
 [General] → [Workspace] → Text file encoding 항목을 Other 로 변경한 뒤 UTF-8 로 설정합니다. 
 
-<img class="img-shadow" alt="eclipse9" src="img/eclipse9.png" width="70%" >
+<img class="img-shadow" alt="eclipse9" src="img/eclipse9.png" width="30%" >
 
 ### 동영상 강좌
 - Java - 이클립스의 설치방법 - 윈도우
