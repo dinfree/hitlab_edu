@@ -155,6 +155,15 @@ JDK, eclipse, mySQL, tomcat, Visual Studio Code 개발도구를 설치하는 방
 
 <img class="img-shadow" alt="eclipse9" src="img/eclipse9.png" width="30%" >
 
+
+### JAVA 초기 파일 생성하기
+
+<img class="img-shadow" alt="javafirst" src="img/java-first.gif" width="70%" >
+
+### JSP 초기 파일 생성하기
+
+<img class="img-shadow" alt="jspfirst" src="img/jsp-first.gif" width="70%" >
+
 ### 동영상 강좌
 - Java - 이클립스의 설치방법 - 윈도우
   > https://bit.ly/2MBSnBe {:target="_blank"} `02:41`
