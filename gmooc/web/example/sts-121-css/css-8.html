@@ -3,36 +3,42 @@
     <head>
         <title>css-8.html</title>
         <style>
-            body h1{
-                font-weight: bold;
-                font-size: 3em;
+            /* div 와 h1 모두 */
+            div, h1{
+                color: orangered;
             }
-            body>h2{
-                color: gray;
+
+            /* div 하위에 위치하는 모든 h2 */
+            div h2 {
+                color: mediumblue;
             }
-            h2+div{
-                font-weight: bold;
-                border: 2px solid black;
+
+            /* div 바로 아래(자식) h1 */
+            div>h1{
+                color: lightslategray;
             }
-            h2~div{
-                background-color: silver;
+            
+            /* h1 바로 다음에 오는 h1 */
+            div+h1{
+                font-style: italic;
             }
+
+            /* div 다음에 오는 모든 h2 */
+            div~h2{
+                margin-left: 50px;
+            }
+
         </style>
     </head>
     <body>
-        <h1>News</h1>
-        <h2>Today 2018.08.21</h2>
+        <h1>Welcome to MyTube</h1>          <!--div, h1 적용-->
         <div>
-            <p>Weather</p>
-            <p>Sun</p> 
-        </div>
-        <div>
-            <h2>Today Sale</h3>
-            <ul>
-                <li>Apple</li>
-                <li>Milk</li>
-                <li>Wallet</li>
-            </ul>
-        </div>
+            <h1>New</h1>                   <!--div > h1 적용-->
+            <h2>New movie1</h2>             <!--div h2 적용-->
+            <h2>New movie2</h2>             <!--div h2 적용-->
+        </div>    
+        <h1>Best</h1>                       <!--div + h1 적용-->
+        <h2>New movie3</h2>                 <!--div ~ h2 적용-->
+        <h2>New movie4</h2>                 <!--div ~ h2 적용-->
     </body>
 </html>
