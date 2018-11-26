@@ -37,7 +37,7 @@ tags:
 
 ### step-2> 레이아웃 분석하기
 
-<class="img-shadow" alt="proj_1-1" src="img/js_proj1_01.png" width="80%">
+<img class="img-shadow" alt="proj_1-1" src="img/js_proj1_01.png" width="80%">
 
 - \<input>태그를 이용합니다.
 - Sign up 버튼을 누르면 각 입력칸의 값을 DOM형식으로 받아와 자바스크립트로 해당 값의 조건을 검사합니다.
