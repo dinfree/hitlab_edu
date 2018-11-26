@@ -43,7 +43,7 @@ tags:
 - `<div>` 태그로 이루어진 `box2`
 - box2의 내부 :  `<xmp>`태그로 이루어진 `<box3>` 및 `<span>`태그로 이루어진 `<btn>` 버튼
 
-<img class="img-shadow" alt="proj_1-1" src="img/css_project01_1.png" width="80%">
+<img class="img-shadow" alt="proj_1-1" src="img/css_project01_1.PNG" width="80%">
 
 
 
@@ -165,7 +165,7 @@ body {
 ### step-10> 실행결과 확인
 브라우저에서 실행결과를 확인 합니다.
 
-<img class="img-shadow" alt="proj_1-2" src="img/css_project01_2.png" width="80%">
+<img class="img-shadow" alt="proj_1-2" src="img/css_project01_2.PNG" width="80%">
 
 
 
@@ -184,7 +184,7 @@ body {
 - 시멘틱 요소에서 `<section>`은 문서의 섹션을 정의합니다. 
 - 본 예제에서는 사용되지 않지만, 그 외의 시멘틱 요소로는 section의 하위 요소로 분류되며 실질적인 내용이 들어가는 `<article>`과 본문 이외의 내용을 담고있는 사이드바인 `<aside>`, 가장 하단에 위치하는 `<footer>`등이 있습니다.
 
-<img class="img-shadow" alt="proj_2-1" src="img/css_project02_1.png" width="80%">
+<img class="img-shadow" alt="proj_2-1" src="img/css_project02_1.PNG" width="80%">
 
 
 ### step-2> HTML 기본 구조 작성
@@ -287,7 +287,7 @@ li a:hover {
 }
 ```
 
-<img class="img-shadow" alt="proj_2-2" src="img/css_project02_2.png" width="20%">
+<img class="img-shadow" alt="proj_2-2" src="img/css_project02_2.PNG" width="20%">
 
 
 ### step-6> section 스타일 적용
@@ -323,7 +323,7 @@ body {
 ### step-8> 실행결과 확인
 브라우저에서 실행결과를 확인 합니다.
 
-<img class="img-shadow" alt="proj_2-3" src="img/css_project02_3.png" width="80%">
+<img class="img-shadow" alt="proj_2-3" src="img/css_project02_3.PNG" width="80%">
 
 
 ---
@@ -387,7 +387,7 @@ html로 기본 구조를 잡아주기위해 아래와 같이 코드를 입력합
     </nav>
 </body>
 ```
-<img class="img-shadow" alt="proj_3-1" src="img/css_project03_1.png" width="60%">
+<img class="img-shadow" alt="proj_3-1" src="img/css_project03_1.PNG" width="60%">
 
 ### step-##> nav bar 만들기1
 - 목록을 나타내는 ul 태그를 선택하여 list 항목 스타일을 없애고, 너비를 화면의 전체로 지정합니다. 배경색과 안쪽, 바깥쪽 여백을 부여하여 nav bar의 기본 배경을 만듭니다.
