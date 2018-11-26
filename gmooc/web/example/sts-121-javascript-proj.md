@@ -37,7 +37,7 @@ tags:
 
 ### step-2> 레이아웃 분석하기
 
-<img class="img-shadow" alt="proj_1-1" src="img/js_proj1_01.png" width="80%">
+<class="img-shadow" alt="proj_1-1" src="img/js_proj1_01.png" width="80%">
 
 - \<input>태그를 이용합니다.
 - Sign up 버튼을 누르면 각 입력칸의 값을 DOM형식으로 받아와 자바스크립트로 해당 값의 조건을 검사합니다.
@@ -76,7 +76,7 @@ project_1.html 파일을 생성하고 기본적인 HTML코드 작성을 위해 �
 
 
 ### step-1> 레이아웃 분석하기
-<img alt="2-1결과" src="/img/js_proj2_01.png" width="80%">
+<img alt="2-1결과" src="img/js_proj2_01.png" width="80%">
 
 - Section 버튼으로 나눠져있습니다.
 - Section 버튼에 마우스를 올리면 색이 변합니다.
@@ -316,7 +316,7 @@ for (i = 0; i < acc.length; i++) {
 
 
 ### step-1> 레이아웃 분석하기
-<img alt="3-1결과" src="/img/js_proj3_01.png" width="80%">
+<img alt="3-1결과" src="img/js_proj3_01.png" width="80%">
 
  날씨 정보의 각 요소는 div 태그를 이용하여 아이콘, 지역, 온도, 시간으로 나누어주고, Hide를 통해 내용을 다시 숨길 수 있도록 합니다.
  
