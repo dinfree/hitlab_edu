@@ -41,7 +41,7 @@ tags:
 - 가장 상단에 위치한 'Hello World'라고 적힌 `<h1>` 박스 
 - `<div>` 태그로 이루어진 `box1`
 - `<div>` 태그로 이루어진 `box2`
-- box2의 내부 :  `<xml>`태그로 이루어진 `<box3>` 및 `<span>`태그로 이루어진 `<btn>` 버튼
+- box2의 내부 :  `<xmp>`태그로 이루어진 `<box3>` 및 `<span>`태그로 이루어진 `<btn>` 버튼
 
 <img class="img-shadow" alt="proj_1-1" src="img/css_project01_1.png" width="80%">
 
