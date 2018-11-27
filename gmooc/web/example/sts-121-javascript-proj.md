@@ -21,7 +21,8 @@ tags:
 <a href="121_html_proj.html">5.HTML 프로젝트</a>
 </div>
 
-본 강좌는 프론트엔드 웹 프로그래밍의 기본이 되는 [STS-121] HTML 프로그래밍 기초 강좌의 종합실습 페이지 입니다. 기본실습 예제와 달리 종합실습에서는 HTML 구성요소들을 종합적으로 이해하고 응용 할 수 있는 프로젝트형 예제로 구성 되어 있습니다.
+본 강좌는 자바스크립트를 이용하여 HTML와 CSS 뿐만 아니라 페이지를 동적으로 표현할 수 있도록 하는 종합 실습 페이지입니다. 간단한 회원가입 페이지부터 Accordion UI와 JSON 파일을 Ajax를 통해 통신하여 날씨 정보를 페이지에 나타낼 수 있도록 하는 3개의 프로젝트 예제로 구성 되어 있습니다.
+
 
 **이 강의를 통해** 단순한 태그의 연습이 아닌 실제 개발 경험을 할 수 있으며 좀 더 현실적인 개발 상황에 맞는 응용력을 키울 수 있습니다.
 <div class="youtube">
@@ -303,7 +304,7 @@ for (i = 0; i < acc.length; i++) {
 </details> 
 
 ---
-<p id="m2"></p>
+<p id="m3"></p>
 
 ## 3. JQuery Ajax 예제
 본 예제에서는 Ajax 통신을 통해 날씨 정보 사이트에서 날씨 정보를 JSON 으로 받아와 파싱해서 날씨 아이콘과 날씨 정보를 함께 보여주는 예제입니다.
@@ -360,14 +361,20 @@ project3.html파일을 생성하고 기본적인 html 코드 작성을위해 아
       });
     }
 ```
-<details>
-<summary>json 데이터 내용</summary>
+
+### step-4> JSON 파일에서 정보 넘겨오기
 
 <img alt="3-1결과" src="img/js_proj3_02.png" width="80%" >
 
-</details> 
+- 사진처럼 JSON 파일은 중괄호{} 속에 데이터들이 존재합니다.
+- 이 데이터들을 가져오려면 어느 값이 어느 중괄호 속에 있는지 알아야합니다.
+- 도시이름(full)은 current_observation 중괄호 안의 display_location 중괄호 속에 있다는 것을 알 수 있습니다.
+- full값을 가져와 \<div>태그의 \<strong> 태그 속에 배치하려면<br>
+ ```$('div#city strong').text(json.current_observation.display_location.full)```
+ <br>이런식으로 가져옵니다.
+ - 나머지 데이터들도 같은 방법으로 가져오면 됩니다.
 
-### step-4> 클래스가 get_weather인 a 태그 클릭시 호출되는 함수 
+### step-5> 클래스가 get_weather인 a 태그 클릭시 호출되는 함수 
 - function속에 있는 e 파라미터는 이벤트를 뜻합니다.
 - e.preventDefault() 메서드는 클릭 이벤트가 발생하여도 해당 링크로 이동하지 않도록 합니다.
 - $(this).hide()를 통해 a 태그를 누르면 그 부분을 숨기도록 합니다.
@@ -382,7 +389,7 @@ $('a.get_weather').click(function(e) {
     });
 ``` 
 
-### step-5> 클래스가 hide인 a 태그 클릭시 호출되는 함수 
+### step-6> 클래스가 hide인 a 태그 클릭시 호출되는 함수 
 - a 태그를 클릭하면 클래스가 result인 부분을 hide 메서드를 통해 숨깁니다.
 - hide가 진행되고 다시 클래스가 get_weather인 a 태그가 show()메서드를 통해 나타나도록합니다.
 
@@ -398,7 +405,7 @@ $('a.get_weather').click(function(e) {
 
 ```
 
-### step-6> 파싱해온 데이터를 보여주는 화면
+### step-7> 파싱해온 데이터를 보여주는 화면
 - 클래스가 get_weather인 a 태그를 통해 클릭시 날씨 정보가 나타나도록 합니다.
 - id가 result인 div 태그를 통해 hide가 보이지 않도록 display: none으로 설정해줍니다.
 - 날씨 정보를 나타내는 div태그에는 각각 id가 icon, city, weather, time으로 설정하여 script부분에서 파싱한 데이터가 나타나도록 합니다.
@@ -423,7 +430,7 @@ $('a.get_weather').click(function(e) {
 ```
 
 
-### step-7> JQuery Ajax 예제 전체 소스코드
+### step-8> JQuery Ajax 예제 전체 소스코드
 <details>
 <summary>전체 소스코드 보기</summary>
 
